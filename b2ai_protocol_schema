@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic"
+    ],
+    "@type": "reproschema:Protocol",
+    "@id": "b2ai_protocol_schema",
+    "prefLabel": "Bridge2AI protocol",
+    "description": "The data collection protocol for Bridge2AI. Currently, it only includes the mood protocol.",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "landingPage": [
+        {
+            "@id": "README.md",
+            "inLanguage": "en"
+        }
+    ],
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "sub-protocols/b2ai_generic_protocol_schema",
+                "variableName": "b2ai_generic_protocol_schema",
+                "prefLabel": {
+                    "en": "Generic"
+                }
+            },
+            {
+                "isAbout": "sub-protocols/b2ai_mood_protocol_schema",
+                "variableName": "b2ai_mood_protocol_schema",
+                "prefLabel": {
+                    "en": "Mood and Psychiatric Disorders"
+                }
+            }
+        ],
+        "order": [
+            "sub-protocols/b2ai_generic_protocol_schema",
+            "sub-protocols/b2ai_mood_protocol_schema"
+        ],
+        "shuffle": false,
+        "allow": [
+            "reproschema:AllowExport",
+            "reproschema:AutoAdvance"
+        ]
+    }
+}
