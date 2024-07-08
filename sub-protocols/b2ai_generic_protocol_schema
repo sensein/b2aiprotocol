@@ -26,10 +26,50 @@
                 "prefLabel": {
                     "en": "Demographics"
                 }
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_confounders/q_generic_confounders_schema",
+                "variableName": "confounders",
+                "prefLabel": {
+                    "en": "Confounders"
+                }
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_voice_perception/q_generic_voice_perception_schema",
+                "variableName": "voice_perception",
+                "prefLabel": {
+                    "en": "Voice Perception"
+                }
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_voice_handicap_index_vhi10/q_generic_voice_handicap_index_vhi10_schema",
+                "variableName": "vhi_10",
+                "prefLabel": {
+                    "en": "VHI-10"
+                }
+            },
+            {
+                "isAbout": "reproschema_library_activities:PHQ-9/PHQ9_schema",
+                "variableName": "phq_9",
+                "prefLabel": {
+                    "en": "PHQ-9"
+                }
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:GAD7/GAD7_schema",
+                "variableName": "gad_7",
+                "prefLabel": {
+                    "en": "GAD-7 Anxiety"
+                }
             }
         ],
         "order": [
-            "b2ai_redcap2rs_activities:q_generic_demographics/q_generic_demographics_schema"
+            "b2ai_redcap2rs_activities:q_generic_demographics/q_generic_demographics_schema",
+            "b2ai_redcap2rs_activities:q_generic_confounders/q_generic_confounders_schema",
+            "b2ai_redcap2rs_activities:q_generic_voice_perception/q_generic_voice_perception_schema",
+            "b2ai_redcap2rs_activities:q_generic_voice_handicap_index_vhi10/q_generic_voice_handicap_index_vhi10_schema",
+            "reproschema_library_activities:PHQ-9/PHQ9_schema",
+            "b2ai_redcap2rs_activities:GAD7/GAD7_schema"
         ],
         "shuffle": false,
         "allow": [
