@@ -6,10 +6,10 @@
             "b2ai_redcap2rs_activities": "https://github.com/sensein/b2ai-redcap2rs/tree/baa7dc4d18fe588578f2d59e01137466af3daa79/activities"
         }
     ],
-    "@type": "reproschema:Protocol",
-    "@id": "b2ai_mood_protocol_schema",
-    "prefLabel": "Bridge2AI mood protocol",
-    "description": "The Bridge2AI mood data collection protocol.",
+    "@type": "reproschema:Activity",
+    "@id": "b2ai_mood_schema",
+    "prefLabel": "Bridge2AI mood activity",
+    "description": "The mood component of the Bridge2AI data collection protocol.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "landingPage": [
@@ -26,10 +26,26 @@
                 "prefLabel": {
                     "en": "PANAS"
                 }
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/q_mood_custom_affect_scale_schema",
+                "variableName": "custom_affect_scale",
+                "prefLabel": {
+                    "en": "Custom Affect Scale"
+                }
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_dsm5_adult/q_mood_dsm5_adult_schema",
+                "variableName": "dsm_5_adult",
+                "prefLabel": {
+                    "en": "DSM-5 Adult"
+                }
             }
         ],
         "order": [
-            "panas"
+            "b2ai_redcap2rs_activities:q_mood_panas/q_mood_panas_schema",
+            "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/q_mood_custom_affect_scale_schema",
+            "b2ai_redcap2rs_activities:q_mood_dsm5_adult/q_mood_dsm5_adult_schema"
         ],
         "shuffle": false,
         "allow": [

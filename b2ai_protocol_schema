@@ -17,23 +17,23 @@
     "ui": {
         "addProperties": [
             {
-                "isAbout": "sub-protocols/b2ai_generic_protocol_schema",
-                "variableName": "b2ai_generic_protocol_schema",
+                "isAbout": "sub-protocols/b2ai_generic_schema",
+                "variableName": "b2ai_generic_schema",
                 "prefLabel": {
                     "en": "Generic"
                 }
             },
             {
-                "isAbout": "sub-protocols/b2ai_mood_protocol_schema",
-                "variableName": "b2ai_mood_protocol_schema",
+                "isAbout": "sub-protocols/b2ai_mood_schema",
+                "variableName": "b2ai_mood_schema",
                 "prefLabel": {
                     "en": "Mood and Psychiatric Disorders"
                 }
             }
         ],
         "order": [
-            "sub-protocols/b2ai_generic_protocol_schema",
-            "sub-protocols/b2ai_mood_protocol_schema"
+            "sub-protocols/b2ai_generic_schema",
+            "sub-protocols/b2ai_mood_schema"
         ],
         "shuffle": false,
         "allow": [

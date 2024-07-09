@@ -6,9 +6,9 @@
             "b2ai_redcap2rs_activities": "https://github.com/sensein/b2ai-redcap2rs/tree/baa7dc4d18fe588578f2d59e01137466af3daa79/activities"
         }
     ],
-    "@type": "reproschema:Protocol",
-    "@id": "b2ai_generic_protocol_schema",
-    "prefLabel": "Bridge2AI generic protocol",
+    "@type": "reproschema:Activity",
+    "@id": "b2ai_generic_schema",
+    "prefLabel": "Bridge2AI generic activity",
     "description": "The generic component of the Bridge2AI data collection protocol.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
