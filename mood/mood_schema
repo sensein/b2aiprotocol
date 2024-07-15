@@ -3,7 +3,7 @@
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
         {
             "reproschema_library_activities": "https://raw.githubusercontent.com/ReproNim/reproschema-library/enh/rc4/a23a13875c7262c0bd0d77bd90c1ec296c6d1116/activities/",
-            "b2ai_redcap2rs_activities": "https://github.com/sensein/b2ai-redcap2rs/tree/baa7dc4d18fe588578f2d59e01137466af3daa79/activities"
+            "b2ai_redcap2rs_activities": "https://raw.githubusercontent.com/sensein/b2ai-redcap2rs/baa7dc4d18fe588578f2d59e01137466af3daa79/activities/"
         }
     ],
     "@type": "reproschema:Activity",
