@@ -1,58 +1,60 @@
 {
-  "@context": [
-    "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic"
-  ],
-  "@type": "reproschema:Activity",
-  "@id": "b2ai_audio_check",
-  "prefLabel": "Audio Check",
-  "description": "Speech",
-  "schemaVersion": "1.0.0-rc4",
-  "version": "0.0.1",
-  "ui": {
-    "order": [
-      "recording_instruction",
-      "record_button_1",
-      "speech_instruction",
-      "record_button_2",
-      "gain_adjustment",
-      "next_button"
-    ]
-  },
-  "items": {
-    "recording_instruction": {
-      "@type": "reproschema:Field",
-      "fieldType": "display",
-      "prefLabel": "Click on the Record button below and say something out loud like 'Testing 1, 2, 3'. Recording will stop automatically after 5 seconds. Click Play to hear your recording. If you hear background noise, please go to a quieter place and try again by selecting Redo Recording. If it sounds good, continue."
-    },
-    "record_button_1": {
-      "@type": "reproschema:Field",
-      "fieldType": "audio",
-      "prefLabel": "Tap on the red circle to start recording",
-      "maxDuration": 5000
-    },
-    "speech_instruction": {
-      "@type": "reproschema:Field",
-      "fieldType": "display",
-      "prefLabel": "Use your typical volume and typical pitch to say 'I am happy to participate in the Bridge2AI study'. Click the Record button before speaking and then the Stop button once you are done."
-    },
-    "record_button_2": {
-      "@type": "reproschema:Field",
-      "fieldType": "audio",
-      "prefLabel": "Tap on the red circle to start recording"
-    },
-    "gain_adjustment": {
-      "@type": "reproschema:Field",
-      "fieldType": "slider",
-      "prefLabel": "Gain is adjustable:",
-      "minValue": 0,
-      "maxValue": 100,
-      "defaultValue": 50,
-      "step": 1
-    },
-    "next_button": {
-      "@type": "reproschema:Field",
-      "fieldType": "display",
-      "prefLabel": "Next"
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "b2ai_audio_check",
+    "prefLabel": {"en": "Audio Check"},
+    "description": {"en": "Speech"},
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+      "order": [
+        "items/recording_instruction",
+        "items/record_button_1",
+        "items/speech_instruction",
+        "items/record_button_2",
+        "items/gain_adjustment",
+        "items/next_button"
+      ],
+      "addProperties": [
+        {
+          "isAbout": "items/recording_instruction",
+          "variableName": "recording_instruction",
+          "isVis": true,
+          "allow": ["reproschema:Skipped"]
+        },
+        {
+          "isAbout": "items/record_button_1",
+          "variableName": "record_button_1",
+          "isVis": true,
+          "allow": ["reproschema:Skipped"]
+        },
+        {
+          "isAbout": "items/speech_instruction",
+          "variableName": "speech_instruction",
+          "isVis": true,
+          "allow": ["reproschema:Skipped"]
+        },
+        {
+          "isAbout": "items/record_button_2",
+          "variableName": "record_button_2",
+          "isVis": true,
+          "allow": ["reproschema:Skipped"]
+        },
+        {
+          "isAbout": "items/gain_adjustment",
+          "variableName": "gain_adjustment",
+          "isVis": true,
+          "allow": ["reproschema:Skipped"]
+        },
+        {
+          "isAbout": "items/next_button",
+          "variableName": "next_button",
+          "isVis": true,
+          "allow": ["reproschema:Skipped"]
+        }
+      ],
+      "shuffle": false,
+      "allow": ["reproschema:AutoAdvance", "reproschema:AllowExport"]
     }
-  }
 }
+  

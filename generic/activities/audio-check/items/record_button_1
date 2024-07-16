@@ -1,0 +1,15 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Item",
+    "@id": "record_button_1",
+    "prefLabel": {"en": "Tap on the red circle to start recording"},
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "audio"
+    },
+    "responseOptions": {
+        "valueType": ["schema:AudioObject"],
+        "maxDuration": 5000
+    }
+}
