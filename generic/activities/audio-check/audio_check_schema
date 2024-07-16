@@ -8,49 +8,21 @@
     "version": "0.0.1",
     "ui": {
       "order": [
-        "items/recording_instructions",
-        "items/record_button_1",
-        "items/speech_instruction",
-        "items/record_button_2",
-        "items/gain_adjustment",
-        "items/next_button"
+        "items/check_1",
+        "items/check_2"
       ],
       "addProperties": [
         {
-          "isAbout": "items/recording_instructions",
-          "variableName": "recording_instructions",
-          "isVis": true,
-          "allow": ["reproschema:Skipped"]
+            "isAbout": "items/check_1",
+            "variableName": "check_1",
+            "isVis": true,
+            "allow": ["reproschema:Skipped"]
         },
         {
-          "isAbout": "items/record_button_1",
-          "variableName": "record_button_1",
-          "isVis": true,
-          "allow": ["reproschema:Skipped"]
-        },
-        {
-          "isAbout": "items/speech_instruction",
-          "variableName": "speech_instruction",
-          "isVis": true,
-          "allow": ["reproschema:Skipped"]
-        },
-        {
-          "isAbout": "items/record_button_2",
-          "variableName": "record_button_2",
-          "isVis": true,
-          "allow": ["reproschema:Skipped"]
-        },
-        {
-          "isAbout": "items/gain_adjustment",
-          "variableName": "gain_adjustment",
-          "isVis": true,
-          "allow": ["reproschema:Skipped"]
-        },
-        {
-          "isAbout": "items/next_button",
-          "variableName": "next_button",
-          "isVis": true,
-          "allow": ["reproschema:Skipped"]
+            "isAbout": "items/check_2",
+            "variableName": "check_2",
+            "isVis": true,
+            "allow": ["reproschema:Skipped"]
         }
       ],
       "shuffle": false,

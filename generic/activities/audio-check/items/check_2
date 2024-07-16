@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "check_2",
+    "prefLabel": "Check 2",
+    "description": "This is a audio check item.",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "Use your typical volume and typical pitch to say 'I am happy to participate in the Bridge2AI study'. Click the Record button before speaking and then the Stop button once you are done.",
+    "ui": {
+        "inputType": "audioCheck"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject"
+    }
+}
