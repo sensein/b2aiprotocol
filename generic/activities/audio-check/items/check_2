@@ -11,6 +11,8 @@
         "inputType": "audioCheck"
     },
     "responseOptions": {
-        "valueType": "schema:AudioObject"
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 300000
     }
 }
