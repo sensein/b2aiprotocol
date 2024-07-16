@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "b2ai_audio_check",
+    "@id": "audio_check_schema",
     "prefLabel": {"en": "Audio Check"},
     "description": {"en": "Speech"},
     "schemaVersion": "1.0.0-rc4",
