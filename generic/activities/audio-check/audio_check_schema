@@ -3,7 +3,8 @@
     "@type": "reproschema:Activity",
     "@id": "audio_check_schema",
     "prefLabel": {"en": "Audio Check"},
-    "description": {"en": "Speech"},
+    "description": "Checks the participants audio quality.",
+    "preamble": {"en": "Speech"},
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "ui": {
