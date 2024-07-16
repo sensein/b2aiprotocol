@@ -8,7 +8,7 @@
     "version": "0.0.1",
     "ui": {
       "order": [
-        "items/recording_instruction",
+        "items/recording_instructions",
         "items/record_button_1",
         "items/speech_instruction",
         "items/record_button_2",
@@ -17,8 +17,8 @@
       ],
       "addProperties": [
         {
-          "isAbout": "items/recording_instruction",
-          "variableName": "recording_instruction",
+          "isAbout": "items/recording_instructions",
+          "variableName": "recording_instructions",
           "isVis": true,
           "allow": ["reproschema:Skipped"]
         },
