@@ -15,7 +15,7 @@
     "ui": {
         "addProperties": [
             {
-                "isAbout": "activities/q_generic_demographics/q_generic_demographics_schema",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/q_generic_demographics_schema",
                 "variableName": "demographics",
                 "prefLabel": {
                     "en": "Demographics"
