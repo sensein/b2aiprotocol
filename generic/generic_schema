@@ -57,7 +57,7 @@
                 }
             },
             {
-                "isAbout": "activities/audio_check_schema",
+                "isAbout": "activities/audio-check/audio_check_schema",
                 "variableName": "audio_check",
                 "prefLabel": {
                     "en": "Audio Check"
@@ -71,7 +71,7 @@
             "b2ai_redcap2rs_activities:q_generic_voice_handicap_index_vhi10/q_generic_voice_handicap_index_vhi10_schema",
             "reproschema_library_activities:PHQ-9/PHQ9_schema",
             "b2ai_redcap2rs_activities:GAD7/GAD7_schema",
-            "activities/audio_check_schema"
+            "activities/audio-check/audio_check_schema"
         ],
         "shuffle": false,
         "allow": [

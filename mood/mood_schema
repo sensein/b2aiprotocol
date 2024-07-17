@@ -48,12 +48,20 @@
                 "prefLabel": {
                     "en": "Custom Affect Scale"
                 }
+            },
+            {
+                "isAbout": "activities/audio-check/audio_check_schema",
+                "variableName": "audio_check",
+                "prefLabel": {
+                    "en": "Audio Check"
+                }
             }
         ],
         "order": [
             "b2ai_redcap2rs_activities:q_mood_panas/q_mood_panas_schema",
             "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/q_mood_custom_affect_scale_schema",
-            "reproschema_library_activities:DSM-5_A/DSM5_crosscutting_adult_schema"
+            "reproschema_library_activities:DSM-5_A/DSM5_crosscutting_adult_schema",
+            "activities/audio-check/audio_check_schema"
         ],
         "shuffle": false,
         "allow": [
