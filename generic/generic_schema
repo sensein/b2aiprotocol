@@ -118,7 +118,14 @@
                 "prefLabel": {
                     "en": "Picture description"
                 }
-            }  
+            },
+            {
+                "isAbout":"activities/story_recall/story_recall_schema",
+                "variableName": "story_recall_schema",
+                "prefLabel": {
+                    "en": "Story recall"
+                }
+            }    
         ],
         "order": [
             "b2ai_redcap2rs_activities:q_generic_demographics/q_generic_demographics_schema",
@@ -135,7 +142,8 @@
             "activities/loudness/loudness_schema",
             "activities/free_speech/free_speech_schema",
             "activities/respiration_and_cough/respiration_and_cough_schema",
-            "activities/picture_description/picture_description_schema"
+            "activities/picture_description/picture_description_schema",
+            "activities/story_recall/story_recall_schema"
         ],
         "shuffle": false,
         "allow": [
