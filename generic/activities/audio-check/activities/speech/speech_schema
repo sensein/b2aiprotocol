@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "audio_check_schema",
+    "@id": "speech_schema",
     "prefLabel": {"en": "Speech check"},
     "description": "Checks the participants speech audio quality.",
     "preamble": {"en": "Speech"},
@@ -16,12 +16,18 @@
         {
             "isAbout": "items/check_1",
             "variableName": "check_1",
-            "isVis": true
+            "isVis": true,
+            "allow": [
+                "reproschema:Skipped"
+            ]
         },
         {
             "isAbout": "items/check_2",
             "variableName": "check_2",
-            "isVis": true
+            "isVis": true,
+            "allow": [
+                "reproschema:Skipped"
+            ]
         }
       ],
       "shuffle": false,
