@@ -104,8 +104,14 @@
                 "prefLabel": {
                     "en": "Free speech"
                 }
-            }
-            
+            },
+            {
+                "isAbout":"activities/respiration_and_cough/respiration_and_cough_schema",
+                "variableName": "respiration_and_cough_schema",
+                "prefLabel": {
+                    "en": "Respiration and cough"
+                }
+            } 
         ],
         "order": [
             "b2ai_redcap2rs_activities:q_generic_demographics/q_generic_demographics_schema",
@@ -120,7 +126,8 @@
             "activities/prolonged-vowel/rainbow_passage_schema",
             "activities/glides/glides_schema",
             "activities/loudness/loudness_schema",
-            "activities/free_speech/free_speech_schema"
+            "activities/free_speech/free_speech_schema",
+            "activities/respiration_and_cough/respiration_and_cough_schema"
         ],
         "shuffle": false,
         "allow": [
