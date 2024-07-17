@@ -62,6 +62,13 @@
                 "prefLabel": {
                     "en": "Audio Check"
                 }
+            },
+            {
+                "isAbout": "activities/prolonged-vowel/prolonged_vowel_schema",
+                "variableName": "prolonged_vowel_schema",
+                "prefLabel": {
+                    "en": "Audio Check"
+                }
             }
         ],
         "order": [
@@ -71,7 +78,8 @@
             "b2ai_redcap2rs_activities:q_generic_voice_handicap_index_vhi10/q_generic_voice_handicap_index_vhi10_schema",
             "reproschema_library_activities:PHQ-9/PHQ9_schema",
             "b2ai_redcap2rs_activities:GAD7/GAD7_schema",
-            "activities/audio-check/audio_check_schema"
+            "activities/audio-check/audio_check_schema",
+            "activities/prolonged-vowel/prolonged_vowel_schema"
         ],
         "shuffle": false,
         "allow": [
