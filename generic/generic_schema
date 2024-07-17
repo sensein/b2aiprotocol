@@ -97,7 +97,15 @@
                 "prefLabel": {
                     "en": "Loudness"
                 }
+            },
+            {
+                "isAbout":"activities/free_speech/free_speech_schema",
+                "variableName": "free_speech_schema",
+                "prefLabel": {
+                    "en": "Free speech"
+                }
             }
+            
         ],
         "order": [
             "b2ai_redcap2rs_activities:q_generic_demographics/q_generic_demographics_schema",
@@ -111,7 +119,8 @@
             "activities/prolonged-vowel/maximum_phonation_time_schema",
             "activities/prolonged-vowel/rainbow_passage_schema",
             "activities/glides/glides_schema",
-            "activities/loudness/loudness_schema"
+            "activities/loudness/loudness_schema",
+            "activities/free_speech/free_speech_schema"
         ],
         "shuffle": false,
         "allow": [
