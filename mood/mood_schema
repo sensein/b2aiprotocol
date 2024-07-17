@@ -62,6 +62,13 @@
                 "prefLabel": {
                     "en": "Animal fluency"
                 }
+            },
+            {
+                "isAbout":"activities/open-response-questions/open_response_questions_schema",
+                "variableName": "open_response_questions_schema",
+                "prefLabel": {
+                    "en": "Open response questions"
+                }
             }
         ],
         "order": [
@@ -69,7 +76,8 @@
             "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/q_mood_custom_affect_scale_schema",
             "reproschema_library_activities:DSM-5_A/DSM5_crosscutting_adult_schema",
             "activities/audio-check/audio_check_schema",
-            "activities/animal-fluency/animal_fluency_schema"
+            "activities/animal-fluency/animal_fluency_schema",
+            "activities/open-response-questions/open_response_questions_schema"
         ],
         "shuffle": false,
         "allow": [

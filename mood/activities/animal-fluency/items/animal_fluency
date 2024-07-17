@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "animal fluency",
+    "@id": "animal_fluency",
     "prefLabel": "Animal fluency task",
-    "description": "This is a animal fluency audio task.",
+    "description": "This is an animal fluency audio task.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "question": "Say as many animals as you can in one minute, avoid repeating words (continue trying until time is up.)",
