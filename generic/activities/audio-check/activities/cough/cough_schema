@@ -15,10 +15,7 @@
         {
             "isAbout": "items/cough",
             "variableName": "cough",
-            "isVis": true,
-            "allow": [
-                "reproschema:Skipped"
-            ]
+            "isVis": true
         }
       ],
       "shuffle": false,

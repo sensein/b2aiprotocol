@@ -16,18 +16,12 @@
         {
             "isAbout": "items/check_1",
             "variableName": "check_1",
-            "isVis": true,
-            "allow": [
-                "reproschema:Skipped"
-            ]
+            "isVis": true
         },
         {
             "isAbout": "items/check_2",
             "variableName": "check_2",
-            "isVis": true,
-            "allow": [
-                "reproschema:Skipped"
-            ]
+            "isVis": true
         }
       ],
       "shuffle": false,

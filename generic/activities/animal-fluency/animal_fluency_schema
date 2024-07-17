@@ -1,20 +1,20 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "breathing_schema",
-    "prefLabel": {"en": "Breathing check"},
-    "description": "Checks the participants breathing audio quality.",
-    "preamble": {"en": "Breathing"},
+    "@id": "animal_fluency_schema",
+    "prefLabel": {"en": "Animal fluency check"},
+    "description": "Say as many animals as possible for 60 seconds.",
+    "preamble": {"en": "Animal fluency"},
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "ui": {
       "order": [
-        "items/breathing"
+        "items/animal_fluency"
       ],
       "addProperties": [
         {
-            "isAbout": "items/breathing",
-            "variableName": "breathing",
+            "isAbout": "items/animal_fluency",
+            "variableName": "animal_fluency",
             "isVis": true
         }
       ],
