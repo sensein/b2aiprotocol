@@ -9,11 +9,11 @@
     "version": "0.0.1",
     "ui": {
       "order": [
-        "activities/speech_schema"
+        "activities/speech/speech_schema"
       ],
       "addProperties": [
         {
-            "isAbout": "activities/speech_schema",
+            "isAbout": "activities/speech/speech_schema",
             "variableName": "speech_schema",
             "isVis": true
         }
