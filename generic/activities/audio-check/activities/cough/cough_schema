@@ -1,0 +1,28 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "cough_schema",
+    "prefLabel": {"en": "Cough check"},
+    "description": "Checks the participants cough audio quality.",
+    "preamble": {"en": "Cough"},
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+      "order": [
+        "items/cough"
+      ],
+      "addProperties": [
+        {
+            "isAbout": "items/cough",
+            "variableName": "cough",
+            "isVis": true,
+            "allow": [
+                "reproschema:Skipped"
+            ]
+        }
+      ],
+      "shuffle": false,
+      "allow": ["reproschema:AutoAdvance", "reproschema:AllowExport"]
+    }
+}
+  

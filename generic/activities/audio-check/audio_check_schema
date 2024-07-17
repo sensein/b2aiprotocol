@@ -9,12 +9,18 @@
     "version": "0.0.1",
     "ui": {
       "order": [
-        "activities/speech/speech_schema"
+        "activities/speech/speech_schema",
+        "activities/breathing/breathing_schema"
       ],
       "addProperties": [
         {
             "isAbout": "activities/speech/speech_schema",
             "variableName": "speech_schema",
+            "isVis": true
+        },
+        {
+            "isAbout": "activities/breathing/breathing_schema",
+            "variableName": "breathing_schema",
             "isVis": true
         }
       ],
