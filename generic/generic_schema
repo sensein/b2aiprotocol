@@ -111,7 +111,14 @@
                 "prefLabel": {
                     "en": "Respiration and cough"
                 }
-            } 
+            },
+            {
+                "isAbout":"activities/picture_description/picture_description_schema",
+                "variableName": "picture_description_schema",
+                "prefLabel": {
+                    "en": "Picture description"
+                }
+            }  
         ],
         "order": [
             "b2ai_redcap2rs_activities:q_generic_demographics/q_generic_demographics_schema",
@@ -127,7 +134,8 @@
             "activities/glides/glides_schema",
             "activities/loudness/loudness_schema",
             "activities/free_speech/free_speech_schema",
-            "activities/respiration_and_cough/respiration_and_cough_schema"
+            "activities/respiration_and_cough/respiration_and_cough_schema",
+            "activities/picture_description/picture_description_schema"
         ],
         "shuffle": false,
         "allow": [

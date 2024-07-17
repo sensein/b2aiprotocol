@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "picture_description",
+    "prefLabel": "Picture description",
+    "description": "Describe the picture you see in your own words.",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": "You are shown a picture, please describe what you see in your own words. You can keep talking until the time runs out.",
+    "image": "picture.jpeg",
+    "ui": {
+      "inputType": "audioCheck"
+    },
+    "responseOptions": {
+      "valueType": "schema:AudioObject",
+      "minValue": 0,
+      "maxValue": 60000
+    }
+  }
