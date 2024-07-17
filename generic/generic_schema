@@ -67,21 +67,28 @@
                 "isAbout": "activities/prolonged_vowel/prolonged_vowel_schema",
                 "variableName": "prolonged_vowel_schema",
                 "prefLabel": {
-                    "en": "Audio Check"
+                    "en": "Prolonged vowel"
                 }
             },
             {
                 "isAbout": "activities/maximum_phonation_time/maximum_phonation_time_schema",
                 "variableName": "maximum_phonation_time_schema",
                 "prefLabel": {
-                    "en": "Audio Check"
+                    "en": "Maximum phonation time"
                 }
             },
             {
                 "isAbout": "activities/rainbow_passage/rainbow_passage_schema",
                 "variableName": "rainbow_passage_schema",
                 "prefLabel": {
-                    "en": "Audio Check"
+                    "en": "Rainbow passage"
+                }
+            },
+            {
+                "isAbout": "activities/glides/glides_schema",
+                "variableName": "glides_schema",
+                "prefLabel": {
+                    "en": "Glides"
                 }
             }
         ],
@@ -95,7 +102,8 @@
             "activities/audio-check/audio_check_schema",
             "activities/prolonged-vowel/prolonged_vowel_schema",
             "activities/prolonged-vowel/maximum_phonation_time_schema",
-            "activities/prolonged-vowel/rainbow_passage_schema"
+            "activities/prolonged-vowel/rainbow_passage_schema",
+            "activities/glides/glides_schema"
         ],
         "shuffle": false,
         "allow": [
