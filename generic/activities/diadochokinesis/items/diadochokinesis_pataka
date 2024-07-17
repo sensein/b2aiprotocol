@@ -1,0 +1,18 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+  "@type": "reproschema:Field",
+  "@id": "diadochokinesis_pataka",
+  "prefLabel": "Diadochokinesis /Pataka/",
+  "description": "Now repeat the word /Pataka/ as fast as possible 10 times.",
+  "schemaVersion": "1.0.0-rc4",
+  "version": "0.0.1",
+  "question": "Now repeat the word /Pataka/ as fast as possible 10 times.",
+  "ui": {
+    "inputType": "audioCheck"
+  },
+  "responseOptions": {
+    "valueType": "schema:AudioObject",
+    "minValue": 0,
+    "maxValue": 120000
+  }
+}
