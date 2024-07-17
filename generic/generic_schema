@@ -57,15 +57,22 @@
                 }
             },
             {
-                "isAbout": "activities/audio-check/audio_check_schema",
+                "isAbout": "activities/audio_check/audio_check_schema",
                 "variableName": "audio_check",
                 "prefLabel": {
                     "en": "Audio Check"
                 }
             },
             {
-                "isAbout": "activities/prolonged-vowel/prolonged_vowel_schema",
+                "isAbout": "activities/prolonged_vowel/prolonged_vowel_schema",
                 "variableName": "prolonged_vowel_schema",
+                "prefLabel": {
+                    "en": "Audio Check"
+                }
+            },
+            {
+                "isAbout": "activities/maximum_phonation_time/maximum_phonation_time_schema",
+                "variableName": "maximum_phonation_time_schema",
                 "prefLabel": {
                     "en": "Audio Check"
                 }
@@ -79,7 +86,8 @@
             "reproschema_library_activities:PHQ-9/PHQ9_schema",
             "b2ai_redcap2rs_activities:GAD7/GAD7_schema",
             "activities/audio-check/audio_check_schema",
-            "activities/prolonged-vowel/prolonged_vowel_schema"
+            "activities/prolonged-vowel/prolonged_vowel_schema",
+            "activities/prolonged-vowel/maximum_phonation_time_schema"
         ],
         "shuffle": false,
         "allow": [

@@ -57,14 +57,14 @@
                 }
             },
             {
-                "isAbout": "activities/animal-fluency/animal_fluency_schema",
+                "isAbout": "activities/animal_fluency/animal_fluency_schema",
                 "variableName": "animal_fluency_schema",
                 "prefLabel": {
                     "en": "Animal fluency"
                 }
             },
             {
-                "isAbout":"activities/open-response-questions/open_response_questions_schema",
+                "isAbout":"activities/open_response_questions/open_response_questions_schema",
                 "variableName": "open_response_questions_schema",
                 "prefLabel": {
                     "en": "Open response questions"
@@ -75,9 +75,9 @@
             "b2ai_redcap2rs_activities:q_mood_panas/q_mood_panas_schema",
             "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/q_mood_custom_affect_scale_schema",
             "reproschema_library_activities:DSM-5_A/DSM5_crosscutting_adult_schema",
-            "activities/audio-check/audio_check_schema",
-            "activities/animal-fluency/animal_fluency_schema",
-            "activities/open-response-questions/open_response_questions_schema"
+            "activities/audio_check/audio_check_schema",
+            "activities/animal_fluency/animal_fluency_schema",
+            "activities/open_response_questions/open_response_questions_schema"
         ],
         "shuffle": false,
         "allow": [
