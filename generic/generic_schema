@@ -76,6 +76,13 @@
                 "prefLabel": {
                     "en": "Audio Check"
                 }
+            },
+            {
+                "isAbout": "activities/rainbow_passage/rainbow_passage_schema",
+                "variableName": "rainbow_passage_schema",
+                "prefLabel": {
+                    "en": "Audio Check"
+                }
             }
         ],
         "order": [
@@ -87,7 +94,8 @@
             "b2ai_redcap2rs_activities:GAD7/GAD7_schema",
             "activities/audio-check/audio_check_schema",
             "activities/prolonged-vowel/prolonged_vowel_schema",
-            "activities/prolonged-vowel/maximum_phonation_time_schema"
+            "activities/prolonged-vowel/maximum_phonation_time_schema",
+            "activities/prolonged-vowel/rainbow_passage_schema"
         ],
         "shuffle": false,
         "allow": [
