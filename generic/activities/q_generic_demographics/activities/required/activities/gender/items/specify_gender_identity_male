@@ -1,0 +1,36 @@
+{
+    "id": "specify_gender_identity_male",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Patient Demographics"
+    },
+    "prefLabel": {
+        "en": "specify_gender_identity_male"
+    },
+    "question": {
+        "en": "Please specify gender identity"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Cis man: same gender as the sex assigned at birth"
+                },
+                "value": "cisMan"
+            },
+            {
+                "name": {
+                    "en": "Trans man"
+                },
+                "value": "transMan"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

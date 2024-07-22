@@ -62,6 +62,35 @@
             "items/transportation_yn",
             "items/primary_transportation",
             "items/other_transportation"
+
+
+
+
+
+
+
+
+
+
+            "items/household_income_usa",
+            "items/financial_assistance_usa",
+            "items/assistance_programs_usa",
+            "items/household_income_ca",
+            "items/financial_assistance_ca",
+            "items/assistance_programs_ca",
+            "items/citizen",
+            "items/marital_status",
+            "items/housing_status",
+            "items/household_count",
+            "items/spouse_partner_sig_other",
+            "items/children",
+            "items/parent",
+            "items/grandparent",
+            "items/other_live_with",
+            "items/others_household_specify",
+            "items/transportation_yn",
+            "items/primary_transportation",
+            "items/other_transportation"
         ],
         "addProperties": [
             {

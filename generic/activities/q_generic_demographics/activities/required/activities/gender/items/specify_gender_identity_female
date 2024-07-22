@@ -1,0 +1,36 @@
+{
+    "id": "specify_gender_identity_female",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Patient Demographics"
+    },
+    "prefLabel": {
+        "en": "specify_gender_identity_female"
+    },
+    "question": {
+        "en": "Please specify gender identity"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Cis woman: same gender as the sex assigned at birth"
+                },
+                "value": "cisWoman"
+            },
+            {
+                "name": {
+                    "en": "Trans woman"
+                },
+                "value": "transWoman"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

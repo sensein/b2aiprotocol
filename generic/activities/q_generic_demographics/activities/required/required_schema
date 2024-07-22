@@ -7,8 +7,18 @@
     "schemaVersion": "1.0.0-rc4",
     "ui": {
         "order": [
+            "address/address_schema",
+            "gender/gender_identity_schema",
+            "sexuality/sexuality_schema",
+            "race/race_schema",
+            "ethnicity/ethnicity_schema",
+            "education/education_schema",
+            "disability/disability_schema",
+            "employment/employment_schema",
+            "occupation"
+            "veteran"
 
-            "items/demographics_completed_by",
+            
             "items/city",
             "items/state_province",
             "items/zipcode",
@@ -18,10 +28,8 @@
             "items/other_gender_identity",
             "items/specify_gender_identity",
 
-
             "items/sexual_orientation",
             "items/other_sex_orientation",
-
 
             "items/race",
             "items/native_american_race",
@@ -34,8 +42,6 @@
 
 
             "items/ethnicity",
-
-
             "items/hispanic_latino_selection",
 
 
@@ -49,29 +55,13 @@
             "items/mobility",
             "items/self_care",
             "items/independent_living",
+
             "items/employ_status",
             "items/other_employ_specify",
+
             "items/occupation",
             "items/veteran",
-            "items/household_income_usa",
-            "items/financial_assistance_usa",
-            "items/assistance_programs_usa",
-            "items/household_income_ca",
-            "items/financial_assistance_ca",
-            "items/assistance_programs_ca",
-            "items/citizen",
-            "items/marital_status",
-            "items/housing_status",
-            "items/household_count",
-            "items/spouse_partner_sig_other",
-            "items/children",
-            "items/parent",
-            "items/grandparent",
-            "items/other_live_with",
-            "items/others_household_specify",
-            "items/transportation_yn",
-            "items/primary_transportation",
-            "items/other_transportation"
+
         ],
         "addProperties": [
             {
