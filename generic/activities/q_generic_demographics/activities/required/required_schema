@@ -7,10 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "ui": {
         "order": [
-            "items/demographics_session_id",
-            "items/demographics_started_at",
-            "items/demographics_completed_at",
-            "items/demographics_duration",
+
             "items/demographics_completed_by",
             "items/city",
             "items/state_province",
