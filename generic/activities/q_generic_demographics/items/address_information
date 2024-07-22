@@ -1,33 +1,101 @@
 {
-  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-  "@type": "reproschema:Field",
-  "items": [
-    {
-      "key": "city",
-      "type": "string",
-      "prompt": "City"
+    "id": "address_information",
+    "category": "reproschema:Item",
+    "prefLabel": {
+      "en": "Address Information"
     },
-    {
-      "key": "state_province",
-      "type": "string",
-      "prompt": "State/Province"
+    "question": {
+      "en": "Please provide your address information"
     },
-    {
-      "key": "zipcode",
-      "type": "string",
-      "prompt": "Zipcode"
+    "ui": {
+      "inputType": "group"
     },
-    {
-      "key": "country",
-      "type": "string",
-      "prompt": "Country",
-      "responseOptions": {
-        "choices": [
-          {"value": "USA", "label": "USA"},
-          {"value": "Canada", "label": "Canada"},
-          {"value": "Other", "label": "Other"}
-        ]
+    "items": [
+      {
+        "id": "city",
+        "category": "reproschema:Item",
+        "prefLabel": {
+          "en": "City"
+        },
+        "question": {
+          "en": "City"
+        },
+        "responseOptions": {
+          "valueType": "xsd:string"
+        },
+        "ui": {
+          "inputType": "text"
+        }
+      },
+      {
+        "id": "state_province",
+        "category": "reproschema:Item",
+        "prefLabel": {
+          "en": "State/Province"
+        },
+        "question": {
+          "en": "State/Province"
+        },
+        "responseOptions": {
+          "valueType": "xsd:string"
+        },
+        "ui": {
+          "inputType": "text"
+        }
+      },
+      {
+        "id": "zipcode",
+        "category": "reproschema:Item",
+        "prefLabel": {
+          "en": "Zipcode"
+        },
+        "question": {
+          "en": "Zipcode"
+        },
+        "responseOptions": {
+          "valueType": "xsd:string"
+        },
+        "ui": {
+          "inputType": "text"
+        }
+      },
+      {
+        "id": "country",
+        "category": "reproschema:Item",
+        "prefLabel": {
+          "en": "Country"
+        },
+        "question": {
+          "en": "Country"
+        },
+        "responseOptions": {
+          "choices": [
+            {
+              "label": {
+                "en": "USA"
+              },
+              "value": "USA"
+            },
+            {
+              "label": {
+                "en": "Canada"
+              },
+              "value": "Canada"
+            },
+            {
+              "label": {
+                "en": "Other"
+              },
+              "value": "Other"
+            }
+          ],
+          "valueType": "xsd:string"
+        },
+        "ui": {
+          "inputType": "dropdown"
+        }
       }
-    }
-  ]
-}
+    ],
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+  }
+  

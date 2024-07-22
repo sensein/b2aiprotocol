@@ -1,0 +1,27 @@
+{
+    "id": "q_generic_demographics_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "q_generic_demographics"
+    },
+    "schemaVersion": "1.0.0-rc4",
+    "ui": {
+        "order": [
+            "items:demographics_completed_by"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items:demographics_completed_by",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demographics_completed_by"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "3.8.0",
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+        {"items": "b2aiprotocol/generic/activities/q_generic_demographics/items/"}
+    ]
+}
