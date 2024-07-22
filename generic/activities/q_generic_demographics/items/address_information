@@ -1,0 +1,33 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+  "@type": "reproschema:Field",
+  "items": [
+    {
+      "key": "city",
+      "type": "string",
+      "prompt": "City"
+    },
+    {
+      "key": "state_province",
+      "type": "string",
+      "prompt": "State/Province"
+    },
+    {
+      "key": "zipcode",
+      "type": "string",
+      "prompt": "Zipcode"
+    },
+    {
+      "key": "country",
+      "type": "string",
+      "prompt": "Country",
+      "responseOptions": {
+        "choices": [
+          {"value": "USA", "label": "USA"},
+          {"value": "Canada", "label": "Canada"},
+          {"value": "Other", "label": "Other"}
+        ]
+      }
+    }
+  ]
+}

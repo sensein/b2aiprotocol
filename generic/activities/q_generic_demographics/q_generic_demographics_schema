@@ -7,6 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "ui": {
         "order": [
+            "items/address_information",
             "items/demographics_session_id",
             "items/demographics_started_at",
             "items/demographics_completed_at",
@@ -64,6 +65,12 @@
             "items/other_transportation"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/address_information",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "items/address_information"
+            },
             {
                 "isAbout": "items/demographics_session_id",
                 "isVis": true,
