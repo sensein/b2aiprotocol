@@ -1,27 +1,40 @@
 {
-    "id": "q_generic_demographics_schema",
-    "category": "reproschema:Activity",
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+        {
+            "reproschema_library_activities": "https://raw.githubusercontent.com/ReproNim/reproschema-library/enh/rc4/a23a13875c7262c0bd0d77bd90c1ec296c6d1116/activities/",
+            "b2ai_redcap2rs_activities": "https://raw.githubusercontent.com/sensein/b2ai-redcap2rs/main/activities/q_generic_demographics/items/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "completed_by_schema",
     "prefLabel": {
-        "en": "q_generic_demographics"
+        "en": "Bridge2AI completed by activity"
+    },
+    "description": {
+        "en": "Identifies who is completing the study."
     },
     "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "ui": {
-        "order": [
-            "items:demographics_completed_by"
-        ],
         "addProperties": [
             {
-                "isAbout": "items:demographics_completed_by",
+                "isAbout": "b2ai_redcap2rs_activities:demographics_completed_by",
+                "variableName": "demographics",
+                "prefLabel": {
+                    "en": "Demographics"
+                },
                 "isVis": true,
-                "valueRequired": true,
-                "variableName": "demographics_completed_by"
+                "valueRequired": true
             }
         ],
-        "shuffle": false
-    },
-    "version": "3.8.0",
-    "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
-        {"items": "b2aiprotocol/generic/activities/q_generic_demographics/items/"}
-    ]
+        "order": [
+            "b2ai_redcap2rs_activities:demographics_completed_by"
+        ],
+        "shuffle": false,
+        "allow": [
+            "reproschema:AllowExport",
+            "reproschema:AutoAdvance"
+        ]
+    }
 }
