@@ -29,7 +29,7 @@
             },
             {
                 "isAbout": "b2ai_redcap2rs_activities:other_employ_specify",
-                "isVis": "employ_status.includes(9)",
+                "isVis": "employ_status.indexOf(9) > -1",
                 "valueRequired": true,
                 "variableName": "other_employ_specify"
             }
