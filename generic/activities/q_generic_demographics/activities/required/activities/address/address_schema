@@ -7,7 +7,7 @@
         }
     ],
     "@type": "reproschema:Activity",
-    "@id": "address_information",
+    "@id": "address_schema",
     "prefLabel": {
         "en": "Address Information"
     },
