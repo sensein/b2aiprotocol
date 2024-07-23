@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+        {
+            "reproschema_library_activities": "https://raw.githubusercontent.com/ReproNim/reproschema-library/enh/rc4/a23a13875c7262c0bd0d77bd90c1ec296c6d1116/activities/",
+            "b2ai_redcap2rs_activities": "https://raw.githubusercontent.com/sensein/b2ai-redcap2rs/main/activities/q_generic_demographics/items/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "education_activity",
+    "prefLabel": {
+        "en": "Education Level"
+    },
+    "description": {
+        "en": "Collects information on the highest level of education achieved."
+    },
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/edu_level",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "edu_level"
+            },
+            {
+                "isAbout": "items/other_edu_level",
+                "isVis": "edu_level == 11",
+                "variableName": "other_edu_level"
+            }
+        ],
+        "order": [
+            "items/edu_level",
+            "items/other_edu_level"
+        ],
+        "shuffle": false,
+        "allow": [
+            "reproschema:AllowExport",
+            "reproschema:AutoAdvance"
+        ]
+    }
+}
