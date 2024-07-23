@@ -1,6 +1,6 @@
 {
     "id": "specify_gender_identity_female",
-    "category": "reproschema:Item",
+    "@type": "reproschema:Item",
     "preamble": {
         "en": "Patient Demographics"
     },

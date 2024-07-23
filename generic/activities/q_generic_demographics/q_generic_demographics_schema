@@ -7,6 +7,14 @@
     "schemaVersion": "1.0.0-rc4",
     "ui": {
         "order": [
+            "b2ai_redcap2rs_activities:demographics_session_id",
+            "b2ai_redcap2rs_activities:demographics_started_at",
+
+            "b2ai_redcap2rs_activities:demographics_completed_at",
+            "b2ai_redcap2rs_activities:demographics_duration"
+
+
+
             "items/address_information",
             "items/demographics_session_id",
             "items/demographics_started_at",
