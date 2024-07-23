@@ -7,7 +7,7 @@
         }
     ],
     "@type": "reproschema:Activity",
-    "@id": "disability_activity",
+    "@id": "disability_schema",
     "prefLabel": {
         "en": "Disability Questions"
     },
