@@ -10,6 +10,7 @@
             "address/address_schema",
             "gender/gender_identity_schema",
             "sexuality/sexuality_schema",
+            
             "race/race_schema",
             "ethnicity/ethnicity_schema",
             "education/education_schema",
@@ -18,7 +19,7 @@
             "occupation"
             "veteran"
 
-            
+
             "items/city",
             "items/state_province",
             "items/zipcode",
