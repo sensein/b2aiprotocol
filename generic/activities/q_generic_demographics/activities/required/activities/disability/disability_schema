@@ -22,49 +22,49 @@
         },
         "addProperties": [
             {
-                "isAbout": "items/hearing",
+                "isAbout": "b2ai_redcap2rs_activities:hearing",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "hearing"
             },
             {
-                "isAbout": "items/vision",
+                "isAbout": "b2ai_redcap2rs_activities:vision",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "vision"
             },
             {
-                "isAbout": "items/cognition",
+                "isAbout": "b2ai_redcap2rs_activities:cognition",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "cognition"
             },
             {
-                "isAbout": "items/mobility",
+                "isAbout": "b2ai_redcap2rs_activities:mobility",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "mobility"
             },
             {
-                "isAbout": "items/self_care",
+                "isAbout": "b2ai_redcap2rs_activities:self_care",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "self_care"
             },
             {
-                "isAbout": "items/independent_living",
+                "isAbout": "b2ai_redcap2rs_activities:independent_living",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "independent_living"
             }
         ],
         "order": [
-            "items/hearing",
-            "items/vision",
-            "items/cognition",
-            "items/mobility",
-            "items/self_care",
-            "items/independent_living"
+            "b2ai_redcap2rs_activities:hearing",
+            "b2ai_redcap2rs_activities:vision",
+            "b2ai_redcap2rs_activities:cognition",
+            "b2ai_redcap2rs_activities:mobility",
+            "b2ai_redcap2rs_activities:self_care",
+            "b2ai_redcap2rs_activities:independent_living"
         ],
         "shuffle": false,
         "allow": [
