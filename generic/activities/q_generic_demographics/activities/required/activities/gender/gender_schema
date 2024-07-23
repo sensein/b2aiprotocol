@@ -26,16 +26,16 @@
                 }
             },
             {
-                "isAbout": "specify_gender_identity_female",
-                "variableName": "specify_gender_identity_female",
+                "isAbout": "items/specify_gender_identity_female",
+                "variableName": "items/specify_gender_identity_female",
                 "prefLabel": {
                     "en": "Specify Gender Identity (Female)"
                 },
                 "isVis": "gender_identity == female"
             },
             {
-                "isAbout": "specify_gender_identity_male",
-                "variableName": "specify_gender_identity_male",
+                "isAbout": "items/specify_gender_identity_male",
+                "variableName": "items/specify_gender_identity_male",
                 "prefLabel": {
                     "en": "Specify Gender Identity (Male)"
                 },
@@ -52,8 +52,8 @@
         ],
         "order": [
             "b2ai_redcap2rs_activities:gender_identity",
-            "specify_gender_identity_female",
-            "specify_gender_identity_male",
+            "items/specify_gender_identity_female",
+            "items/specify_gender_identity_male",
             "b2ai_redcap2rs_activities:other_gender_identity"
         ],
         "shuffle": false,
