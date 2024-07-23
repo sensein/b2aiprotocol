@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+        {
+            "reproschema_library_activities": "https://raw.githubusercontent.com/ReproNim/reproschema-library/enh/rc4/a23a13875c7262c0bd0d77bd90c1ec296c6d1116/activities/",
+            "b2ai_redcap2rs_activities": "https://raw.githubusercontent.com/sensein/b2ai-redcap2rs/main/activities/q_generic_demographics/items/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "ethnicity_activity",
+    "prefLabel": {
+        "en": "Ethnicity"
+    },
+    "description": {
+        "en": "Collects information on ethnicity."
+    },
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/ethnicity",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ethnicity"
+            },
+            {
+                "isAbout": "items/hispanic_latino_selection",
+                "isVis": "ethnicity == 'yes'",
+                "variableName": "hispanic_latino_selection"
+            }
+        ],
+        "order": [
+            "items/ethnicity",
+            "items/hispanic_latino_selection"
+        ],
+        "shuffle": false,
+        "allow": [
+            "reproschema:AllowExport",
+            "reproschema:AutoAdvance"
+        ]
+    }
+}
