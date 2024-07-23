@@ -9,7 +9,7 @@
     "ui": {
         "order": [
             "activities/address/address_schema",
-            "activities/gender/gender_identity_schema",
+            "activities/gender/gender_schema",
             "activities/sexuality/sexuality_schema",
             "activities/race/race_schema",
             "activities/ethnicity/ethnicity_schema",
@@ -26,9 +26,9 @@
                 "variableName": "address"
             },
             {
-                "isAbout": "activities/gender/gender_identity_schema",
+                "isAbout": "activities/gender/gender_schema",
                 "isVis": true,
-                "variableName": "gender_identity"
+                "variableName": "gender"
             },
             {
                 "isAbout": "activities/sexuality/sexuality_schema",
