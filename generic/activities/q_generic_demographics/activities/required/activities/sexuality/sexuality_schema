@@ -7,7 +7,7 @@
         }
     ],
     "@type": "reproschema:Activity",
-    "@id": "sexual_orientation_activity",
+    "@id": "sexuality_schema",
     "prefLabel": {
         "en": "Sexual Orientation"
     },
@@ -19,20 +19,20 @@
     "ui": {
         "addProperties": [
             {
-                "isAbout": "items/sexual_orientation",
+                "isAbout": "b2ai_redcap2rs_activities:sexual_orientation",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "sexual_orientation"
             },
             {
-                "isAbout": "items/other_sex_orientation",
+                "isAbout": "b2ai_redcap2rs_activities:other_sex_orientation",
                 "isVis": "sexual_orientation == 'other'",
                 "variableName": "other_sex_orientation"
             }
         ],
         "order": [
-            "items/sexual_orientation",
-            "items/other_sex_orientation"
+            "b2ai_redcap2rs_activities:sexual_orientation",
+            "b2ai_redcap2rs_activities:other_sex_orientation"
         ],
         "shuffle": false,
         "allow": [

@@ -7,7 +7,7 @@
         }
     ],
     "@type": "reproschema:Activity",
-    "@id": "education_activity",
+    "@id": "education_schema",
     "prefLabel": {
         "en": "Education Level"
     },
@@ -19,20 +19,20 @@
     "ui": {
         "addProperties": [
             {
-                "isAbout": "items/edu_level",
+                "isAbout": "b2ai_redcap2rs_activities:edu_level",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "edu_level"
             },
             {
-                "isAbout": "items/other_edu_level",
+                "isAbout": "b2ai_redcap2rs_activities:other_edu_level",
                 "isVis": "edu_level == 11",
                 "variableName": "other_edu_level"
             }
         ],
         "order": [
-            "items/edu_level",
-            "items/other_edu_level"
+            "b2ai_redcap2rs_activities:edu_level",
+            "b2ai_redcap2rs_activities:other_edu_level"
         ],
         "shuffle": false,
         "allow": [

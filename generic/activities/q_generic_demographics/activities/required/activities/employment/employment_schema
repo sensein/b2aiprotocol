@@ -7,7 +7,7 @@
         }
     ],
     "@type": "reproschema:Activity",
-    "@id": "employment_status_activity",
+    "@id": "employment_schema",
     "prefLabel": {
         "en": "Employment Status"
     },
@@ -22,21 +22,21 @@
         },
         "addProperties": [
             {
-                "isAbout": "items/employ_status",
+                "isAbout": "b2ai_redcap2rs_activities:employ_status",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "employ_status"
             },
             {
-                "isAbout": "items/other_employ_specify",
+                "isAbout": "b2ai_redcap2rs_activities:other_employ_specify",
                 "isVis": "employ_status.includes(9)",
                 "valueRequired": true,
                 "variableName": "other_employ_specify"
             }
         ],
         "order": [
-            "items/employ_status",
-            "items/other_employ_specify"
+            "b2ai_redcap2rs_activities:employ_status",
+            "b2ai_redcap2rs_activities:other_employ_specify"
         ],
         "shuffle": false,
         "allow": [
