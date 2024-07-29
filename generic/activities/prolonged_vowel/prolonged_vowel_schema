@@ -1,0 +1,25 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "prolonged_vowel_schema",
+    "prefLabel": {"en": "Prolonged vowel"},
+    "description": "Say a vowel for a prolonged period",
+    "preamble": {"en": "Prolonged vowel"},
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+      "order": [
+        "items/prolonged_vowel"
+      ],
+      "addProperties": [
+        {
+            "isAbout": "items/prolonged_vowel",
+            "variableName": "prolonged_vowel",
+            "isVis": true
+        }
+      ],
+      "shuffle": false,
+      "allow": ["reproschema:AutoAdvance", "reproschema:AllowExport"]
+    }
+}
+  

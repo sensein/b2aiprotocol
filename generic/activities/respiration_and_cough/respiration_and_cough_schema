@@ -1,0 +1,48 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "respiration_and_cough_schema",
+    "prefLabel": {"en": "Respiration and cough"},
+    "description": "Record breathing sounds and coughs.",
+    "preamble": {"en": "Breathing sounds can also provide information on your health, let's record them."},
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+      "order": [
+        "items/respiration_and_cough_1",
+        "items/respiration_and_cough_2",
+        "items/respiration_and_cough_3",
+        "items/respiration_and_cough_4",
+        "items/respiration_and_cough_5"
+      ],
+      "addProperties": [
+        {
+          "isAbout": "items/respiration_and_cough_1",
+          "variableName": "respiration_and_cough_1",
+          "isVis": true
+        },
+        {
+          "isAbout": "items/respiration_and_cough_2",
+          "variableName": "respiration_and_cough_2",
+          "isVis": true
+        },
+        {
+          "isAbout": "items/respiration_and_cough_3",
+          "variableName": "respiration_and_cough_3",
+          "isVis": true
+        },
+        {
+          "isAbout": "items/respiration_and_cough_4",
+          "variableName": "respiration_and_cough_4",
+          "isVis": true
+        },
+        {
+          "isAbout": "items/respiration_and_cough_5",
+          "variableName": "respiration_and_cough_5",
+          "isVis": true
+        }
+      ],
+      "shuffle": false,
+      "allow": ["reproschema:AutoAdvance", "reproschema:AllowExport"]
+    }
+}

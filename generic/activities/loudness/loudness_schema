@@ -1,0 +1,24 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "loudness_schema",
+    "prefLabel": {"en": "Loudness"},
+    "description": "Determine the loudness of the voice",
+    "preamble": {"en": "Loudness"},
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+      "order": [
+        "items/loudness"
+      ],
+      "addProperties": [
+        {
+          "isAbout": "items/loudness",
+          "variableName": "loudness",
+          "isVis": true
+        }
+      ],
+      "shuffle": false,
+      "allow": ["reproschema:AutoAdvance", "reproschema:AllowExport"]
+    }
+}

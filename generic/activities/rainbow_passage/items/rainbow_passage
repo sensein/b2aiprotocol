@@ -1,0 +1,18 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+  "@type": "reproschema:Field",
+  "@id": "rainbow_passage",
+  "prefLabel": "Rainbow Passage",
+  "description": "This is the only Rainbow Passage item.",
+  "schemaVersion": "1.0.0-rc4",
+  "version": "0.0.1",
+  "question": "This task helps us evaluate how you use breathing to support your voice.\n\nRead the following passage using your normal voice:\n\nWhen the sunlight strikes raindrops in the air, they act as a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors. These take the shape of a long round arch, with its path high above, and its two ends apparently beyond the horizon. There is, according to legend, a boiling pot of gold at one end.",
+  "ui": {
+    "inputType": "audioCheck"
+  },
+  "responseOptions": {
+    "valueType": "schema:AudioObject",
+    "minValue": 0,
+    "maxValue": 120000
+  }
+}

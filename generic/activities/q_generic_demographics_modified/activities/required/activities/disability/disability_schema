@@ -1,0 +1,75 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+        {
+            "reproschema_library_activities": "https://raw.githubusercontent.com/ReproNim/reproschema-library/enh/rc4/a23a13875c7262c0bd0d77bd90c1ec296c6d1116/activities/",
+            "b2ai_redcap2rs_activities": "https://raw.githubusercontent.com/sensein/b2ai-redcap2rs/main/activities/q_generic_demographics/items/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "disability_schema",
+    "prefLabel": {
+        "en": "Disability Questions"
+    },
+    "description": {
+        "en": "Collects information on disability status."
+    },
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "preamble": {
+            "en": "Disability Questions"
+        },
+        "addProperties": [
+            {
+                "isAbout": "b2ai_redcap2rs_activities:hearing",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hearing"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:vision",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "vision"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:cognition",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "cognition"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:mobility",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mobility"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:self_care",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "self_care"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:independent_living",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "independent_living"
+            }
+        ],
+        "order": [
+            "b2ai_redcap2rs_activities:hearing",
+            "b2ai_redcap2rs_activities:vision",
+            "b2ai_redcap2rs_activities:cognition",
+            "b2ai_redcap2rs_activities:mobility",
+            "b2ai_redcap2rs_activities:self_care",
+            "b2ai_redcap2rs_activities:independent_living"
+        ],
+        "shuffle": false,
+        "allow": [
+            "reproschema:AllowExport",
+            "reproschema:AutoAdvance"
+        ]
+    }
+}
