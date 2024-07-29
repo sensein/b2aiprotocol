@@ -7,7 +7,10 @@
     "schemaVersion": "1.0.0-rc4",
     "ui": {
         "order": [
-            "items/address_information",
+            "items/demographics_session_id",
+            "items/demographics_started_at",
+            "items/demographics_completed_at",
+            "items/demographics_duration",
             "items/demographics_completed_by",
             "items/city",
             "items/state_province",
@@ -61,6 +64,27 @@
             "items/other_transportation"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/demographics_session_id",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demographics_session_id"
+            },
+            {
+                "isAbout": "items/demographics_started_at",
+                "isVis": true,
+                "variableName": "demographics_started_at"
+            },
+            {
+                "isAbout": "items/demographics_completed_at",
+                "isVis": true,
+                "variableName": "demographics_completed_at"
+            },
+            {
+                "isAbout": "items/demographics_duration",
+                "isVis": true,
+                "variableName": "demographics_duration"
+            },
             {
                 "isAbout": "items/demographics_completed_by",
                 "isVis": true,
