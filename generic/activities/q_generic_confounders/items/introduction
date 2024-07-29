@@ -1,0 +1,14 @@
+{
+    "id": "introduction",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "introduction"
+    },
+    "question": {
+        "en": "There are many factors that can affect the sound of your voice. This section asks questions about some of these factors."
+    },
+    "ui": {
+        "inputType": "message"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
