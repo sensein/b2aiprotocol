@@ -20,7 +20,7 @@
         "addProperties": [
             {
                 "isAbout": "b2ai_redcap2rs_activities:demographics_completed_by",
-                "variableName": "demographics",
+                "variableName": "demographics_completed_by",
                 "prefLabel": {
                     "en": "Demographics"
                 },

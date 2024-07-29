@@ -25,32 +25,32 @@
         "addProperties": [
             {
                 "isAbout": "b2ai_redcap2rs_activities:household_income_usa",
-                "isVis": true,
+                "isVis": "country.includes(1)",
                 "variableName": "household_income_usa"
             },
             {
                 "isAbout": "b2ai_redcap2rs_activities:financial_assistance_usa",
-                "isVis": true,
+                "isVis": "country.includes(1)",
                 "variableName": "financial_assistance_usa"
             },
             {
                 "isAbout": "b2ai_redcap2rs_activities:assistance_programs_usa",
-                "isVis": true,
+                "isVis": "country.includes(1)",
                 "variableName": "assistance_programs_usa"
             },
             {
                 "isAbout": "b2ai_redcap2rs_activities:household_income_ca",
-                "isVis": true,
+                "isVis": "country.includes(2)",
                 "variableName": "household_income_ca"
             },
             {
                 "isAbout": "b2ai_redcap2rs_activities:financial_assistance_ca",
-                "isVis": true,
+                "isVis": "country.includes(2)",
                 "variableName": "financial_assistance_ca"
             },
             {
                 "isAbout": "b2ai_redcap2rs_activities:assistance_programs_ca",
-                "isVis": true,
+                "isVis": "country.includes(2)",
                 "variableName": "assistance_programs_ca"
             },
             {

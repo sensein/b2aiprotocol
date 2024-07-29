@@ -24,13 +24,13 @@
         ],
         "addProperties": [
             {
-                "isAbout": "b2ai_redcap2rs_activities:primary_transportation_schema",
+                "isAbout": "b2ai_redcap2rs_activities:primary_transportation",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "primary_transportation"
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:other_transportation_schema",
+                "isAbout": "b2ai_redcap2rs_activities:other_transportation",
                 "isVis": "primary_transportation == 8",
                 "valueRequired": true,
                 "variableName": "other_transportation"

@@ -16,7 +16,7 @@
         "addProperties": [
             {
                 "isAbout": "activities/q_generic_demographics/q_generic_demographics_schema",
-                "variableName": "demographics",
+                "variableName": "demographics", 
                 "prefLabel": {
                     "en": "Demographics"
                 }
