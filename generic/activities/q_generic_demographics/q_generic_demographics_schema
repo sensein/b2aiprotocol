@@ -144,37 +144,37 @@
             },
             {
                 "isAbout": "items/native_american_race",
-                "isVis": "race___1 == '1'",
+                "isVis": "race == 1",
                 "variableName": "native_american_race"
             },
             {
                 "isAbout": "items/asian_race",
-                "isVis": "race___2 =='1'",
+                "isVis": "race == 2",
                 "variableName": "asian_race"
             },
             {
                 "isAbout": "items/black_race",
-                "isVis": "race___3 =='1'",
+                "isVis": "race == 3",
                 "variableName": "black_race"
             },
             {
                 "isAbout": "items/pacific_islander_race",
-                "isVis": "race___4 =='1'",
+                "isVis": "race == 4",
                 "variableName": "pacific_islander_race"
             },
             {
                 "isAbout": "items/white_race",
-                "isVis": "race___5 =='1'",
+                "isVis": "race == 5",
                 "variableName": "white_race"
             },
             {
                 "isAbout": "items/canadian_race",
-                "isVis": "race___6 =='1'",
+                "isVis": "race == 6",
                 "variableName": "canadian_race"
             },
             {
                 "isAbout": "items/other_race_specify",
-                "isVis": "race___7 == '1'",
+                "isVis": "race == 7",
                 "variableName": "other_race_specify"
             },
             {
