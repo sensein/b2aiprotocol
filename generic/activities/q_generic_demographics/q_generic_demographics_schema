@@ -72,17 +72,17 @@
             },
             {
                 "isAbout": "items/demographics_started_at",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "demographics_started_at"
             },
             {
                 "isAbout": "items/demographics_completed_at",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "demographics_completed_at"
             },
             {
                 "isAbout": "items/demographics_duration",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "demographics_duration"
             },
             {
