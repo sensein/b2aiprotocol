@@ -66,7 +66,7 @@
         "addProperties": [
             {
                 "isAbout": "items/demographics_session_id",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "demographics_session_id"
             },
