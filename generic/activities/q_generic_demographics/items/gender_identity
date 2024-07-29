@@ -22,25 +22,25 @@
                 "name": {
                     "en": "Male gender identity "
                 },
-                "value": " male"
+                "value": "male"
             },
             {
                 "name": {
                     "en": "Non-binary or genderqueer gender identity "
                 },
-                "value": " nonBinary"
+                "value": "nonBinary"
             },
             {
                 "name": {
                     "en": "Other "
                 },
-                "value": " other"
+                "value": "other"
             },
             {
                 "name": {
                     "en": "Prefer not to answer"
                 },
-                "value": " noAnswer"
+                "value": "noAnswer"
             }
         ],
         "valueType": [
