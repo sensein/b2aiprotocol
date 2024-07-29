@@ -163,7 +163,7 @@
             },
             {
                 "isAbout": "items/other_smoking_specify",
-                "isVis": "smoking_types___7 =='1'",
+                "isVis": "smoking_types =='1'",
                 "variableName": "other_smoking_specify"
             },
             {
