@@ -68,7 +68,10 @@
             {
                 "isAbout": "items/demographics_session_id",
                 "isVis": false,
-                "variableName": "demographics_session_id"
+                "variableName": "demographics_session_id",
+                "allow": [
+                    "reproschema:Skipped"
+                ]
             },
             {
                 "isAbout": "items/demographics_started_at",
