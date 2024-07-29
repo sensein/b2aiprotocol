@@ -8,10 +8,6 @@
     "ui": {
         "order": [
             "items/address_information",
-            "items/demographics_session_id",
-            "items/demographics_started_at",
-            "items/demographics_completed_at",
-            "items/demographics_duration",
             "items/demographics_completed_by",
             "items/city",
             "items/state_province",
@@ -65,29 +61,6 @@
             "items/other_transportation"
         ],
         "addProperties": [
-            {
-                "isAbout": "items/demographics_session_id",
-                "isVis": false,
-                "variableName": "demographics_session_id",
-                "allow": [
-                    "reproschema:Skipped"
-                ]
-            },
-            {
-                "isAbout": "items/demographics_started_at",
-                "isVis": false,
-                "variableName": "demographics_started_at"
-            },
-            {
-                "isAbout": "items/demographics_completed_at",
-                "isVis": false,
-                "variableName": "demographics_completed_at"
-            },
-            {
-                "isAbout": "items/demographics_duration",
-                "isVis": false,
-                "variableName": "demographics_duration"
-            },
             {
                 "isAbout": "items/demographics_completed_by",
                 "isVis": true,
