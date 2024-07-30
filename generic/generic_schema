@@ -22,7 +22,7 @@
                 }
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:q_generic_confounders/q_generic_confounders_schema",
+                "isAbout": "activities/q_generic_confounders/q_generic_confounders_schema",
                 "variableName": "confounders",
                 "prefLabel": {
                     "en": "Confounders"
