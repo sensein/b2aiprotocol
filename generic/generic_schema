@@ -36,7 +36,7 @@
                 }
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:q_generic_voice_handicap_index_vhi10/q_generic_voice_handicap_index_vhi10_schema",
+                "isAbout": "activities/q_generic_voice_handicap_index_vhi10/q_generic_voice_handicap_index_vhi10_schema",
                 "variableName": "vhi_10",
                 "prefLabel": {
                     "en": "VHI-10"
@@ -50,7 +50,7 @@
                 }
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:GAD7/GAD7_schema",
+                "isAbout": "reproschema_library_activities:GAD7/GAD7_schema",
                 "variableName": "gad_7",
                 "prefLabel": {
                     "en": "GAD-7 Anxiety"
@@ -133,7 +133,7 @@
             "b2ai_redcap2rs_activities:q_generic_voice_perception/q_generic_voice_perception_schema",
             "b2ai_redcap2rs_activities:q_generic_voice_handicap_index_vhi10/q_generic_voice_handicap_index_vhi10_schema",
             "reproschema_library_activities:PHQ-9/PHQ9_schema",
-            "b2ai_redcap2rs_activities:GAD7/GAD7_schema",
+            "reproschema_library_activities:GAD7/GAD7_schema",
             "activities/audio-check/audio_check_schema",
             "activities/prolonged-vowel/prolonged_vowel_schema",
             "activities/prolonged-vowel/maximum_phonation_time_schema",
