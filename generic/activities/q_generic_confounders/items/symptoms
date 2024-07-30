@@ -2,7 +2,7 @@
     "id": "symptoms",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "SYMPTOMS"
+        "en": "Symptoms"
     },
     "prefLabel": {
         "en": "symptoms"

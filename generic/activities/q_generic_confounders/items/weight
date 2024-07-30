@@ -2,13 +2,13 @@
     "id": "weight",
     "category": "reproschema:Item",
     "description": {
-        "en": "lbs"
+        "en": "lbs or kg"
     },
     "prefLabel": {
         "en": "weight"
     },
     "question": {
-        "en": "Weight (pounds)"
+        "en": "Weight (pounds or kilograms)"
     },
     "responseOptions": {
         "valueType": [

@@ -1,14 +1,14 @@
 {
-    "id": "introduction",
+    "id": "ent_introduction",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "introduction"
+        "en": "ent_introduction"
     },
     "preamble": {
-        "en": "Confounders"
+        "en": "Ear, Nose, Throat Medical History"
     }, 
     "question": {
-        "en": "There are many factors that can affect the sound of your voice. This section asks questions about some of these factors."
+        "en": "Do you have any of these voice, communication, or hearing conditions? (check all that apply)"
     },
     "ui": {
         "inputType": "message"

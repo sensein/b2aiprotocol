@@ -2,16 +2,16 @@
     "id": "height",
     "category": "reproschema:Item",
     "description": {
-        "en": "inches"
+        "en": "inches or centimeters"
     },
     "preamble": {
-        "en": "HEIGHT AND WEIGHT"
+        "en": "Height and Weight"
     },
     "prefLabel": {
         "en": "height"
     },
     "question": {
-        "en": "Height (inches)"
+        "en": "Height (inches or centimeters)"
     },
     "responseOptions": {
         "valueType": [

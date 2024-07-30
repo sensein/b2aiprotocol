@@ -2,7 +2,7 @@
     "id": "respiratory_conditions",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "RESPIRATORY CONDITIONS"
+        "en": "Respiratory Conditions"
     },
     "prefLabel": {
         "en": "respiratory_conditions"

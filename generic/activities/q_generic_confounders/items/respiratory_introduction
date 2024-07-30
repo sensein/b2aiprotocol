@@ -1,14 +1,14 @@
 {
-    "id": "introduction",
+    "id": "respiratory_introduction",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "introduction"
+        "en": "respiratory_introduction"
     },
     "preamble": {
-        "en": "Confounders"
+        "en": "Respiratory Conditions"
     }, 
     "question": {
-        "en": "There are many factors that can affect the sound of your voice. This section asks questions about some of these factors."
+        "en": "Have you been diagnosed with any of these respiratory conditions by a clinician? (check all that apply)"
     },
     "ui": {
         "inputType": "message"

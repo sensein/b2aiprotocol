@@ -2,7 +2,7 @@
     "id": "hydration",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "HYDRATION"
+        "en": "Hydration"
     },
     "prefLabel": {
         "en": "hydration"

@@ -2,7 +2,7 @@
     "id": "dental_problems",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "DENTAL PROBLEMS"
+        "en": "Dental problems"
     },
     "prefLabel": {
         "en": "dental_problems"

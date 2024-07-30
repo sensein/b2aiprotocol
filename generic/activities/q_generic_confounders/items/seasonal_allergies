@@ -2,7 +2,7 @@
     "id": "seasonal_allergies",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "ALLERGIES OR COLD SYMPTOMS"
+        "en": "Allergies or cold symptoms"
     },
     "prefLabel": {
         "en": "seasonal_allergies"

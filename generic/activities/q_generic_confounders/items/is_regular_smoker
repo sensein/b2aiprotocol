@@ -2,7 +2,7 @@
     "id": "is_regular_smoker",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "SMOKING"
+        "en": "Smoking"
     },
     "prefLabel": {
         "en": "is_regular_smoker"

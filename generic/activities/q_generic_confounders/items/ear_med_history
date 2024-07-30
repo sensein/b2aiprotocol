@@ -1,9 +1,6 @@
 {
     "id": "ear_med_history",
     "category": "reproschema:Item",
-    "preamble": {
-        "en": "EAR, NOSE, THROAT MEDICAL HISTORYDo you have any of these voice, communication, or hearing conditions? (check all that apply)"
-    },
     "prefLabel": {
         "en": "ear_med_history"
     },

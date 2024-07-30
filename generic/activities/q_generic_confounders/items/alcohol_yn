@@ -2,7 +2,7 @@
     "id": "alcohol_yn",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "ALCOHOL CONSUMPTION"
+        "en": "Alcohol consumption"
     },
     "prefLabel": {
         "en": "alcohol_yn"
