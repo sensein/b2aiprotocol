@@ -22,14 +22,14 @@
                 }
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:q_mood_panas/q_mood_panas_schema",
+                "isAbout": "activities/q_mood_panas/q_mood_panas_schema",
                 "variableName": "panas",
                 "prefLabel": {
                     "en": "PANAS"
                 }
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/q_mood_custom_affect_scale_schema",
+                "isAbout": "activities/q_mood_custom_affect_scale/q_mood_custom_affect_scale_schema",
                 "variableName": "custom_affect_scale",
                 "prefLabel": {
                     "en": "Custom Affect Scale"
@@ -73,8 +73,8 @@
         ],
         "order": [
             "activities/audio_check/audio_check_schema",
-            "b2ai_redcap2rs_activities:q_mood_panas/q_mood_panas_schema",
-            "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/q_mood_custom_affect_scale_schema",
+            "activities/q_mood_panas/q_mood_panas_schema",
+            "activities/q_mood_custom_affect_scale/q_mood_custom_affect_scale_schema",
             "reproschema_library_activities:DSM-5_A/DSM5_crosscutting_adult_schema",
             "b2ai_redcap2rs_activities:q_mood_ptsd_adult/q_mood_ptsd_adult_schema",
             "b2ai_redcap2rs_activities:q_mood_adhd_adult/q_mood_adhd_adult_schema",
