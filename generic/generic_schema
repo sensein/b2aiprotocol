@@ -29,7 +29,7 @@
                 }
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:q_generic_voice_perception/q_generic_voice_perception_schema",
+                "isAbout": "activities/q_generic_voice_perception/q_generic_voice_perception_schema",
                 "variableName": "voice_perception",
                 "prefLabel": {
                     "en": "Voice Perception"
