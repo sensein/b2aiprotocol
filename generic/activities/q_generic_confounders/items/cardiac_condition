@@ -5,7 +5,7 @@
         "en": "cardiac_condition"
     },
     "question": {
-        "en": "Cardiac condition"
+        "en": "Cardiac condition (Please specify)"
     },
     "responseOptions": {
         "valueType": [

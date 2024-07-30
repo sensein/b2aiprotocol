@@ -403,7 +403,7 @@
             },
             {
                 "isAbout": "items/current_neuro_dx",
-                "isVis": "neurological_history___1 == '1' || neurological_history___2 == '1' || neurological_history___3 == '1' || neurological_history___4 == '1' || neurological_history___5 == '1' || neurological_history___6 == '1'",
+                "isVis": "neurological_history == '1' || neurological_history == '1' || neurological_history == '1' || neurological_history == '1' || neurological_history == '1' || neurological_history == '1'",
                 "variableName": "current_neuro_dx"
             },
             {
@@ -423,7 +423,7 @@
             },
             {
                 "isAbout": "items/lung_or_metastatic",
-                "isVis": "respiratory_conditions___2 =='1'",
+                "isVis": "respiratory_conditions.includes(2)",
                 "variableName": "lung_or_metastatic"
             },
             {
@@ -433,7 +433,7 @@
             },
             {
                 "isAbout": "items/covid_past",
-                "isVis": "covid(past_year) =='1'",
+                "isVis": "covid == 'past_year'",
                 "variableName": "covid_past"
             },
             {
@@ -453,22 +453,22 @@
             },
             {
                 "isAbout": "items/breathe_today",
-                "isVis": "eligible_studies___4 == 1",
+                "isVis": "eligible_studies == 1",
                 "variableName": "breathe_today"
             },
             {
                 "isAbout": "items/breathe_today_difficulty",
-                "isVis": "eligible_studies___4 == 1 && breathe_today == 'yes'",
+                "isVis": "eligible_studies == 1 && breathe_today == 'yes'",
                 "variableName": "breathe_today_difficulty"
             },
             {
                 "isAbout": "items/cough_today",
-                "isVis": "eligible_studies___4 == 1",
+                "isVis": "eligible_studies == 1",
                 "variableName": "cough_today"
             },
             {
                 "isAbout": "items/cough_today_severity",
-                "isVis": "eligible_studies___4 == 1 && cough_today == 'yes'",
+                "isVis": "eligible_studies == 1 && cough_today == 'yes'",
                 "variableName": "cough_today_severity"
             },
             {
@@ -478,7 +478,7 @@
             },
             {
                 "isAbout": "items/cardiac_condition",
-                "isVis": "circulatory_conditions___2 =='1'",
+                "isVis": "circulatory_conditions =='2'",
                 "variableName": "cardiac_condition"
             },
             {
@@ -488,7 +488,7 @@
             },
             {
                 "isAbout": "items/infection_disease",
-                "isVis": "circulatory_med_history___3 =='1'",
+                "isVis": "circulatory_med_history =='3'",
                 "variableName": "infection_disease"
             },
             {
@@ -588,12 +588,12 @@
             },
             {
                 "isAbout": "items/hormone_use",
-                "isVis": "medications___7 =='1'",
+                "isVis": "medications.includes(7)",
                 "variableName": "hormone_use"
             },
             {
                 "isAbout": "items/pain_medication",
-                "isVis": "medications___11 =='1'",
+                "isVis": "medications.includes(11)",
                 "variableName": "pain_medication"
             },
             {
@@ -624,12 +624,12 @@
             },
             {
                 "isAbout": "items/other_voice_activity",
-                "isVis": "voice_activity___7 == '1'",
+                "isVis": "voice_activity.includes(7)",
                 "variableName": "other_voice_activity"
             },
             {
                 "isAbout": "items/hours_voice_activity",
-                "isVis": "voice_activity___1 == '1' || voice_activity___2 == '1' || voice_activity___3 == '1' || voice_activity___4 == '1' || voice_activity___5 == '1' || voice_activity___6 == '1' || voice_activity___7 == '1'",
+                "isVis": "voice_activity.length > 0",
                 "variableName": "hours_voice_activity"
             },
             {

@@ -2,7 +2,7 @@
     "id": "physcial_health_group_1",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "PHYSICAL HEALTH\n\t\t\nIn the past 30 days, how much difficulty did you have in:"
+        "en": "Physical Health\n\nIn the past 30 days, how much difficulty did you have in:"
     },
     "prefLabel": {
         "en": "physcial_health_group_1"

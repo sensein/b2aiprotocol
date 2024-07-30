@@ -5,7 +5,7 @@
         "en": "infection_disease"
     },
     "question": {
-        "en": "Infectious disease"
+        "en": "Infectious disease (Please specify)"
     },
     "responseOptions": {
         "valueType": [

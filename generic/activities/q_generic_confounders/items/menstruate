@@ -2,7 +2,7 @@
     "id": "menstruate",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "GYNECOLOGICAL"
+        "en": "Gynecological"
     },
     "prefLabel": {
         "en": "menstruate"
@@ -22,19 +22,19 @@
                 "name": {
                     "en": "Yes "
                 },
-                "value": " yes"
+                "value": "yes"
             },
             {
                 "name": {
                     "en": "No "
                 },
-                "value": " no"
+                "value": "no"
             },
             {
                 "name": {
                     "en": "Prefer no to answer"
                 },
-                "value": " noAnswer"
+                "value": "noAnswer"
             }
         ],
         "valueType": [

@@ -2,13 +2,13 @@
     "id": "reading_aloud",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "READING ACTIVITY"
+        "en": "Reading Ability"
     },
     "prefLabel": {
         "en": "reading_aloud"
     },
     "question": {
-        "en": "\"How good do you think you are at reading out loud in [English/Spanish/French], that is reading out loud without making mistakes and understanding what you read at a normal rate?\""
+        "en": "How good do you think you are at reading out loud in [English/Spanish/French], that is reading out loud without making mistakes and understanding what you read at a normal rate?"
     },
     "responseOptions": {
         "choices": [
@@ -22,25 +22,25 @@
                 "name": {
                     "en": "Very good "
                 },
-                "value": " veryGood"
+                "value": "veryGood"
             },
             {
                 "name": {
                     "en": "Good "
                 },
-                "value": " good"
+                "value": "good"
             },
             {
                 "name": {
                     "en": "Fair "
                 },
-                "value": " fair"
+                "value": "fair"
             },
             {
                 "name": {
                     "en": "Poor"
                 },
-                "value": " poor"
+                "value": "poor"
             }
         ],
         "valueType": [

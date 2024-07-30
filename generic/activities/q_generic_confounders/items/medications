@@ -2,7 +2,7 @@
     "id": "medications",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "MEDICATIONS"
+        "en": "Medications"
     },
     "prefLabel": {
         "en": "medications"

@@ -2,7 +2,7 @@
     "id": "voice_activity",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "VOICE ACTIVITY"
+        "en": "Voice Activity"
     },
     "prefLabel": {
         "en": "voice_activity"
