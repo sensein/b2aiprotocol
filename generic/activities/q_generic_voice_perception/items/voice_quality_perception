@@ -2,13 +2,13 @@
     "id": "voice_quality_perception",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Voice Quality Perception"
+        "en": "Voice Perception"
     },
     "prefLabel": {
         "en": "voice_quality_perception"
     },
     "question": {
-        "en": "How would rate your voice quality today from 1-10?1 is the lowest quality and 10 is the best voice quality"
+        "en": "How would rate your voice quality today from 1-10? 1 is the lowest quality and 10 is the best voice quality"
     },
     "responseOptions": {
         "choices": [
