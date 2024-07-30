@@ -11,9 +11,7 @@
             "items/confounders_started_at",
             "items/confounders_completed_at",
             "items/confounders_duration",
-
             "items/introduction",
-
             "items/is_regular_smoker",
             "items/smoking_hx",
             "items/age_start_smoking",
@@ -21,7 +19,6 @@
             "items/smoking_types",
             "items/other_smoking_specify",
             "items/smoking_freq",
-
             "items/alcohol_yn",
             "items/alcohol_freq",
             "items/alcohol_amt",
@@ -30,7 +27,6 @@
             "items/drinks_today_number",
             "items/alcohol_rehab",
             "items/current_recovery_alcohol",
-
             "items/recreational_drug_use",
             "items/substance_use_recovery",
             "items/painkillers",
@@ -43,16 +39,12 @@
             "items/heroin",
             "items/inhalants",
             "items/methamphetamine",
-
             "items/caffeine_intake",
             "items/caffeine_intake_today",
-
             "items/hydration",
             "items/hydration_today",
-
             "items/dental_problems",
             "items/dental_tx",
-
             "items/seasonal_allergies",
             "items/seasonal_allergies_options",
             "items/tired_measure",
@@ -60,7 +52,7 @@
             "items/weight",
             "items/unit",
             "items/symptoms",
-            "ent_introduction",
+            "items/ent_introduction",
             "items/ear_med_history",
             "items/nose_med_history",
             "items/throat_med_history",
