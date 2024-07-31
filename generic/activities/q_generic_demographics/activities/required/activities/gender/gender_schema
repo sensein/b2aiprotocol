@@ -26,20 +26,12 @@
                 }
             },
             {
-                "isAbout": "items/specify_gender_identity_female",
-                "variableName": "items/specify_gender_identity_female",
+                "isAbout": "items/specify_gender_identity",
+                "variableName": "items/specify_gender_identity",
                 "prefLabel": {
-                    "en": "Specify Gender Identity (Female)"
+                    "en": "Specify Gender Identity"
                 },
-                "isVis": "gender_identity == 'female'"
-            },
-            {
-                "isAbout": "items/specify_gender_identity_male",
-                "variableName": "items/specify_gender_identity_male",
-                "prefLabel": {
-                    "en": "Specify Gender Identity (Male)"
-                },
-                "isVis": "gender_identity == ' male'"
+                "isVis": "gender_identity == 'female' || gender_identity == ' male'"
             },
             {
                 "isAbout": "b2ai_redcap2rs_activities:other_gender_identity",
@@ -52,8 +44,7 @@
         ],
         "order": [
             "b2ai_redcap2rs_activities:gender_identity",
-            "items/specify_gender_identity_female",
-            "items/specify_gender_identity_male",
+            "items/specify_gender_identity",
             "b2ai_redcap2rs_activities:other_gender_identity"
         ],
         "shuffle": false,

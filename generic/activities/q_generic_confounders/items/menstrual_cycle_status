@@ -5,7 +5,7 @@
         "en": "menstrual_cycle_status"
     },
     "question": {
-        "en": "Where in your cycle are you?(We ask because this may affect your voice.)"
+        "en": "Where in your cycle are you? (We ask because this may affect your voice.)"
     },
     "responseOptions": {
         "choices": [

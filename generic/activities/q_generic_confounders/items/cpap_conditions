@@ -5,7 +5,7 @@
         "en": "cpap_conditions"
     },
     "question": {
-        "en": "Are you currently using CPAP or on supplemental oxygen? (check all that apply)"
+        "en": "Are you currently using CPAP or supplemental oxygen? (check all that apply)"
     },
     "responseOptions": {
         "choices": [

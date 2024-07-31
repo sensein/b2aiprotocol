@@ -1,11 +1,11 @@
 {
-    "id": "specify_gender_identity_female",
+    "id": "specify_gender_identity",
     "@type": "reproschema:Item",
     "preamble": {
         "en": "Patient Demographics"
     },
     "prefLabel": {
-        "en": "specify_gender_identity_female"
+        "en": "specify_gender_identity"
     },
     "question": {
         "en": "Please specify gender identity"
@@ -14,15 +14,15 @@
         "choices": [
             {
                 "name": {
-                    "en": "Cis woman: same gender as the sex assigned at birth"
+                    "en": "Cis: same gender as the sex assigned at birth"
                 },
-                "value": "cisWoman"
+                "value": "cis"
             },
             {
                 "name": {
-                    "en": "Trans woman"
+                    "en": "Trans"
                 },
-                "value": "transWoman"
+                "value": "trans"
             }
         ],
         "valueType": [
