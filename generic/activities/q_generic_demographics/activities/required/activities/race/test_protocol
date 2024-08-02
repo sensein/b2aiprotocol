@@ -1,0 +1,31 @@
+{
+    "@context": [
+      "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic"
+    ],
+    "@type": "reproschema:Protocol",
+    "@id": "test_protocol_schema",
+    "prefLabel": "Test protocol",
+    "description": "A test protocol",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+      "addProperties": [
+        {
+          "isAbout": "race_schema",
+          "variableName": "race_schema",
+          "prefLabel": {
+            "en": "Race"
+          }
+        }
+      ],
+      "order": [
+        "race_schema"
+      ],
+      "shuffle": false,
+      "allow": [
+        "reproschema:AllowExport",
+        "reproschema:AutoAdvance"
+      ]
+    }
+  }
+  

@@ -27,7 +27,7 @@
             },
             {
                 "isAbout": "items/specify_gender_identity",
-                "variableName": "items/specify_gender_identity",
+                "variableName": "specify_gender_identity",
                 "prefLabel": {
                     "en": "Specify Gender Identity"
                 },
