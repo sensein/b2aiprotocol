@@ -11,14 +11,22 @@
     "ui": {
       "addProperties": [
         {
+            "isAbout": "generic/activities/diadochokinesis/diadochokinesis_schema",
+            "variableName": "generic_schema",
+            "prefLabel": {
+              "en": "Diadocho"
+            }
+        },
+        {
           "isAbout": "generic/activities/audio_check/audio_check_schema",
           "variableName": "generic_schema",
           "prefLabel": {
-            "en": "Generic"
+            "en": "Audio Check"
           }
         }
       ],
       "order": [
+        "generic/activities/diadochokinesis/diadochokinesis_schema",
         "generic/activities/audio_check/audio_check_schema"
       ],
       "shuffle": false,
