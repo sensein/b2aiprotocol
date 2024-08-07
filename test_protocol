@@ -11,7 +11,7 @@
     "ui": {
       "addProperties": [
         {
-          "isAbout": "generic/generic_schema",
+          "isAbout": "generic/activities/audio_check/audio_check_schema",
           "variableName": "generic_schema",
           "prefLabel": {
             "en": "Generic"
@@ -19,7 +19,7 @@
         }
       ],
       "order": [
-        "generic/generic_schema"
+        "generic/activities/audio_check/audio_check_schema"
       ],
       "shuffle": false,
       "allow": [
