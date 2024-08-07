@@ -1,6 +1,6 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic"
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema"
     ],
     "@type": "reproschema:Protocol",
     "@id": "b2ai_protocol_schema",
