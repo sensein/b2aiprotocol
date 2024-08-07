@@ -11,6 +11,20 @@
     "ui": {
       "addProperties": [
         {
+            "isAbout": "generic/activities/glides/glides_schema",
+            "variableName": "glides_schema",
+            "prefLabel": {
+              "en": "glides"
+            }
+        },
+        {
+            "isAbout": "generic/activities/free_speech/free_speech_schema",
+            "variableName": "free_speech_schema",
+            "prefLabel": {
+              "en": "free_speech"
+            }
+        },
+        {
             "isAbout": "generic/activities/diadochokinesis/diadochokinesis_schema",
             "variableName": "generic_schema",
             "prefLabel": {
