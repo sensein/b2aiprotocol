@@ -40,6 +40,8 @@
         }
       ],
       "order": [
+        "generic/activities/glides/glides_schema",
+        "generic/activities/free_speech/free_speech_schema",
         "generic/activities/diadochokinesis/diadochokinesis_schema",
         "generic/activities/audio_check/audio_check_schema"
       ],
