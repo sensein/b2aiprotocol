@@ -19,7 +19,7 @@
         }
       ],
       "order": [
-        "generic_schema"
+        "generic/generic_schema"
       ],
       "shuffle": false,
       "allow": [
