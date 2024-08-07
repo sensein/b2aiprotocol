@@ -1,9 +1,9 @@
 {
     "id": "q_generic_confounders_schema",
-    "category": "reproschema:Activity",
     "prefLabel": {
         "en": "q_generic_confounders"
     },
+    "@type": "reproschema:Activity",
     "schemaVersion": "1.0.0-rc4",
     "ui": {
         "order": [

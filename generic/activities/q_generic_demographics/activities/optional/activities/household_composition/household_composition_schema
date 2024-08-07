@@ -8,7 +8,6 @@
     ],
     "@type": "reproschema:Activity",
     "id": "household_composition_schema",
-    "category": "reproschema:Activity",
     "prefLabel": {
         "en": "Household Composition"
     },

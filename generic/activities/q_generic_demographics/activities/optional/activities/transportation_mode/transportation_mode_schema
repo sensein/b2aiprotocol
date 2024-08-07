@@ -8,7 +8,6 @@
     ],
     "@type": "reproschema:Activity",
     "id": "transport_mode_activity_schema",
-    "category": "reproschema:Activity",
     "prefLabel": {
         "en": "Transport Mode"
     },

@@ -1,10 +1,10 @@
 {
     "id": "q_generic_voice_handicap_index_vhi10_schema",
-    "category": "reproschema:Activity",
     "prefLabel": {
         "en": "q_generic_voice_handicap_index_vhi10"
     },
     "schemaVersion": "1.0.0-rc4",
+    "@type": "reproschema:Activity",
     "ui": {
         "order": [
             "items/vhi_session_id",

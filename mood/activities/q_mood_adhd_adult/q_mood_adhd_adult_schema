@@ -1,10 +1,10 @@
 {
     "id": "q_mood_adhd_adult_schema",
-    "category": "reproschema:Activity",
     "prefLabel": {
         "en": "q_mood_adhd_adult"
     },
     "schemaVersion": "1.0.0-rc4",
+    "@type": "reproschema:Activity",
     "ui": {
         "order": [
             "items/adhd_session_id",

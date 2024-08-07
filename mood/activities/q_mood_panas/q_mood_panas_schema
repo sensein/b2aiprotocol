@@ -1,10 +1,10 @@
 {
     "id": "q_mood_panas_schema",
-    "category": "reproschema:Activity",
     "prefLabel": {
         "en": "q_mood_panas"
     },
     "schemaVersion": "1.0.0-rc4",
+    "@type": "reproschema:Activity",
     "ui": {
         "order": [
             "items/panas_session_id",

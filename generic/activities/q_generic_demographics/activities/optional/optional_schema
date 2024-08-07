@@ -1,7 +1,6 @@
 {
     "@type": "reproschema:Activity",
     "id": "optional_schema",
-    "category": "reproschema:Activity",
     "prefLabel": {
         "en": "Optional Demographics"
     },

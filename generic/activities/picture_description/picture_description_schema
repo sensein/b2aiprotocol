@@ -20,11 +20,6 @@
       ],
       "shuffle": false,
       "allow": ["reproschema:AutoAdvance", "reproschema:AllowExport"]
-    },
-    "items": {
-      "picture_description": {
-        "$ref": "picture_description_item.json"
-      }
     }
   }
   

@@ -1,7 +1,6 @@
 {
     "id": "q_generic_demographics_schema",
     "@type": "reproschema:Activity",
-    "category": "reproschema:Activity",
     "prefLabel": {
         "en": "q_generic_demographics"
     },
