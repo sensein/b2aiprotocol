@@ -6,20 +6,20 @@
     "@id": "test_protocol_schema",
     "prefLabel": "Test protocol",
     "description": "A test protocol",
-    "schemaVersion": "1.0.0-rc4",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
       "addProperties": [
         {
-          "isAbout": "race_schema",
-          "variableName": "race_schema",
+          "isAbout": "generic/generic_schema",
+          "variableName": "generic_schema",
           "prefLabel": {
-            "en": "Race"
+            "en": "Generic"
           }
         }
       ],
       "order": [
-        "race_schema"
+        "generic_schema"
       ],
       "shuffle": false,
       "allow": [
