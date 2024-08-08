@@ -9,23 +9,23 @@
     "version": "0.0.1",
     "ui": {
       "order": [
-        "items/maximum_phonation_time",
-        "items/maximum_phonation_time",
-        "items/maximum_phonation_time"
+        "items/maximum_phonation_time_1",
+        "items/maximum_phonation_time_2",
+        "items/maximum_phonation_time_3"
       ],
       "addProperties": [
         {
-            "isAbout": "items/maximum_phonation_time",
+            "isAbout": "items/maximum_phonation_time_1",
             "variableName": "maximum_phonation_time_1",
             "isVis": true
         },
         {
-            "isAbout": "items/maximum_phonation_time",
+            "isAbout": "items/maximum_phonation_time_2",
             "variableName": "maximum_phonation_time_2",
             "isVis": true
         },
         {
-            "isAbout": "items/maximum_phonation_time",
+            "isAbout": "items/maximum_phonation_time_3",
             "variableName": "maximum_phonation_time_3",
             "isVis": true
         }
