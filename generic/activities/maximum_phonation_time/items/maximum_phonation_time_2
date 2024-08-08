@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
     "@type": "reproschema:Field",
-    "@id": "maximum_phonation_time",
+    "@id": "maximum_phonation_time_2",
     "prefLabel": "Maximum phonation time",
     "description": "This is the only maximum phonation time item.",
     "question":"       ",
