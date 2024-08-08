@@ -1,0 +1,24 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+    "@type": "reproschema:Activity",
+    "@id": "story_recall_schema",
+    "prefLabel": {"en": "Story recall"},
+    "description": "You are given a text. Read the text so you familiarize yourself with it. You have up to 5 minutes to read it as many times as you want. When you are ready, you will be asked to recall the story. This can be in your own words.",
+    "preamble": {"en": "You are given a text. Read the text so you familiarize yourself with it. You have up to 5 minutes to read it as many times as you want. When you are ready, you will be asked to recall the story. This can be in your own words."},
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+      "order": [
+        "items/story_recall"
+      ],
+      "addProperties": [
+        {
+          "isAbout": "items/story_recall",
+          "variableName": "story_recall",
+          "isVis": true
+        }
+      ],
+      "shuffle": false,
+      "allow": ["reproschema:AutoAdvance", "reproschema:AllowExport"]
+    }
+}

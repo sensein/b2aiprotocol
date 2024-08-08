@@ -1,0 +1,70 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+        {
+            "reproschema_library_activities": "https://raw.githubusercontent.com/ReproNim/reproschema-library/enh/rc4/a23a13875c7262c0bd0d77bd90c1ec296c6d1116/activities/",
+            "b2ai_redcap2rs_activities": "https://raw.githubusercontent.com/sensein/b2ai-redcap2rs/main/activities/q_generic_demographics/items/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "automatic_metadata_schema",
+    "prefLabel": {
+        "en": "Bridge2AI Metadata Collection Activity"
+    },
+    "description": {
+        "en": "Collects metadata automatically for the study."
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "b2ai_redcap2rs_activities:demographics_session_id",
+                "variableName": "session_id",
+                "prefLabel": {
+                    "en": "Session ID"
+                },
+                "isVis": false,
+                "valueRequired": false
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:demographics_started_at",
+                "variableName": "started_at",
+                "prefLabel": {
+                    "en": "Started At"
+                },
+                "isVis": false,
+                "valueRequired": false
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:demographics_completed_at",
+                "variableName": "completed_at",
+                "prefLabel": {
+                    "en": "Completed At"
+                },
+                "isVis": false,
+                "valueRequired": false
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:demographics_duration",
+                "variableName": "duration",
+                "prefLabel": {
+                    "en": "Duration"
+                },
+                "isVis": false,
+                "valueRequired": false
+            }
+        ],
+        "order": [
+            "b2ai_redcap2rs_activities:demographics_session_id",
+            "b2ai_redcap2rs_activities:demographics_started_at",
+            "b2ai_redcap2rs_activities:demographics_completed_at",
+            "b2ai_redcap2rs_activities:demographics_duration"
+        ],
+        "shuffle": false,
+        "allow": [
+            "reproschema:AllowExport",
+            "reproschema:AutoAdvance"
+        ]
+    }
+}

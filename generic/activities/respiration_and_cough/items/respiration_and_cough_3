@@ -1,0 +1,18 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+  "@type": "reproschema:Field",
+  "@id": "respiration_and_cough_3",
+  "prefLabel": "Respiration and cough Task 3",
+  "description": "After pressing on record, take 5 big breaths in and out through your mouth.",
+  "schemaVersion": "1.0.0",
+  "version": "0.0.1",
+  "question": "After pressing on record, take 5 big breaths in and out through your mouth.",
+  "ui": {
+    "inputType": "audioCheck"
+  },
+  "responseOptions": {
+    "valueType": "schema:AudioObject",
+    "minValue": 0,
+    "maxValue": 120000
+  }
+}

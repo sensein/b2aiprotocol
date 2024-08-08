@@ -1,0 +1,24 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+    "@type": "reproschema:Activity",
+    "@id": "rainbow_passage_schema",
+    "prefLabel": {"en": "Rainbow Passage"},
+    "description": "Patient reads the Rainbow Passage",
+    "preamble": {"en": "Rainbow Passage"},
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+      "order": [
+        "items/rainbow_passage"
+      ],
+      "addProperties": [
+        {
+          "isAbout": "items/rainbow_passage",
+          "variableName": "rainbow_passage",
+          "isVis": true
+        }
+      ],
+      "shuffle": false,
+      "allow": ["reproschema:AutoAdvance", "reproschema:AllowExport"]
+    }
+}

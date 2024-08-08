@@ -1,0 +1,39 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+    "@type": "reproschema:Activity",
+    "@id": "free_speech_schema",
+    "prefLabel": {"en": "Free speech"},
+    "description": "This section is meant to hear you speak freely by answering three open-ended questions.",
+    "preamble": {"en": "This section is meant to hear you speak freely by answering an open-ended question.\n\n Please answer the following questions and record your answer. Keep talking until the time stops. Do not record yourself reading the prompt and avoid any information that could identify an individual."},
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+      "order": [
+        "items/free_speech_1",
+        "items/free_speech_2",
+        "items/free_speech_3"
+      ],
+      "addProperties": [
+        {
+          "isAbout": "items/free_speech_1",
+          "variableName": "free_speech_1",
+          "isVis": true,
+          "allow": ["reproschema:AllowSkip"]
+        },
+        {
+          "isAbout": "items/free_speech_2",
+          "variableName": "free_speech_2",
+          "isVis": true,
+          "allow": ["reproschema:AllowSkip"]
+        },
+        {
+          "isAbout": "items/free_speech_3",
+          "variableName": "free_speech_3",
+          "isVis": true,
+          "allow": ["reproschema:AllowSkip"]
+        }
+      ],
+      "shuffle": false,
+      "allow": ["reproschema:AutoAdvance", "reproschema:AllowExport"]
+    }
+}

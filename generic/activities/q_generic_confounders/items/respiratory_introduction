@@ -1,0 +1,17 @@
+{
+    "id": "respiratory_introduction",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "respiratory_introduction"
+    },
+    "preamble": {
+        "en": "Respiratory Conditions"
+    }, 
+    "question": {
+        "en": "Have you been diagnosed with any of these respiratory conditions by a clinician? (check all that apply)"
+    },
+    "ui": {
+        "inputType": "message"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

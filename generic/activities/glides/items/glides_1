@@ -1,0 +1,18 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+  "@type": "reproschema:Field",
+  "@id": "glides_1",
+  "prefLabel": "Glides Task 1",
+  "description": "This is the first Glides task.",
+  "schemaVersion": "1.0.0",
+  "version": "0.0.1",
+  "question": "1. Using the sound “e”, glide from your lowest pitch possible to the highest pitch possible.",
+  "ui": {
+    "inputType": "audioCheck"
+  },
+  "responseOptions": {
+    "valueType": "schema:AudioObject",
+    "minValue": 0,
+    "maxValue": 120000
+  }
+}
