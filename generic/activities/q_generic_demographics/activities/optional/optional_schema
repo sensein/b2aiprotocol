@@ -4,7 +4,7 @@
     "prefLabel": {
         "en": "Optional Demographics"
     },
-    "schemaVersion": "1.0.0-rc4",
+    "schemaVersion": "1.0.0",
     "ui": {
         "order": [
             "b2ai_redcap2rs_activities:household_income_usa",

@@ -4,7 +4,7 @@
     "@id": "free_speech_3",
     "prefLabel": "Free Speech Question 3",
     "description": "Can you tell us about your mood in the past couple of weeks? What makes you feel happiness and what makes you feel sadness or stress?",
-    "schemaVersion": "1.0.0-rc4",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "question": "Can you tell us about your mood in the past couple of weeks? What makes you feel happiness and what makes you feel sadness or stress?",
     "ui": {

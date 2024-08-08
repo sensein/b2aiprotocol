@@ -5,7 +5,7 @@
     "prefLabel": {"en": "Prolonged vowel"},
     "description": "Say a vowel for a prolonged period",
     "preamble": {"en": "Prolonged vowel"},
-    "schemaVersion": "1.0.0-rc4",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
       "order": [

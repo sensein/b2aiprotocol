@@ -4,7 +4,7 @@
     "@id": "cough",
     "prefLabel": "cough audio check",
     "description": "This is a cough audio check item.",
-    "schemaVersion": "1.0.0-rc4",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "question": "Click on the Record button below and cough hard as if there is something stuck in your throat. Recording will stop automatically after 5 seconds. Click Play to hear your recording. If you hear background noise, please go to a quieter place and try again by selecting Redo Recording. If it sounds good, continue.",
     "ui": {

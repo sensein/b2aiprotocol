@@ -6,7 +6,7 @@
     "@id": "b2ai_protocol_schema",
     "prefLabel": "Bridge2AI protocol",
     "description": "The data collection protocol for Bridge2AI. Currently, it only includes the mood protocol.",
-    "schemaVersion": "1.0.0-rc4",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "landingPage": [
         {

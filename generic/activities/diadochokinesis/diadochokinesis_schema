@@ -5,7 +5,7 @@
     "prefLabel": {"en": "Diadochokinesis"},
     "description": "The diadochokinesis activity.",
     "preamble": {"en": "This task helps us analyze the ease and precision of speech sound productions. \n\n Say the syllables as they appear on your screen – Pa / Ta / Ka."},
-    "schemaVersion": "1.0.0-rc4",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
       "order": [

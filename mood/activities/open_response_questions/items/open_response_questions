@@ -4,7 +4,7 @@
     "@id": "open_response_questions",
     "prefLabel": "Animal fluency task",
     "description": "This is the open response questions audio task.",
-    "schemaVersion": "1.0.0-rc4",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "question": "Please answer the following questions and record your answer.\n Think of a single issue, feeling, emotion, or symptom you have been experiencing lately. For example, sadness, fatigue, anxiety, loneliness, sleep issues, concentration issues, agitation, motivation, numbness, guilt, shame. If you are not experiencing anything negative, think of a positive one such as calmness or gratitude. Then describe how it shows up for you mentally and physically, what you see as its causes, and what situations trigger it.",
     "ui": {

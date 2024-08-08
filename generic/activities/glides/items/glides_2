@@ -4,7 +4,7 @@
   "@id": "glides_2",
   "prefLabel": "Glides Task 2",
   "description": "This is the second Glides task.",
-  "schemaVersion": "1.0.0-rc4",
+  "schemaVersion": "1.0.0",
   "version": "0.0.1",
   "question": "Rest, take a breath and then proceed with the next task when ready. \n\n 2. Glide from your highest pitch possible to the lowest pitch possible.",
   "ui": {

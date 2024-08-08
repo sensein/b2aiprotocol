@@ -4,7 +4,7 @@
   "@id": "glides_1",
   "prefLabel": "Glides Task 1",
   "description": "This is the first Glides task.",
-  "schemaVersion": "1.0.0-rc4",
+  "schemaVersion": "1.0.0",
   "version": "0.0.1",
   "question": "1. Using the sound “e”, glide from your lowest pitch possible to the highest pitch possible.",
   "ui": {

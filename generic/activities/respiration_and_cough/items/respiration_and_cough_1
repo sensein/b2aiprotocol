@@ -4,7 +4,7 @@
     "@id": "respiration_and_cough_1",
     "prefLabel": "Respiration and cough Task 1",
     "description": "First, let's hear you breathe comfortably for 30 seconds.",
-    "schemaVersion": "1.0.0-rc4",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "question": "First, let's hear you breathe comfortably for 30 seconds.",
     "ui": {

@@ -4,7 +4,7 @@
     "@id": "loudness",
     "prefLabel": "Loudness",
     "description": "This is the only Loudness item.",
-    "schemaVersion": "1.0.0-rc4",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "question": "This helps us to determine the loudness of the voice.\n\nWhen you are ready, press on the record button and shout “hey” as loud as possible 3 times in a single recording.",
     "ui": {

@@ -5,7 +5,7 @@
     "prefLabel": {"en": "Respiration and cough"},
     "description": "Record breathing sounds and coughs.",
     "preamble": {"en": "Breathing sounds can also provide information on your health, let's record them."},
-    "schemaVersion": "1.0.0-rc4",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
       "order": [

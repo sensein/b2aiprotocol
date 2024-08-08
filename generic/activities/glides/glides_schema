@@ -5,7 +5,7 @@
     "prefLabel": {"en": "Glides"},
     "description": "Say vowels going up or down in pitch",
     "preamble": {"en": "Complete the following tasks:"},
-    "schemaVersion": "1.0.0-rc4",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
       "order": [

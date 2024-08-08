@@ -4,7 +4,7 @@
     "@id": "animal_fluency",
     "prefLabel": "Animal fluency task",
     "description": "This is an animal fluency audio task.",
-    "schemaVersion": "1.0.0-rc4",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "question": "Say as many animals as you can in one minute, avoid repeating words (continue trying until time is up.)",
     "ui": {

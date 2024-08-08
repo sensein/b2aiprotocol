@@ -4,7 +4,7 @@
     "@id": "prolonged vowel",
     "prefLabel": "Prolonged vowel",
     "description": "This is the only prolonged vowel item.",
-    "schemaVersion": "1.0.0-rc4",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "question": "This task helps us analyze features in your voice.\n Count to 3 and say “ah“ for 8 seconds in your normal pitch and loudness. The timer will go to zero to indicate when you should stop.",
     "ui": {
