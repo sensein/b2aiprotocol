@@ -30,7 +30,8 @@
             {
                 "isAbout": "activities/completed_by/completed_by_schema",
                 "isVis": true,
-                "variableName": "completed_by"
+                "variableName": "completed_by",
+                "valueRequired": true
             },
             {
                 "isAbout": "activities/required/required_schema",

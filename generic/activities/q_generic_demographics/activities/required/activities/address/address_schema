@@ -14,12 +14,15 @@
     "description": {
         "en": "Collects address information."
     },
+    "preamble": {
+        "en": "Address Information"
+    },
     "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
         "addProperties": [
             {
-                "isAbout": "b2ai_redcap2rs_activities:city",
+                "isAbout": "items/city",
                 "variableName": "city",
                 "prefLabel": {
                     "en": "City"
@@ -56,7 +59,7 @@
             }
         ],
         "order": [
-            "b2ai_redcap2rs_activities:city",
+            "items/city",
             "b2ai_redcap2rs_activities:state_province",
             "b2ai_redcap2rs_activities:zipcode",
             "b2ai_redcap2rs_activities:country"

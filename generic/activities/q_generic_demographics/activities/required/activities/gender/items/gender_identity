@@ -1,9 +1,6 @@
 {
     "id": "gender_identity",
     "category": "reproschema:Item",
-    "preamble": {
-        "en": "Patient Demographics"
-    },
     "prefLabel": {
         "en": "gender_identity"
     },

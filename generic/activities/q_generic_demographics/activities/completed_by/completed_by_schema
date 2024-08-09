@@ -8,6 +8,7 @@
     ],
     "@type": "reproschema:Activity",
     "@id": "completed_by_schema",
+    "preamble": {"en":"Who is completing this survey"},
     "prefLabel": {
         "en": "Bridge2AI completed by activity"
     },
@@ -19,7 +20,7 @@
     "ui": {
         "addProperties": [
             {
-                "isAbout": "b2ai_redcap2rs_activities:demographics_completed_by",
+                "isAbout": "items/demographics_completed_by",
                 "variableName": "demographics_completed_by",
                 "prefLabel": {
                     "en": "Demographics"
@@ -29,7 +30,7 @@
             }
         ],
         "order": [
-            "b2ai_redcap2rs_activities:demographics_completed_by"
+            "items/demographics_completed_by"
         ],
         "shuffle": false,
         "allow": [
