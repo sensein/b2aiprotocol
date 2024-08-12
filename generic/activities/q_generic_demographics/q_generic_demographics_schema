@@ -7,26 +7,11 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
-            "b2ai_redcap2rs_activities:demographics_session_id",
-            "b2ai_redcap2rs_activities:demographics_started_at",
             "activities/completed_by/completed_by_schema",
             "activities/required/required_schema",
-            "activities/optional/optional_schema",
-            "b2ai_redcap2rs_activities:demographics_completed_at",
-            "b2ai_redcap2rs_activities:demographics_duration"
+            "activities/optional/optional_schema"
         ],
         "addProperties": [
-            {
-                "isAbout": "b2ai_redcap2rs_activities:demographics_session_id",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "demographics_session_id"
-            },
-            {
-                "isAbout": "b2ai_redcap2rs_activities:demographics_started_at",
-                "isVis": true,
-                "variableName": "demographics_started_at"
-            },
             {
                 "isAbout": "activities/completed_by/completed_by_schema",
                 "isVis": true,
@@ -42,16 +27,6 @@
                 "isAbout": "activities/optional/optional_schema",
                 "isVis": true,
                 "variableName": "optional"
-            },
-            {
-                "isAbout": "b2ai_redcap2rs_activities:demographics_completed_at",
-                "isVis": true,
-                "variableName": "demographics_completed_at"
-            },
-            {
-                "isAbout": "b2ai_redcap2rs_activities:demographics_duration",
-                "isVis": true,
-                "variableName": "demographics_duration"
             }
         ],
         "shuffle": false
