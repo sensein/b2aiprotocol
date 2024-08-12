@@ -22,9 +22,7 @@
                 "value": "trans"
             }
         ],
-        "valueType": [
-            "xsd:string"
-        ]
+        "valueType": "xsd:string"
     },
     "ui": {
         "inputType": "radio"

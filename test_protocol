@@ -11,6 +11,13 @@
     "ui": {
         "addProperties": [
             {
+                "isAbout": "generic/activities/q_generic_demographics/activities/required/activities/gender/gender_schema",
+                "variableName": "gender_schema",
+                "prefLabel": {
+                    "en": "gender"
+                }
+            },
+            {
                 "isAbout": "generic/activities/glides/glides_schema",
                 "variableName": "glides_schema",
                 "prefLabel": {
@@ -117,6 +124,7 @@
             }
         ],
         "order": [
+            "generic/activities/q_generic_demographics/activities/required/activities/gender/gender_schema",
             "generic/activities/glides/glides_schema",
             "generic/activities/free_speech/free_speech_schema",
             "generic/activities/diadochokinesis/diadochokinesis_schema",

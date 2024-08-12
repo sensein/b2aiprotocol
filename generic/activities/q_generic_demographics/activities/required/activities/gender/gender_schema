@@ -23,7 +23,8 @@
                 "variableName": "gender_identity",
                 "prefLabel": {
                     "en": "Gender Identity"
-                }
+                },
+                "valueRequired": true
             },
             {
                 "isAbout": "items/specify_gender_identity",
@@ -31,7 +32,8 @@
                 "prefLabel": {
                     "en": "Specify Gender Identity"
                 },
-                "isVis": "gender_identity == 'female' || gender_identity == 'male'"
+                "isVis": "['female', 'male'].includes(gender_identity)",
+                "valueRequired": true
             },
             {
                 "isAbout": "b2ai_redcap2rs_activities:other_gender_identity",
@@ -39,11 +41,11 @@
                 "prefLabel": {
                     "en": "Other Gender Identity"
                 },
-                "isVis": "gender_identity == 'other'"
+                "isVis": "['other'].includes(gender_identity)"
             }
         ],
         "order": [
-            "b2ai_redcap2rs_activities:gender_identity",
+            "items/gender_identity",
             "items/specify_gender_identity",
             "b2ai_redcap2rs_activities:other_gender_identity"
         ],
