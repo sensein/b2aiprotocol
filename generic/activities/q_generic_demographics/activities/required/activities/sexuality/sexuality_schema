@@ -19,20 +19,14 @@
     "ui": {
         "addProperties": [
             {
-                "isAbout": "b2ai_redcap2rs_activities:sexual_orientation",
+                "isAbout": "items/sexual_orientation",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "sexual_orientation"
-            },
-            {
-                "isAbout": "b2ai_redcap2rs_activities:other_sex_orientation",
-                "isVis": "sexual_orientation == 'other'",
-                "variableName": "other_sex_orientation"
             }
         ],
         "order": [
-            "b2ai_redcap2rs_activities:sexual_orientation",
-            "b2ai_redcap2rs_activities:other_sex_orientation"
+            "items/sexual_orientation"
         ],
         "shuffle": false,
         "allow": [

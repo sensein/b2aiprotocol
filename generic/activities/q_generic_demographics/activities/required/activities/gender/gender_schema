@@ -34,20 +34,11 @@
                 },
                 "isVis": "['female', 'male'].includes(gender_identity)",
                 "valueRequired": true
-            },
-            {
-                "isAbout": "b2ai_redcap2rs_activities:other_gender_identity",
-                "variableName": "other_gender_identity",
-                "prefLabel": {
-                    "en": "Other Gender Identity"
-                },
-                "isVis": "['other'].includes(gender_identity)"
             }
         ],
         "order": [
             "items/gender_identity",
-            "items/specify_gender_identity",
-            "b2ai_redcap2rs_activities:other_gender_identity"
+            "items/specify_gender_identity"
         ],
         "shuffle": false,
         "allow": [

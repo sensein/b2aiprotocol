@@ -1,46 +1,48 @@
 {
-    "id": "gender_identity",
+    "id": "sexual_orientation",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "gender_identity"
+        "en": "sexual_orientation"
     },
     "question": {
-        "en": "What is your gender identity?"
+        "en": "What is your sexual orientation?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Female gender identity"
+                    "en": "Bisexual "
                 },
-                "value": "female"
+                "value": "bisexual"
             },
             {
                 "name": {
-                    "en": "Male gender identity"
+                    "en": "Heterosexual "
                 },
-                "value": "male"
+                "value": " heterosexual"
             },
             {
                 "name": {
-                    "en": "Non-binary or genderqueer gender identity"
+                    "en": "Homosexual "
                 },
-                "value": "nonBinary"
+                "value": " homosexual"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": "other"
+                "value": " other"
             },
             {
                 "name": {
                     "en": "Prefer not to answer"
                 },
-                "value": "noAnswer"
+                "value": " noAnswer"
             }
         ],
-        "valueType": "xsd:string"
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "select"
