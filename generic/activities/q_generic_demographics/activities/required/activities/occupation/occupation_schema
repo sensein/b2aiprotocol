@@ -7,33 +7,28 @@
         }
     ],
     "@type": "reproschema:Activity",
-    "@id": "employment_schema",
+    "@id": "occupation_schema",
     "prefLabel": {
-        "en": "Employment Status"
+        "en": "Occupation Activity"
     },
     "description": {
-        "en": "Collects information on employment status."
+        "en": "Collects information about occupation."
     },
     "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
         "addProperties": [
             {
-                "isAbout": "items/employ_status",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "employ_status"
-            },
-            {
-                "isAbout": "b2ai_redcap2rs_activities:other_employ_specify",
-                "isVis": "employ_status.includes(9);",
-                "valueRequired": true,
-                "variableName": "other_employ_specify"
+                "isAbout": "b2ai_redcap2rs_activities:occupation",
+                "variableName": "occupation",
+                "prefLabel": {
+                    "en": "Occupation"
+                },
+                "valueRequired": true
             }
         ],
         "order": [
-            "items/employ_status",
-            "b2ai_redcap2rs_activities:other_employ_specify"
+            "b2ai_redcap2rs_activities:occupation"
         ],
         "shuffle": false,
         "allow": [

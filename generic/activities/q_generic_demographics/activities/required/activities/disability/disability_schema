@@ -22,7 +22,7 @@
         },
         "addProperties": [
             {
-                "isAbout": "b2ai_redcap2rs_activities:hearing",
+                "isAbout": "items/hearing",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "hearing"
@@ -52,19 +52,19 @@
                 "variableName": "self_care"
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:independent_living",
+                "isAbout": "items/independent_living",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "independent_living"
             }
         ],
         "order": [
-            "b2ai_redcap2rs_activities:hearing",
+            "items/hearing",
             "b2ai_redcap2rs_activities:vision",
             "b2ai_redcap2rs_activities:cognition",
             "b2ai_redcap2rs_activities:mobility",
             "b2ai_redcap2rs_activities:self_care",
-            "b2ai_redcap2rs_activities:independent_living"
+            "items/independent_living"
         ],
         "shuffle": false,
         "allow": [

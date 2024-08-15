@@ -18,7 +18,7 @@
             "activities/education/education_schema",
             "activities/disability/disability_schema",
             "activities/employment/employment_schema",
-            "b2ai_redcap2rs_activities:occupation",
+            "activities/occupation/occupation_schema",
             "b2ai_redcap2rs_activities:veteran"
         ],
         "addProperties": [
@@ -63,7 +63,7 @@
                 "variableName": "employ_status"
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:occupation",
+                "isAbout": "activities/occupation/occupation_schema",
                 "isVis": true,
                 "variableName": "occupation"
             },
