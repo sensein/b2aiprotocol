@@ -7,12 +7,12 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
-            "b2ai_redcap2rs_activities:household_income_usa",
-            "b2ai_redcap2rs_activities:financial_assistance_usa",
-            "b2ai_redcap2rs_activities:assistance_programs_usa",
-            "b2ai_redcap2rs_activities:household_income_ca",
-            "b2ai_redcap2rs_activities:financial_assistance_ca",
-            "b2ai_redcap2rs_activities:assistance_programs_ca",
+            "items/household_income_usa",
+            "items/financial_assistance_usa",
+            "items/assistance_programs_usa",
+            "items/household_income_ca",
+            "items/financial_assistance_ca",
+            "items/assistance_programs_ca",
             "b2ai_redcap2rs_activities:citizen",
             "b2ai_redcap2rs_activities:marital_status",
             "b2ai_redcap2rs_activities:housing_status",
@@ -23,33 +23,33 @@
         ],
         "addProperties": [
             {
-                "isAbout": "b2ai_redcap2rs_activities:household_income_usa",
-                "isVis": "country.includes(1)",
+                "isAbout": "items/household_income_usa",
+                "isVis": true,
                 "variableName": "household_income_usa"
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:financial_assistance_usa",
-                "isVis": "country.includes(1)",
+                "isAbout": "items/financial_assistance_usa",
+                "isVis": true,
                 "variableName": "financial_assistance_usa"
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:assistance_programs_usa",
-                "isVis": "country.includes(1)",
+                "isAbout": "items/assistance_programs_usa",
+                "isVis": true,
                 "variableName": "assistance_programs_usa"
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:household_income_ca",
-                "isVis": "country.includes(2)",
+                "isAbout": "items/household_income_ca",
+                "isVis": true,
                 "variableName": "household_income_ca"
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:financial_assistance_ca",
-                "isVis": "country.includes(2)",
+                "isAbout": "items/financial_assistance_ca",
+                "isVis": true,
                 "variableName": "financial_assistance_ca"
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:assistance_programs_ca",
-                "isVis": "country.includes(2)",
+                "isAbout": "items/assistance_programs_ca",
+                "isVis": true,
                 "variableName": "assistance_programs_ca"
             },
             {
@@ -86,6 +86,16 @@
                 "isAbout": "activities/transportation_mode/transportation_mode_schema",
                 "isVis": true,
                 "variableName": "transportation_mode"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:country",
+                "variableName": "country",
+                "prefLabel": {
+                  "en": "Country"
+                }
+            },
+            {
+            
             }
         ],
         "shuffle": false
