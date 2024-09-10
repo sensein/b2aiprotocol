@@ -18,8 +18,8 @@
     "version": "0.0.1",
     "ui": {
         "order": [
-            "b2ai_redcap2rs_activities:primary_transportation_schema",
-            "b2ai_redcap2rs_activities:other_transportation_schema"
+            "b2ai_redcap2rs_activities:primary_transportation",
+            "b2ai_redcap2rs_activities:other_transportation"
         ],
         "addProperties": [
             {
