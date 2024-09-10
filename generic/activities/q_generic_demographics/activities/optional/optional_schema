@@ -5,8 +5,12 @@
         "en": "Optional Demographics"
     },
     "schemaVersion": "1.0.0",
+    "preamble": {
+        "en": "Demographics (Optional)"
+    },
     "ui": {
         "order": [
+            "b2ai_redcap2rs_activities:country",
             "items/household_income_usa",
             "items/financial_assistance_usa",
             "items/assistance_programs_usa",
@@ -23,33 +27,41 @@
         ],
         "addProperties": [
             {
-                "isAbout": "items/household_income_usa",
+                "isAbout": "b2ai_redcap2rs_activities:country",
+                "prefLabel": {
+                    "en": "Country"
+                },
                 "isVis": true,
+                "variableName": "country"
+            },
+            {
+                "isAbout": "items/household_income_usa",
+                "isVis": "country === 1",
                 "variableName": "household_income_usa"
             },
             {
                 "isAbout": "items/financial_assistance_usa",
-                "isVis": true,
+                "isVis": "country === 1",
                 "variableName": "financial_assistance_usa"
             },
             {
                 "isAbout": "items/assistance_programs_usa",
-                "isVis": true,
+                "isVis": "country === 1",
                 "variableName": "assistance_programs_usa"
             },
             {
                 "isAbout": "items/household_income_ca",
-                "isVis": true,
+                "isVis": "country === 2",
                 "variableName": "household_income_ca"
             },
             {
                 "isAbout": "items/financial_assistance_ca",
-                "isVis": true,
+                "isVis": "country === 2",
                 "variableName": "financial_assistance_ca"
             },
             {
                 "isAbout": "items/assistance_programs_ca",
-                "isVis": true,
+                "isVis": "country === 2",
                 "variableName": "assistance_programs_ca"
             },
             {
@@ -86,16 +98,6 @@
                 "isAbout": "activities/transportation_mode/transportation_mode_schema",
                 "isVis": true,
                 "variableName": "transportation_mode"
-            },
-            {
-                "isAbout": "b2ai_redcap2rs_activities:country",
-                "variableName": "country",
-                "prefLabel": {
-                  "en": "Country"
-                }
-            },
-            {
-            
             }
         ],
         "shuffle": false
