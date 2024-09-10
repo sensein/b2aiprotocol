@@ -3,7 +3,7 @@
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema"
     ],
     "@type": "reproschema:Protocol",
-    "@id": "test_protocol_schema",
+    "@id": "test_protocol_generic",
     "prefLabel": "Test protocol",
     "description": "A test protocol",
     "schemaVersion": "1.0.0",

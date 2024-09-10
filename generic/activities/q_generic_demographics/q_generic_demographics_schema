@@ -7,16 +7,11 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
-            "activities/required/activities/address/address_schema",
+            "activities/completed_by/completed_by_schema",
+            "activities/required/required_schema",
             "activities/optional/optional_schema"
         ],
         "addProperties": [
-            {
-                "isAbout": "activities/required/activities/address/address_schema",
-                "isVis": true,
-                "variableName": "address",
-                "valueRequired": true
-            },
             {
                 "isAbout": "activities/completed_by/completed_by_schema",
                 "isVis": true,
