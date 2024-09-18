@@ -8,10 +8,23 @@
         "en": "Ear, Nose, Throat Medical History"
     }, 
     "question": {
-        "en": "Do you have any of these voice, communication, or hearing conditions? (check all that apply)"
+        "en": ""
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Continue"
+                },
+                "value": "none"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
-        "inputType": "message"
+        "inputType": "radio"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
