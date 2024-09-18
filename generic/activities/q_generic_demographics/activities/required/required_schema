@@ -1,0 +1,86 @@
+{
+    "@type": "reproschema:Activity",
+    "id": "q_generic_demographics_schema",
+    "prefLabel": {
+        "en": "q_generic_demographics"
+    },
+    "schemaVersion": "1.0.0",
+    "preamble": {
+        "en": "Demographics"
+    },
+    "ui": {
+        "order": [
+            "activities/address/address_schema",
+            "activities/gender/gender_schema",
+            "activities/sexuality/sexuality_schema",
+            "activities/race/race_schema",
+            "activities/ethnicity/ethnicity_schema",
+            "activities/education/education_schema",
+            "activities/disability/disability_schema",
+            "activities/employment/employment_schema",
+            "activities/occupation/occupation_schema",
+            "b2ai_redcap2rs_activities:veteran"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "activities/address/address_schema",
+                "isVis": true,
+                "variableName": "address"
+            },
+            {
+                "isAbout": "activities/gender/gender_schema",
+                "isVis": true,
+                "variableName": "gender"
+            },
+            {
+                "isAbout": "activities/sexuality/sexuality_schema",
+                "isVis": true,
+                "variableName": "sexual_orientation"
+            },
+            {
+                "isAbout": "activities/race/race_schema",
+                "isVis": true,
+                "variableName": "race"
+            },
+            {
+                "isAbout": "activities/ethnicity/ethnicity_schema",
+                "isVis": true,
+                "variableName": "ethnicity"
+            },
+            {
+                "isAbout": "activities/education/education_schema",
+                "isVis": true,
+                "variableName": "edu_level"
+            },
+            {
+                "isAbout": "activities/disability/disability_schema",
+                "isVis": true,
+                "variableName": "disability_status"
+            },
+            {
+                "isAbout": "activities/employment/employment_schema",
+                "isVis": true,
+                "variableName": "employ_status"
+            },
+            {
+                "isAbout": "activities/occupation/occupation_schema",
+                "isVis": true,
+                "variableName": "occupation"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:veteran",
+                "isVis": true,
+                "variableName": "veteran"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "3.8.0",
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+        {
+            "reproschema_library_activities": "https://raw.githubusercontent.com/ReproNim/reproschema-library/enh/rc4/a23a13875c7262c0bd0d77bd90c1ec296c6d1116/activities/",
+            "b2ai_redcap2rs_activities": "https://raw.githubusercontent.com/sensein/b2ai-redcap2rs/main/activities/q_generic_demographics/items/"
+        }
+    ]
+}

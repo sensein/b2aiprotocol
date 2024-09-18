@@ -1,0 +1,51 @@
+{
+    "id": "vhi_10_4",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "vhi_10_4"
+    },
+    "question": {
+        "en": "I feel left out of conversations because of my voice."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never "
+                },
+                "value": "never"
+            },
+            {
+                "name": {
+                    "en": "Almost Never "
+                },
+                "value": " almostNever"
+            },
+            {
+                "name": {
+                    "en": "Sometimes "
+                },
+                "value": " sometimes"
+            },
+            {
+                "name": {
+                    "en": "Almost Always "
+                },
+                "value": " almostAlways"
+            },
+            {
+                "name": {
+                    "en": "Always"
+                },
+                "value": " always"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

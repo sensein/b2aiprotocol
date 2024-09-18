@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+    "@type": "reproschema:Field",
+    "@id": "free_speech_2",
+    "prefLabel": "Free Speech Question 2",
+    "description": "If you are enrolled due to a health condition, can you tell us about it? When did it start, what kind of symptoms have you had and for how long? Tell us how you are managing it and how you are doing? If you are healthy and don’t have any health conditions, please tell us about how you stay healthy.",
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "question": "If you are enrolled due to a health condition, can you tell us about it? When did it start, what kind of symptoms have you had and for how long? Tell us how you are managing it and how you are doing? If you are healthy and don’t have any health conditions, please tell us about how you stay healthy.",
+    "ui": {
+      "inputType": "audioCheck"
+    },
+    "responseOptions": {
+      "valueType": "schema:AudioObject",
+      "minValue": 0,
+      "maxValue": 600000
+    }
+  }
+  

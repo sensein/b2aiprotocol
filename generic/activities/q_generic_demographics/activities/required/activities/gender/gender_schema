@@ -1,0 +1,49 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+        {
+            "reproschema_library_activities": "https://raw.githubusercontent.com/ReproNim/reproschema-library/enh/rc4/a23a13875c7262c0bd0d77bd90c1ec296c6d1116/activities/",
+            "b2ai_redcap2rs_activities": "https://raw.githubusercontent.com/sensein/b2ai-redcap2rs/main/activities/q_generic_demographics/items/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "gender_schema",
+    "prefLabel": {
+        "en": "Gender Identity Activity"
+    },
+    "description": {
+        "en": "Collects information about gender identity."
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/gender_identity",
+                "variableName": "gender_identity",
+                "prefLabel": {
+                    "en": "Gender Identity"
+                },
+                "valueRequired": true
+            },
+            {
+                "isAbout": "items/specify_gender_identity",
+                "variableName": "specify_gender_identity",
+                "prefLabel": {
+                    "en": "Specify Gender Identity"
+                },
+                "isVis": "['female', 'male'].includes(gender_identity)",
+                "valueRequired": true
+            }
+        ],
+        "order": [
+            "items/gender_identity",
+            "items/specify_gender_identity"
+        ],
+        "shuffle": false,
+        "allow": [
+            "reproschema:AllowExport",
+            "reproschema:AutoAdvance"
+        ]
+    }
+}

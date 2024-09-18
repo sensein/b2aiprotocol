@@ -1,0 +1,90 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+        {
+            "reproschema_library_activities": "https://raw.githubusercontent.com/ReproNim/reproschema-library/4ca7660afb93f09a3a07cf3e1568ca42ee07cbff/activities/",
+            "b2ai_redcap2rs_activities": "https://raw.githubusercontent.com/sensein/b2ai-redcap2rs/baa7dc4d18fe588578f2d59e01137466af3daa79/activities/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "b2ai_mood_schema",
+    "prefLabel": "Bridge2AI mood activity",
+    "description": "The mood component of the Bridge2AI data collection protocol.",
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "activities/audio-check/audio_check_schema",
+                "variableName": "audio_check",
+                "prefLabel": {
+                    "en": "Audio Check"
+                }
+            },
+            {
+                "isAbout": "activities/q_mood_panas/q_mood_panas_schema",
+                "variableName": "panas",
+                "prefLabel": {
+                    "en": "PANAS"
+                }
+            },
+            {
+                "isAbout": "activities/q_mood_custom_affect_scale/q_mood_custom_affect_scale_schema",
+                "variableName": "custom_affect_scale",
+                "prefLabel": {
+                    "en": "Custom Affect Scale"
+                }
+            },
+            {
+                "isAbout": "reproschema_library_activities:DSM-5_A/DSM5_crosscutting_adult_schema",
+                "variableName": "dsm_5_adult",
+                "prefLabel": {
+                    "en": "DSM-5 Adult"
+                }
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_ptsd_adult/q_mood_ptsd_adult_schema",
+                "variableName": "q_mood_ptsd_adult_schema",
+                "prefLabel": {
+                    "en": "PTSD Adult"
+                }
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_adhd_adult/q_mood_adhd_adult_schema",
+                "variableName": "q_mood_adhd_adult_schema",
+                "prefLabel": {
+                    "en": "ADHD Adult"
+                }
+            },
+            {
+                "isAbout": "activities/animal_fluency/animal_fluency_schema",
+                "variableName": "animal_fluency_schema",
+                "prefLabel": {
+                    "en": "Animal fluency"
+                }
+            },
+            {
+                "isAbout":"activities/open_response_questions/open_response_questions_schema",
+                "variableName": "open_response_questions_schema",
+                "prefLabel": {
+                    "en": "Open response questions"
+                }
+            }
+        ],
+        "order": [
+            "activities/audio_check/audio_check_schema",
+            "activities/q_mood_panas/q_mood_panas_schema",
+            "activities/q_mood_custom_affect_scale/q_mood_custom_affect_scale_schema",
+            "reproschema_library_activities:DSM-5_A/DSM5_crosscutting_adult_schema",
+            "b2ai_redcap2rs_activities:q_mood_ptsd_adult/q_mood_ptsd_adult_schema",
+            "b2ai_redcap2rs_activities:q_mood_adhd_adult/q_mood_adhd_adult_schema",
+            "activities/animal_fluency/animal_fluency_schema",
+            "activities/open_response_questions/open_response_questions_schema"
+        ],
+        "shuffle": false,
+        "allow": [
+            "reproschema:AllowExport",
+	        "reproschema:AutoAdvance"
+        ]
+    }
+}

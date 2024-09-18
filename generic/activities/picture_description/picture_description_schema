@@ -1,0 +1,25 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+    "@type": "reproschema:Activity",
+    "@id": "picture_description_schema",
+    "prefLabel": {"en": "Picture description"},
+    "description": "You are shown a picture, please describe what you see in your own words. You can keep talking until the time runs out.",
+    "preamble": {"en": "Picture description"},
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+      "order": [
+        "items/picture_description"
+      ],
+      "addProperties": [
+        {
+          "isAbout": "items/picture_description",
+          "variableName": "picture_description",
+          "isVis": true
+        }
+      ],
+      "shuffle": false,
+      "allow": ["reproschema:AutoAdvance", "reproschema:AllowExport"]
+    }
+  }
+  

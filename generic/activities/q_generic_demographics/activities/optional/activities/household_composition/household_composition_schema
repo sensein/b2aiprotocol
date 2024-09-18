@@ -1,0 +1,68 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+        {
+            "reproschema_library_activities": "https://raw.githubusercontent.com/ReproNim/reproschema-library/enh/rc4/a23a13875c7262c0bd0d77bd90c1ec296c6d1116/activities/",
+            "b2ai_redcap2rs_activities": "https://raw.githubusercontent.com/sensein/b2ai-redcap2rs/main/activities/q_generic_demographics/items/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "id": "household_composition_schema",
+    "prefLabel": {
+        "en": "Household Composition"
+    },
+    "description": {
+        "en": "Collects information on household composition."
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "b2ai_redcap2rs_activities:spouse_partner_sig_other",
+            "b2ai_redcap2rs_activities:children",
+            "b2ai_redcap2rs_activities:parent",
+            "b2ai_redcap2rs_activities:grandparent",
+            "b2ai_redcap2rs_activities:other_live_with",
+            "b2ai_redcap2rs_activities:others_household_specify"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "b2ai_redcap2rs_activities:spouse_partner_sig_other",
+                "isVis": true,
+                "variableName": "spouse_partner_sig_other",
+                "@type": "reproschema:Item"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:children",
+                "isVis": true,
+                "variableName": "children",
+                "@type": "reproschema:Item"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:parent",
+                "isVis": true,
+                "variableName": "parent",
+                "@type": "reproschema:Item"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:grandparent",
+                "isVis": true,
+                "variableName": "grandparent",
+                "@type": "reproschema:Item"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:other_live_with",
+                "isVis": true,
+                "variableName": "other_live_with",
+                "@type": "reproschema:Item"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:others_household_specify",
+                "isVis": "other_live_with == 1",
+                "variableName": "others_household_specify",
+                "@type": "reproschema:Item"
+            }
+        ],
+        "shuffle": false
+    }
+}

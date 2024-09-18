@@ -1,0 +1,30 @@
+{
+    "id": "introduction",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "introduction"
+    },
+    "preamble": {
+        "en": "Confounders"
+    }, 
+    "question": {
+        "en": "There are many factors that can affect the sound of your voice. This section asks questions about some of these factors."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Continue"
+                },
+                "value": "none"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

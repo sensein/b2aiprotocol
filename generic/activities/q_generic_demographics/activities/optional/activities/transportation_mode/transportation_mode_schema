@@ -1,0 +1,40 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+        {
+            "reproschema_library_activities": "https://raw.githubusercontent.com/ReproNim/reproschema-library/enh/rc4/a23a13875c7262c0bd0d77bd90c1ec296c6d1116/activities/",
+            "b2ai_redcap2rs_activities": "https://raw.githubusercontent.com/sensein/b2ai-redcap2rs/main/activities/q_generic_demographics/items/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "id": "transport_mode_activity_schema",
+    "prefLabel": {
+        "en": "Transport Mode"
+    },
+    "description": {
+        "en": "Collects information on primary mode of transportation."
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "b2ai_redcap2rs_activities:primary_transportation",
+            "b2ai_redcap2rs_activities:other_transportation"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "b2ai_redcap2rs_activities:primary_transportation",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "primary_transportation"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:other_transportation",
+                "isVis": "primary_transportation == 8",
+                "valueRequired": true,
+                "variableName": "other_transportation"
+            }
+        ],
+        "shuffle": false
+    }
+}

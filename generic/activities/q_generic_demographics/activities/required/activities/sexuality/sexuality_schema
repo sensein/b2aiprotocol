@@ -1,0 +1,37 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+        {
+            "reproschema_library_activities": "https://raw.githubusercontent.com/ReproNim/reproschema-library/enh/rc4/a23a13875c7262c0bd0d77bd90c1ec296c6d1116/activities/",
+            "b2ai_redcap2rs_activities": "https://raw.githubusercontent.com/sensein/b2ai-redcap2rs/main/activities/q_generic_demographics/items/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "sexuality_schema",
+    "prefLabel": {
+        "en": "Sexual Orientation"
+    },
+    "description": {
+        "en": "Collects information on sexual orientation."
+    },
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "items/sexual_orientation",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sexual_orientation"
+            }
+        ],
+        "order": [
+            "items/sexual_orientation"
+        ],
+        "shuffle": false,
+        "allow": [
+            "reproschema:AllowExport",
+            "reproschema:AutoAdvance"
+        ]
+    }
+}

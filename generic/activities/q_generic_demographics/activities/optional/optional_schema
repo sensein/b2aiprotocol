@@ -1,0 +1,113 @@
+{
+    "@type": "reproschema:Activity",
+    "id": "optional_schema",
+    "prefLabel": {
+        "en": "Optional Demographics"
+    },
+    "schemaVersion": "1.0.0",
+    "preamble": {
+        "en": "Demographics (Optional)"
+    },
+    "ui": {
+        "order": [
+            "b2ai_redcap2rs_activities:country",
+            "items/household_income_usa",
+            "items/financial_assistance_usa",
+            "items/assistance_programs_usa",
+            "items/household_income_ca",
+            "items/financial_assistance_ca",
+            "items/assistance_programs_ca",
+            "b2ai_redcap2rs_activities:citizen",
+            "b2ai_redcap2rs_activities:marital_status",
+            "b2ai_redcap2rs_activities:housing_status",
+            "b2ai_redcap2rs_activities:household_count",
+            "activities/household_composition/household_composition_schema",
+            "b2ai_redcap2rs_activities:transportation_yn",
+            "activities/transportation_mode/transportation_mode_schema"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "b2ai_redcap2rs_activities:country",
+                "prefLabel": {
+                    "en": "Country"
+                },
+                "isVis": true,
+                "variableName": "country"
+            },
+            {
+                "isAbout": "items/household_income_usa",
+                "isVis": "country === 1",
+                "variableName": "household_income_usa"
+            },
+            {
+                "isAbout": "items/financial_assistance_usa",
+                "isVis": "country === 1",
+                "variableName": "financial_assistance_usa"
+            },
+            {
+                "isAbout": "items/assistance_programs_usa",
+                "isVis": "country === 1",
+                "variableName": "assistance_programs_usa"
+            },
+            {
+                "isAbout": "items/household_income_ca",
+                "isVis": "country === 2",
+                "variableName": "household_income_ca"
+            },
+            {
+                "isAbout": "items/financial_assistance_ca",
+                "isVis": "country === 2",
+                "variableName": "financial_assistance_ca"
+            },
+            {
+                "isAbout": "items/assistance_programs_ca",
+                "isVis": "country === 2",
+                "variableName": "assistance_programs_ca"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:citizen",
+                "isVis": true,
+                "variableName": "citizen"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:marital_status",
+                "isVis": true,
+                "variableName": "marital_status"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:housing_status",
+                "isVis": true,
+                "variableName": "housing_status"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:household_count",
+                "isVis": true,
+                "variableName": "household_count"
+            },
+            {
+                "isAbout": "activities/household_composition/household_composition_schema",
+                "isVis": true,
+                "variableName": "household_composition"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:transportation_yn",
+                "isVis": true,
+                "variableName": "transportation_yn"
+            },
+            {
+                "isAbout": "activities/transportation_mode/transportation_mode_schema",
+                "isVis": true,
+                "variableName": "transportation_mode"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "3.8.0",
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+        {
+            "reproschema_library_activities": "https://raw.githubusercontent.com/ReproNim/reproschema-library/enh/rc4/a23a13875c7262c0bd0d77bd90c1ec296c6d1116/activities/",
+            "b2ai_redcap2rs_activities": "https://raw.githubusercontent.com/sensein/b2ai-redcap2rs/main/activities/q_generic_demographics/items/"
+        }
+    ]
+}
