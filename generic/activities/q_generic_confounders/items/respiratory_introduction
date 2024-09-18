@@ -10,8 +10,21 @@
     "question": {
         "en": "Have you been diagnosed with any of these respiratory conditions by a clinician? (check all that apply)"
     },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Continue"
+                },
+                "value": "none"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
     "ui": {
-        "inputType": "message"
+        "inputType": "radio"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
