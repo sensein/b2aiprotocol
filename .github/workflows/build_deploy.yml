@@ -24,12 +24,13 @@ jobs:
     steps:
 
     - name: Setup Node
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v4
       with:
-        node-version: '16.x'  # Possibly wrong
+        node-version: '21.x'
 
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
+
 
     # Runs a set of commands using the runners shell
     - name: Check for syntax errors
@@ -62,7 +63,7 @@ jobs:
         cd ui
         cp -r ../ui-changes/. .
         npm install
-        npm run build
+        npm run build --fix
         touch dist/.nojekyll
 
     - name: Deploy 🚀
