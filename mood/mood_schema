@@ -7,7 +7,7 @@
         }
     ],
     "@type": "reproschema:Activity",
-    "@id": "b2ai_mood_schema",
+    "@id": "mood_schema",
     "prefLabel": "Bridge2AI mood activity",
     "description": "The mood component of the Bridge2AI data collection protocol.",
     "schemaVersion": "1.0.0",
