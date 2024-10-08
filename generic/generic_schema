@@ -7,7 +7,7 @@
         }
     ],
     "@type": "reproschema:Activity",
-    "@id": "b2ai_generic_schema",
+    "@id": "generic_schema",
     "prefLabel": "Bridge2AI generic activity",
     "description": "The generic component of the Bridge2AI data collection protocol.",
     "schemaVersion": "1.0.0",
