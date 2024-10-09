@@ -40,10 +40,10 @@ jobs:
         grep -r  "@context" DemoProtocol | cut -d: -f1 | xargs -I fname jsonlint -q fname
 
     # Validate the protocol
-    - name: Set up Python 3.9
-      uses: actions/setup-python@v2
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v5
       with:
-        python-version: 3.9
+        python-version: "3.11"
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip setuptools
@@ -63,11 +63,11 @@ jobs:
         cd ui
         cp -r ../ui-changes/. .
         npm install
-        npm run build --fix
+        npm run build --report
         touch dist/.nojekyll
 
     - name: Deploy 🚀
-      uses: JamesIves/github-pages-deploy-action@releases/v3
+      uses: JamesIves/github-pages-deploy-action@releases/v4
       if: github.ref == 'refs/heads/main'
       with:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
