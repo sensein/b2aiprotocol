@@ -80,14 +80,14 @@
             },
             {
                 "isAbout": "generic/activities/diadochokinesis/diadochokinesis_schema",
-                "variableName": "generic_schema",
+                "variableName": "diadochokinesis_schema",
                 "prefLabel": {
-                    "en": "Diadocho"
+                    "en": "Diadochokinesis"
                 }
             },
             {
                 "isAbout": "generic/activities/audio_check/audio_check_schema",
-                "variableName": "generic_schema",
+                "variableName": "audio_check_schema",
                 "prefLabel": {
                     "en": "Audio Check"
                 }
