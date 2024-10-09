@@ -70,6 +70,6 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4
       if: github.ref == 'refs/heads/main'
       with:
-        token: ${{ secrets.ACCESS_TOKEN }}
-        branch: gh-pages # The branch the action should deploy to.
-        folder: ui/dist # The folder the action should deploy.
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BRANCH: gh-pages # The branch the action should deploy to.
+        FOLDER: ui/dist # The folder the action should deploy.
