@@ -26,81 +26,129 @@
             "activities/transportation_mode/transportation_mode_schema"
         ],
         "addProperties": [
-            {
-                "isAbout": "b2ai_redcap2rs_activities:country",
-                "prefLabel": {
-                    "en": "Country"
+            [
+                {
+                    "isAbout": "b2ai_redcap2rs_activities:country",
+                    "prefLabel": {
+                        "en": "Country"
+                    },
+                    "isVis": true,
+                    "variableName": "country",
+                    "allow": [
+                        "reproschema:Skipped"
+                    ]
                 },
-                "isVis": true,
-                "variableName": "country"
-            },
-            {
-                "isAbout": "items/household_income_usa",
-                "isVis": "country === 1",
-                "variableName": "household_income_usa"
-            },
-            {
-                "isAbout": "items/financial_assistance_usa",
-                "isVis": "country === 1",
-                "variableName": "financial_assistance_usa"
-            },
-            {
-                "isAbout": "items/assistance_programs_usa",
-                "isVis": "country === 1",
-                "variableName": "assistance_programs_usa"
-            },
-            {
-                "isAbout": "items/household_income_ca",
-                "isVis": "country === 2",
-                "variableName": "household_income_ca"
-            },
-            {
-                "isAbout": "items/financial_assistance_ca",
-                "isVis": "country === 2",
-                "variableName": "financial_assistance_ca"
-            },
-            {
-                "isAbout": "items/assistance_programs_ca",
-                "isVis": "country === 2",
-                "variableName": "assistance_programs_ca"
-            },
-            {
-                "isAbout": "b2ai_redcap2rs_activities:citizen",
-                "isVis": true,
-                "variableName": "citizen"
-            },
-            {
-                "isAbout": "b2ai_redcap2rs_activities:marital_status",
-                "isVis": true,
-                "variableName": "marital_status"
-            },
-            {
-                "isAbout": "b2ai_redcap2rs_activities:housing_status",
-                "isVis": true,
-                "variableName": "housing_status"
-            },
-            {
-                "isAbout": "b2ai_redcap2rs_activities:household_count",
-                "isVis": true,
-                "variableName": "household_count"
-            },
-            {
-                "isAbout": "activities/household_composition/household_composition_schema",
-                "isVis": true,
-                "variableName": "household_composition"
-            },
-            {
-                "isAbout": "b2ai_redcap2rs_activities:transportation_yn",
-                "isVis": true,
-                "variableName": "transportation_yn"
-            },
-            {
-                "isAbout": "activities/transportation_mode/transportation_mode_schema",
-                "isVis": true,
-                "variableName": "transportation_mode"
-            }
+                {
+                    "isAbout": "items/household_income_usa",
+                    "isVis": "country === 1",
+                    "variableName": "household_income_usa",
+                    "allow": [
+                        "reproschema:Skipped"
+                    ]
+                },
+                {
+                    "isAbout": "items/financial_assistance_usa",
+                    "isVis": "country === 1",
+                    "variableName": "financial_assistance_usa",
+                    "allow": [
+                        "reproschema:Skipped"
+                    ]
+                },
+                {
+                    "isAbout": "items/assistance_programs_usa",
+                    "isVis": "country === 1",
+                    "variableName": "assistance_programs_usa",
+                    "allow": [
+                        "reproschema:Skipped"
+                    ]
+                },
+                {
+                    "isAbout": "items/household_income_ca",
+                    "isVis": "country === 2",
+                    "variableName": "household_income_ca",
+                    "allow": [
+                        "reproschema:Skipped"
+                    ]
+                },
+                {
+                    "isAbout": "items/financial_assistance_ca",
+                    "isVis": "country === 2",
+                    "variableName": "financial_assistance_ca",
+                    "allow": [
+                        "reproschema:Skipped"
+                    ]
+                },
+                {
+                    "isAbout": "items/assistance_programs_ca",
+                    "isVis": "country === 2",
+                    "variableName": "assistance_programs_ca",
+                    "allow": [
+                        "reproschema:Skipped"
+                    ]
+                },
+                {
+                    "isAbout": "b2ai_redcap2rs_activities:citizen",
+                    "isVis": true,
+                    "variableName": "citizen",
+                    "allow": [
+                        "reproschema:Skipped"
+                    ]
+                },
+                {
+                    "isAbout": "b2ai_redcap2rs_activities:marital_status",
+                    "isVis": true,
+                    "variableName": "marital_status",
+                    "allow": [
+                        "reproschema:Skipped"
+                    ]
+                },
+                {
+                    "isAbout": "b2ai_redcap2rs_activities:housing_status",
+                    "isVis": true,
+                    "variableName": "housing_status",
+                    "allow": [
+                        "reproschema:Skipped"
+                    ]
+                },
+                {
+                    "isAbout": "b2ai_redcap2rs_activities:household_count",
+                    "isVis": true,
+                    "variableName": "household_count",
+                    "allow": [
+                        "reproschema:Skipped"
+                    ]
+                },
+                {
+                    "isAbout": "activities/household_composition/household_composition_schema",
+                    "isVis": true,
+                    "variableName": "household_composition",
+                    "allow": [
+                        "reproschema:Skipped"
+                    ]
+                },
+                {
+                    "isAbout": "b2ai_redcap2rs_activities:transportation_yn",
+                    "isVis": true,
+                    "variableName": "transportation_yn",
+                    "allow": [
+                        "reproschema:Skipped"
+                    ]
+                },
+                {
+                    "isAbout": "activities/transportation_mode/transportation_mode_schema",
+                    "isVis": true,
+                    "variableName": "transportation_mode",
+                    "allow": [
+                        "reproschema:Skipped"
+                    ]
+                }
+            ]
         ],
-        "shuffle": false
+        "shuffle": false,
+        "allow": [
+			"reproschema:AutoAdvance",
+			"reproschema:AllowExport"
+		]
     },
     "version": "3.8.0",
     "@context": [
