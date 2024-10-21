@@ -9,7 +9,7 @@
         "addProperties": [
             {
                 "isAbout": "items/introduction",
-                "isVis": true,
+                "isVis": "'t' === 'f'",
                 "variableName": "introduction"
             },
             {
@@ -25,7 +25,7 @@
             },
             {
                 "isAbout": "items/age_start_smoking",
-                "isVis": "['past', 'currently'].includes(smoking_hx)",
+                "isVis": "console.log(smoking_hx)",
                 "variableName": "age_start_smoking"
             },
             {
@@ -320,22 +320,22 @@
             },
             {
                 "isAbout": "items/breathe_today",
-                "isVis": "eligible_studies === 1",
+                "isVis": "true",
                 "variableName": "breathe_today"
             },
             {
                 "isAbout": "items/breathe_today_difficulty",
-                "isVis": "eligible_studies === 1 && breathe_today === 'yes'",
+                "isVis": "breathe_today === 'yes'",
                 "variableName": "breathe_today_difficulty"
             },
             {
                 "isAbout": "items/cough_today",
-                "isVis": "eligible_studies === 1",
+                "isVis": "true",
                 "variableName": "cough_today"
             },
             {
                 "isAbout": "items/cough_today_severity",
-                "isVis": "eligible_studies === 1 && cough_today === 'yes'",
+                "isVis": "cough_today === 'yes'",
                 "variableName": "cough_today_severity"
             },
             {
@@ -603,7 +603,11 @@
             "items/hours_voice_activity",
             "items/reading_aloud"
         ],
-        "shuffle": false
+        "shuffle": false,
+        "allow": [
+			"reproschema:AutoAdvance",
+			"reproschema:AllowExport"
+		]
     },
     "version": "3.8.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
