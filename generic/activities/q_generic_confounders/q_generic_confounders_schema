@@ -9,7 +9,7 @@
         "addProperties": [
             {
                 "isAbout": "items/introduction",
-                "isVis": "'t' === 'f'",
+                "isVis": true,
                 "variableName": "introduction"
             },
             {
@@ -25,7 +25,7 @@
             },
             {
                 "isAbout": "items/age_start_smoking",
-                "isVis": "console.log(smoking_hx)",
+                "isVis": "['past', 'currently'].includes(smoking_hx)",
                 "variableName": "age_start_smoking"
             },
             {
