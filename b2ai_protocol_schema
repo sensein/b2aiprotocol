@@ -15,67 +15,10 @@
     "ui": {
         "addProperties": [
             {
-                "isAbout": "generic/generic_schema",
-                "variableName": "generic_schema",
+                "isAbout": "generic/activities/audio_check/audio_check_schema",
+                "variableName": "audio_check_schema",
                 "prefLabel": {
-                    "en": "generic"
-                }
-            },
-            {
-                "isAbout": "generic/activities/q_generic_demographics/activities/optional/optional_schema",
-                "variableName": "optional_schema",
-                "prefLabel": {
-                    "en": "optional"
-                }
-            },
-            {
-                "isAbout": "generic/activities/q_generic_demographics/activities/required/required_schema",
-                "variableName": "required_schema",
-                "prefLabel": {
-                    "en": "required"
-                }
-            },
-            {
-                "isAbout":"generic/activities/q_generic_demographics/activities/required/activities/education/education_schema",
-                "variableName": "education_schema",
-                "prefLabel": {
-                    "en": "education"
-                }
-            },
-            
-            {
-                "isAbout": "generic/activities/q_generic_demographics/activities/required/activities/race/race_schema",
-                "variableName": "race_schema",
-                "prefLabel": {
-                    "en": "race"
-                }
-            },
-            {
-                "isAbout": "generic/activities/q_generic_demographics/activities/required/activities/sexuality/sexuality_schema",
-                "variableName": "sexuality_schema",
-                "prefLabel": {
-                    "en": "sexuality_schema"
-                }
-            },
-            {
-                "isAbout": "generic/activities/q_generic_demographics/activities/required/activities/gender/gender_schema",
-                "variableName": "gender_schema",
-                "prefLabel": {
-                    "en": "gender"
-                }
-            },
-            {
-                "isAbout": "generic/activities/glides/glides_schema",
-                "variableName": "glides_schema",
-                "prefLabel": {
-                    "en": "glides"
-                }
-            },
-            {
-                "isAbout": "generic/activities/free_speech/free_speech_schema",
-                "variableName": "free_speech_schema",
-                "prefLabel": {
-                    "en": "free_speech"
+                    "en": "Audio Check"
                 }
             },
             {
@@ -86,10 +29,17 @@
                 }
             },
             {
-                "isAbout": "generic/activities/audio_check/audio_check_schema",
-                "variableName": "audio_check_schema",
+                "isAbout": "generic/activities/free_speech/free_speech_schema",
+                "variableName": "free_speech_schema",
                 "prefLabel": {
-                    "en": "Audio Check"
+                    "en": "free_speech"
+                }
+            },
+            {
+                "isAbout": "generic/activities/glides/glides_schema",
+                "variableName": "glides_schema",
+                "prefLabel": {
+                    "en": "glides"
                 }
             },
             {
@@ -107,20 +57,6 @@
                 }
             },
             {
-                "isAbout": "generic/activities/q_generic_confounders/q_generic_confounders_schema",
-                "variableName": "q_generic_confounders_schema",
-                "prefLabel": {
-                    "en": "q_generic_confounders"
-                }
-            },
-            {
-                "isAbout": "generic/activities/rainbow_passage/rainbow_passage_schema",
-                "variableName": "rainbow_passage_schema",
-                "prefLabel": {
-                    "en": "rainbow_passage"
-                }
-            },
-            {
                 "isAbout": "generic/activities/picture_description/picture_description_schema",
                 "variableName": "picture_description_schema",
                 "prefLabel": {
@@ -128,31 +64,24 @@
                 }
             },
             {
-                "isAbout": "generic/activities/q_generic_demographics/q_generic_demographics_schema",
-                "variableName": "q_generic_demographics_schema",
-                "prefLabel": {
-                    "en": "q_generic_demographics"
-                }
-            },
-            {
-                "isAbout": "generic/activities/respiration_and_cough/respiration_and_cough_schema",
-                "variableName": "respiration_and_cough_schema",
-                "prefLabel": {
-                    "en": "respiration and cough"
-                }
-            },
-            {
-                "isAbout": "generic/activities/story_recall/story_recall_schema",
-                "variableName": "story_recall_schema",
-                "prefLabel": {
-                    "en": "story recall"
-                }
-            },
-            {
                 "isAbout": "generic/activities/prolonged_vowel/prolonged_vowel_schema",
                 "variableName": "prolonged_vowel_schema",
                 "prefLabel": {
                     "en": "prolonged vowel"
+                }
+            },
+            {
+                "isAbout": "generic/activities/q_generic_confounders/q_generic_confounders_schema",
+                "variableName": "q_generic_confounders_schema",
+                "prefLabel": {
+                    "en": "q_generic_confounders"
+                }
+            },
+            {
+                "isAbout": "generic/activities/q_generic_demographics/q_generic_demographics_schema",
+                "variableName": "q_generic_demographics_schema",
+                "prefLabel": {
+                    "en": "q_generic_demographics"
                 }
             },
             {
@@ -170,10 +99,24 @@
                 }
             },
             {
-                "isAbout": "generic/activities/audio_check/audio_check_schema",
-                "variableName": "generic_schema",
+                "isAbout": "generic/activities/rainbow_passage/rainbow_passage_schema",
+                "variableName": "rainbow_passage_schema",
                 "prefLabel": {
-                    "en": "Audio Check"
+                    "en": "rainbow_passage"
+                }
+            },
+            {
+                "isAbout": "generic/activities/respiration_and_cough/respiration_and_cough_schema",
+                "variableName": "respiration_and_cough_schema",
+                "prefLabel": {
+                    "en": "respiration and cough"
+                }
+            },
+            {
+                "isAbout": "generic/activities/story_recall/story_recall_schema",
+                "variableName": "story_recall_schema",
+                "prefLabel": {
+                    "en": "story recall"
                 }
             },
             {
@@ -219,7 +162,7 @@
                 }
             },
             {
-                "isAbout":"mood/activities/open_response_questions/open_response_questions_schema",
+                "isAbout": "mood/activities/open_response_questions/open_response_questions_schema",
                 "variableName": "open_response_questions_schema",
                 "prefLabel": {
                     "en": "Open response questions"
