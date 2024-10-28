@@ -9,18 +9,24 @@
     "version": "0.0.1",
     "ui": {
       "order": [
-        "activities/speech/speech_schema",
-        "activities/breathing/breathing_schema"
+        "items/check_1",
+        "items/check_2",
+        "items/breathing"
       ],
       "addProperties": [
         {
-            "isAbout": "activities/speech/speech_schema",
-            "variableName": "speech_schema",
+            "isAbout": "items/check_1",
+            "variableName": "check_1",
             "isVis": true
         },
         {
-            "isAbout": "activities/breathing/breathing_schema",
-            "variableName": "breathing_schema",
+            "isAbout": "items/check_2",
+            "variableName": "check_2",
+            "isVis": true
+        },
+        {
+            "isAbout": "items/breathing",
+            "variableName": "breathing",
             "isVis": true
         }
       ],
