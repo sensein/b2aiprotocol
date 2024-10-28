@@ -1,17 +1,29 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
     "@type": "reproschema:Activity",
-    "@id": "breathing_schema",
-    "prefLabel": {"en": "Breathing check"},
-    "description": "Checks the participants breathing audio quality.",
-    "preamble": {"en": "Breathing"},
+    "@id": "audio_check_schema",
+    "prefLabel": {"en": "Audio Check"},
+    "description": "Checks the participants audio quality.",
+    "preamble": {"en": "Audio Check"},
     "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
       "order": [
+        "items/check_1",
+        "items/check_2",
         "items/breathing"
       ],
       "addProperties": [
+        {
+            "isAbout": "items/check_1",
+            "variableName": "check_1",
+            "isVis": true
+        },
+        {
+            "isAbout": "items/check_2",
+            "variableName": "check_2",
+            "isVis": true
+        },
         {
             "isAbout": "items/breathing",
             "variableName": "breathing",

@@ -15,241 +15,184 @@
     "ui": {
         "addProperties": [
             {
-                "isAbout": "generic/generic_schema",
-                "variableName": "generic_schema",
-                "prefLabel": {
-                    "en": "generic"
-                }
-            },
-            {
-                "isAbout": "generic/activities/q_generic_demographics/activities/optional/optional_schema",
-                "variableName": "optional_schema",
-                "prefLabel": {
-                    "en": "optional"
-                }
-            },
-            {
-                "isAbout": "generic/activities/q_generic_demographics/activities/required/required_schema",
-                "variableName": "required_schema",
-                "prefLabel": {
-                    "en": "required"
-                }
-            },
-            {
-                "isAbout":"generic/activities/q_generic_demographics/activities/required/activities/education/education_schema",
-                "variableName": "education_schema",
-                "prefLabel": {
-                    "en": "education"
-                }
-            },
-            
-            {
-                "isAbout": "generic/activities/q_generic_demographics/activities/required/activities/race/race_schema",
-                "variableName": "race_schema",
-                "prefLabel": {
-                    "en": "race"
-                }
-            },
-            {
-                "isAbout": "generic/activities/q_generic_demographics/activities/required/activities/sexuality/sexuality_schema",
-                "variableName": "sexuality_schema",
-                "prefLabel": {
-                    "en": "sexuality_schema"
-                }
-            },
-            {
-                "isAbout": "generic/activities/q_generic_demographics/activities/required/activities/gender/gender_schema",
-                "variableName": "gender_schema",
-                "prefLabel": {
-                    "en": "gender"
-                }
-            },
-            {
-                "isAbout": "generic/activities/glides/glides_schema",
-                "variableName": "glides_schema",
-                "prefLabel": {
-                    "en": "glides"
-                }
-            },
-            {
-                "isAbout": "generic/activities/free_speech/free_speech_schema",
-                "variableName": "free_speech_schema",
-                "prefLabel": {
-                    "en": "free_speech"
-                }
-            },
-            {
-                "isAbout": "generic/activities/diadochokinesis/diadochokinesis_schema",
-                "variableName": "diadochokinesis_schema",
-                "prefLabel": {
-                    "en": "Diadochokinesis"
-                }
-            },
-            {
-                "isAbout": "generic/activities/audio_check/audio_check_schema",
+                "isAbout": "generic/audio_check/audio_check_schema",
                 "variableName": "audio_check_schema",
                 "prefLabel": {
                     "en": "Audio Check"
                 }
             },
             {
-                "isAbout": "generic/activities/loudness/loudness_schema",
+                "isAbout": "generic/diadochokinesis/diadochokinesis_schema",
+                "variableName": "diadochokinesis_schema",
+                "prefLabel": {
+                    "en": "Diadochokinesis"
+                }
+            },
+            {
+                "isAbout": "generic/free_speech/free_speech_schema",
+                "variableName": "free_speech_schema",
+                "prefLabel": {
+                    "en": "Free Speech"
+                }
+            },
+            {
+                "isAbout": "generic/glides/glides_schema",
+                "variableName": "glides_schema",
+                "prefLabel": {
+                    "en": "Glides"
+                }
+            },
+            {
+                "isAbout": "generic/loudness/loudness_schema",
                 "variableName": "loudness_schema",
                 "prefLabel": {
-                    "en": "loudness"
+                    "en": "Loudness"
                 }
             },
             {
-                "isAbout": "generic/activities/maximum_phonation_time/maximum_phonation_time_schema",
+                "isAbout": "generic/maximum_phonation_time/maximum_phonation_time_schema",
                 "variableName": "maximum_phonation_time_schema",
                 "prefLabel": {
-                    "en": "maximum phonation time"
+                    "en": "Maximum Phonation Time"
                 }
             },
             {
-                "isAbout": "generic/activities/q_generic_confounders/q_generic_confounders_schema",
-                "variableName": "q_generic_confounders_schema",
-                "prefLabel": {
-                    "en": "q_generic_confounders"
-                }
-            },
-            {
-                "isAbout": "generic/activities/rainbow_passage/rainbow_passage_schema",
-                "variableName": "rainbow_passage_schema",
-                "prefLabel": {
-                    "en": "rainbow_passage"
-                }
-            },
-            {
-                "isAbout": "generic/activities/picture_description/picture_description_schema",
+                "isAbout": "generic/picture_description/picture_description_schema",
                 "variableName": "picture_description_schema",
                 "prefLabel": {
-                    "en": "picture_description"
+                    "en": "Picture Description"
                 }
             },
             {
-                "isAbout": "generic/activities/q_generic_demographics/q_generic_demographics_schema",
-                "variableName": "q_generic_demographics_schema",
-                "prefLabel": {
-                    "en": "q_generic_demographics"
-                }
-            },
-            {
-                "isAbout": "generic/activities/respiration_and_cough/respiration_and_cough_schema",
-                "variableName": "respiration_and_cough_schema",
-                "prefLabel": {
-                    "en": "respiration and cough"
-                }
-            },
-            {
-                "isAbout": "generic/activities/story_recall/story_recall_schema",
-                "variableName": "story_recall_schema",
-                "prefLabel": {
-                    "en": "story recall"
-                }
-            },
-            {
-                "isAbout": "generic/activities/prolonged_vowel/prolonged_vowel_schema",
+                "isAbout": "generic/prolonged_vowel/prolonged_vowel_schema",
                 "variableName": "prolonged_vowel_schema",
                 "prefLabel": {
-                    "en": "prolonged vowel"
+                    "en": "Prolonged Vowel"
                 }
             },
             {
-                "isAbout": "generic/activities/q_generic_voice_handicap_index_vhi10/q_generic_voice_handicap_index_vhi10_schema",
+                "isAbout": "generic/q_generic_confounders/q_generic_confounders_schema",
+                "variableName": "q_generic_confounders_schema",
+                "prefLabel": {
+                    "en": "Confounders"
+                }
+            },
+            {
+                "isAbout": "generic/q_generic_demographics/q_generic_demographics_schema",
+                "variableName": "q_generic_demographics_schema",
+                "prefLabel": {
+                    "en": "Demographics"
+                }
+            },
+            {
+                "isAbout": "generic/q_generic_voice_handicap_index_vhi10/q_generic_voice_handicap_index_vhi10_schema",
                 "variableName": "q_generic_voice_handicap_index_vhi10_schema",
                 "prefLabel": {
-                    "en": "q_generic_voice_handicap_index_vhi10"
+                    "en": "VHI-10"
                 }
             },
             {
-                "isAbout": "generic/activities/q_generic_voice_perception/q_generic_voice_perception_schema",
+                "isAbout": "generic/q_generic_voice_perception/q_generic_voice_perception_schema",
                 "variableName": "q_generic_voice_perception_schema",
                 "prefLabel": {
-                    "en": "q_generic_voice_perception"
+                    "en": "Voice Perception"
                 }
             },
             {
-                "isAbout": "generic/activities/audio_check/audio_check_schema",
-                "variableName": "generic_schema",
+                "isAbout": "generic/rainbow_passage/rainbow_passage_schema",
+                "variableName": "rainbow_passage_schema",
                 "prefLabel": {
-                    "en": "Audio Check"
+                    "en": "Rainbow Passage"
                 }
             },
             {
-                "isAbout": "mood/activities/q_mood_panas/q_mood_panas_schema",
+                "isAbout": "generic/respiration_and_cough/respiration_and_cough_schema",
+                "variableName": "respiration_and_cough_schema",
+                "prefLabel": {
+                    "en": "Respiration and Cough"
+                }
+            },
+            {
+                "isAbout": "generic/story_recall/story_recall_schema",
+                "variableName": "story_recall_schema",
+                "prefLabel": {
+                    "en": "Story Recall"
+                }
+            },
+            {
+                "isAbout": "mood/q_mood_panas/q_mood_panas_schema",
                 "variableName": "panas",
                 "prefLabel": {
                     "en": "PANAS"
                 }
             },
             {
-                "isAbout": "mood/activities/q_mood_custom_affect_scale/q_mood_custom_affect_scale_schema",
+                "isAbout": "mood/q_mood_custom_affect_scale/q_mood_custom_affect_scale_schema",
                 "variableName": "custom_affect_scale",
                 "prefLabel": {
                     "en": "Custom Affect Scale"
                 }
             },
             {
-                "isAbout": "mood/activities/DSM-5_A/DSM5_crosscutting_adult_schema",
+                "isAbout": "mood/DSM-5_A/DSM5_crosscutting_adult_schema",
                 "variableName": "dsm_5_adult",
                 "prefLabel": {
-                    "en": "DSM-5 Adult"
+                    "en": "DSM-5 (Adult)"
                 }
             },
             {
                 "isAbout": "b2ai_redcap2rs_activities:q_mood_ptsd_adult/q_mood_ptsd_adult_schema",
                 "variableName": "q_mood_ptsd_adult_schema",
                 "prefLabel": {
-                    "en": "PTSD Adult"
+                    "en": "PTSD (Adult)"
                 }
             },
             {
                 "isAbout": "b2ai_redcap2rs_activities:q_mood_adhd_adult/q_mood_adhd_adult_schema",
                 "variableName": "q_mood_adhd_adult_schema",
                 "prefLabel": {
-                    "en": "ADHD Adult"
+                    "en": "ADHD (Adult)"
                 }
             },
             {
-                "isAbout": "mood/activities/animal_fluency/animal_fluency_schema",
+                "isAbout": "mood/animal_fluency/animal_fluency_schema",
                 "variableName": "animal_fluency_schema",
                 "prefLabel": {
-                    "en": "Animal fluency"
+                    "en": "Animal Fluency"
                 }
             },
             {
-                "isAbout":"mood/activities/open_response_questions/open_response_questions_schema",
+                "isAbout": "mood/open_response_questions/open_response_questions_schema",
                 "variableName": "open_response_questions_schema",
                 "prefLabel": {
-                    "en": "Open response questions"
+                    "en": "Open Response Questions"
                 }
             }
         ],
         "order": [
-            "generic/activities/audio_check/audio_check_schema",
-            "generic/activities/diadochokinesis/diadochokinesis_schema",
-            "generic/activities/free_speech/free_speech_schema",
-            "generic/activities/glides/glides_schema",
-            "generic/activities/loudness/loudness_schema",
-            "generic/activities/maximum_phonation_time/maximum_phonation_time_schema",
-            "generic/activities/picture_description/picture_description_schema",
-            "generic/activities/prolonged_vowel/prolonged_vowel_schema",
-            "generic/activities/q_generic_confounders/q_generic_confounders_schema",
-            "generic/activities/q_generic_demographics/q_generic_demographics_schema",
-            "generic/activities/q_generic_voice_handicap_index_vhi10/q_generic_voice_handicap_index_vhi10_schema",
-            "generic/activities/q_generic_voice_perception/q_generic_voice_perception_schema",
-            "generic/activities/rainbow_passage/rainbow_passage_schema",
-            "generic/activities/respiration_and_cough/respiration_and_cough_schema",
-            "generic/activities/story_recall/story_recall_schema",
-            "generic/activities/audio_check/audio_check_schema",
-            "mood/activities/q_mood_panas/q_mood_panas_schema",
-            "mood/activities/q_mood_custom_affect_scale/q_mood_custom_affect_scale_schema",
-            "mood/activities/DSM-5_A/DSM5_crosscutting_adult_schema",
+            "generic/audio_check/audio_check_schema",
+            "generic/diadochokinesis/diadochokinesis_schema",
+            "generic/free_speech/free_speech_schema",
+            "generic/glides/glides_schema",
+            "generic/loudness/loudness_schema",
+            "generic/maximum_phonation_time/maximum_phonation_time_schema",
+            "generic/picture_description/picture_description_schema",
+            "generic/prolonged_vowel/prolonged_vowel_schema",
+            "generic/q_generic_confounders/q_generic_confounders_schema",
+            "generic/q_generic_demographics/q_generic_demographics_schema",
+            "generic/q_generic_voice_handicap_index_vhi10/q_generic_voice_handicap_index_vhi10_schema",
+            "generic/q_generic_voice_perception/q_generic_voice_perception_schema",
+            "generic/rainbow_passage/rainbow_passage_schema",
+            "generic/respiration_and_cough/respiration_and_cough_schema",
+            "generic/story_recall/story_recall_schema",
+            "generic/audio_check/audio_check_schema",
+            "mood/q_mood_panas/q_mood_panas_schema",
+            "mood/q_mood_custom_affect_scale/q_mood_custom_affect_scale_schema",
+            "mood/DSM-5_A/DSM5_crosscutting_adult_schema",
             "b2ai_redcap2rs_activities:q_mood_ptsd_adult/q_mood_ptsd_adult_schema",
             "b2ai_redcap2rs_activities:q_mood_adhd_adult/q_mood_adhd_adult_schema",
-            "mood/activities/animal_fluency/animal_fluency_schema",
-            "mood/activities/open_response_questions/open_response_questions_schema"
+            "mood/animal_fluency/animal_fluency_schema",
+            "mood/open_response_questions/open_response_questions_schema"
         ],
         "shuffle": false,
         "allow": [
