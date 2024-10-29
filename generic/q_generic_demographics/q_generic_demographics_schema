@@ -30,7 +30,7 @@
             }
         ],
         "shuffle": false,
-        "allow": ["reproschema:AllowExport"]
+      "allow": ["reproschema:AutoAdvance", "reproschema:AllowExport"]
     },
     "version": "3.8.0",
     "@context": [

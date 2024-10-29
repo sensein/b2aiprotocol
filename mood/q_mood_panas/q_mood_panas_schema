@@ -108,7 +108,7 @@
             }
         ],
         "shuffle": false,
-        "allow": ["reproschema:AllowExport"]
+        "allow": ["reproschema:AutoAdvance", "reproschema:AllowExport"]
     },
     "version": "3.8.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
