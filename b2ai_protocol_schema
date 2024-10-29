@@ -189,7 +189,7 @@
             "mood/q_mood_panas/q_mood_panas_schema",
             "mood/q_mood_custom_affect_scale/q_mood_custom_affect_scale_schema",
             "mood/DSM-5_A/DSM5_crosscutting_adult_schema",
-            "b2ai_redcap2rs_activities:q_mood_ptsd_adult/q_mood_ptsd_adult_schema",
+            "mood/q_mood_ptsd_adult/q_mood_ptsd_adult_schema",
             "b2ai_redcap2rs_activities:q_mood_adhd_adult/q_mood_adhd_adult_schema",
             "mood/animal_fluency/animal_fluency_schema",
             "mood/open_response_questions/open_response_questions_schema"
