@@ -107,7 +107,8 @@
                 "variableName": "ask_whats_wrong_voice"
             }
         ],
-        "shuffle": false
+        "shuffle": false,
+        "allow": ["reproschema:AllowExport"]
     },
     "version": "3.8.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"

@@ -307,6 +307,7 @@
                 "isVis": false
             }
         ],
-        "shuffle": false
+        "shuffle": false,
+        "allow": ["reproschema:AllowExport"]
     }
 }

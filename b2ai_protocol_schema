@@ -194,6 +194,7 @@
             "mood/animal_fluency/animal_fluency_schema",
             "mood/open_response_questions/open_response_questions_schema"
         ],
-        "shuffle": false
+        "shuffle": false,
+        "allow": ["reproschema:AllowExport"]
     }
 }

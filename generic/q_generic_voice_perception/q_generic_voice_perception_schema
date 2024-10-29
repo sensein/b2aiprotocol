@@ -43,7 +43,8 @@
                 "variableName": "voice_quality_perception"
             }
         ],
-        "shuffle": false
+        "shuffle": false,
+        "allow": ["reproschema:AllowExport"]
     },
     "version": "3.8.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
