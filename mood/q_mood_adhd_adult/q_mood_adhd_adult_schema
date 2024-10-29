@@ -7,10 +7,6 @@
     "@type": "reproschema:Activity",
     "ui": {
         "order": [
-            "items/adhd_session_id",
-            "items/adhd_started_at",
-            "items/adhd_completed_at",
-            "items/adhd_duration",
             "items/wrapping_up",
             "items/things_in_order",
             "items/remembering_appt",
@@ -31,29 +27,6 @@
             "items/interrupt_others"
         ],
         "addProperties": [
-            {
-                "isAbout": "items/adhd_session_id",
-                "isVis": false,
-                "valueRequired": true,
-                "variableName": "adhd_session_id"
-            },
-            {
-                "isAbout": "items/adhd_started_at",
-                "isVis": false,
-                "valueRequired": true,
-                "variableName": "adhd_started_at"
-            },
-            {
-                "isAbout": "items/adhd_completed_at",
-                "isVis": false,
-                "valueRequired": true,
-                "variableName": "adhd_completed_at"
-            },
-            {
-                "isAbout": "items/adhd_duration",
-                "isVis": false,
-                "variableName": "adhd_duration"
-            },
             {
                 "isAbout": "items/wrapping_up",
                 "isVis": true,
