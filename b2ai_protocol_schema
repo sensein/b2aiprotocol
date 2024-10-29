@@ -141,14 +141,14 @@
                 }
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:q_mood_ptsd_adult/q_mood_ptsd_adult_schema",
+                "isAbout": "mood/q_mood_ptsd_adult/q_mood_ptsd_adult_schema",
                 "variableName": "q_mood_ptsd_adult_schema",
                 "prefLabel": {
                     "en": "PTSD (Adult)"
                 }
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:q_mood_adhd_adult/q_mood_adhd_adult_schema",
+                "isAbout": "mood/q_mood_adhd_adult/q_mood_adhd_adult_schema",
                 "variableName": "q_mood_adhd_adult_schema",
                 "prefLabel": {
                     "en": "ADHD (Adult)"
