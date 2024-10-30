@@ -496,7 +496,7 @@
             },
             {
                 "isAbout": "items/hours_voice_activity",
-                "isVis": "voice_activity.length > 0",
+                "isVis": "Array.isArray(voice_activity) && voice_activity.length > 0",
                 "variableName": "hours_voice_activity"
             },
             {
