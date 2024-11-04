@@ -9,7 +9,26 @@
         "order": [
             "activities/completed_by/completed_by_schema",
             "activities/required/required_schema",
-            "activities/optional/optional_schema"
+            "b2ai_redcap2rs_activities:country",
+            "optional/items/household_income_usa",
+            "optional/items/financial_assistance_usa",
+            "optional/items/assistance_programs_usa",
+            "optional/items/household_income_ca",
+            "optional/items/financial_assistance_ca",
+            "optional/items/assistance_programs_ca",
+            "b2ai_redcap2rs_activities:citizen",
+            "b2ai_redcap2rs_activities:marital_status",
+            "b2ai_redcap2rs_activities:housing_status",
+            "b2ai_redcap2rs_activities:household_count",
+            "b2ai_redcap2rs_activities:spouse_partner_sig_other",
+            "b2ai_redcap2rs_activities:children",
+            "b2ai_redcap2rs_activities:parent",
+            "b2ai_redcap2rs_activities:grandparent",
+            "b2ai_redcap2rs_activities:other_live_with",
+            "b2ai_redcap2rs_activities:others_household_specify",
+            "b2ai_redcap2rs_activities:transportation_yn",
+            "b2ai_redcap2rs_activities:primary_transportation",
+            "b2ai_redcap2rs_activities:other_transportation"
         ],
         "addProperties": [
             {
@@ -24,9 +43,175 @@
                 "variableName": "required"
             },
             {
-                "isAbout": "activities/optional/optional_schema",
+                "isAbout": "b2ai_redcap2rs_activities:country",
+                "prefLabel": {
+                    "en": "Country"
+                },
                 "isVis": true,
-                "variableName": "optional"
+                "variableName": "country",
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "isAbout": "optional/items/household_income_usa",
+                "isVis": "country === 1",
+                "variableName": "household_income_usa",
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "isAbout": "optional/items/financial_assistance_usa",
+                "isVis": "country === 1",
+                "variableName": "financial_assistance_usa",
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "isAbout": "optional/items/assistance_programs_usa",
+                "isVis": "country === 1",
+                "variableName": "assistance_programs_usa",
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "isAbout": "optional/items/household_income_ca",
+                "isVis": "country === 2",
+                "variableName": "household_income_ca",
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "isAbout": "optional/items/financial_assistance_ca",
+                "isVis": "country === 2",
+                "variableName": "financial_assistance_ca",
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "isAbout": "optional/items/assistance_programs_ca",
+                "isVis": "country === 2",
+                "variableName": "assistance_programs_ca",
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:citizen",
+                "isVis": true,
+                "variableName": "citizen",
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:marital_status",
+                "isVis": true,
+                "variableName": "marital_status",
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:housing_status",
+                "isVis": true,
+                "variableName": "housing_status",
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:household_count",
+                "isVis": true,
+                "variableName": "household_count",
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:spouse_partner_sig_other",
+                "isVis": true,
+                "variableName": "spouse_partner_sig_other",
+                "@type": "reproschema:Item",
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:children",
+                "isVis": true,
+                "variableName": "children",
+                "@type": "reproschema:Item",
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:parent",
+                "isVis": true,
+                "variableName": "parent",
+                "@type": "reproschema:Item",
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:grandparent",
+                "isVis": true,
+                "variableName": "grandparent",
+                "@type": "reproschema:Item",
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:other_live_with",
+                "isVis": true,
+                "variableName": "other_live_with",
+                "@type": "reproschema:Item",
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:others_household_specify",
+                "isVis": "other_live_with == 1",
+                "variableName": "others_household_specify",
+                "@type": "reproschema:Item",
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:transportation_yn",
+                "isVis": true,
+                "variableName": "transportation_yn",
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },         
+            {
+                "isAbout": "b2ai_redcap2rs_activities:primary_transportation",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "primary_transportation",
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:other_transportation",
+                "isVis": "primary_transportation == 8",
+                "valueRequired": true,
+                "variableName": "other_transportation",
+                "allow": [
+                    "reproschema:Skipped"
+                ]
             }
         ],
         "shuffle": false,
