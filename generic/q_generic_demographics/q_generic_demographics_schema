@@ -10,21 +10,17 @@
             "activities/completed_by/completed_by_schema",
             "activities/required/required_schema",
             "b2ai_redcap2rs_activities:country",
-            "optional/items/household_income_usa",
-            "optional/items/financial_assistance_usa",
-            "optional/items/assistance_programs_usa",
-            "optional/items/household_income_ca",
-            "optional/items/financial_assistance_ca",
-            "optional/items/assistance_programs_ca",
+            "activities/optional/items/household_income_usa",
+            "activities/optional/items/financial_assistance_usa",
+            "activities/optional/items/assistance_programs_usa",
+            "activities/optional/items/household_income_ca",
+            "activities/optional/items/financial_assistance_ca",
+            "activities/optional/items/assistance_programs_ca",
             "b2ai_redcap2rs_activities:citizen",
             "b2ai_redcap2rs_activities:marital_status",
             "b2ai_redcap2rs_activities:housing_status",
             "b2ai_redcap2rs_activities:household_count",
-            "b2ai_redcap2rs_activities:spouse_partner_sig_other",
-            "b2ai_redcap2rs_activities:children",
-            "b2ai_redcap2rs_activities:parent",
-            "b2ai_redcap2rs_activities:grandparent",
-            "b2ai_redcap2rs_activities:other_live_with",
+            "activities/optional/items/household_composition",
             "b2ai_redcap2rs_activities:others_household_specify",
             "b2ai_redcap2rs_activities:transportation_yn",
             "b2ai_redcap2rs_activities:primary_transportation",
@@ -44,9 +40,6 @@
             },
             {
                 "isAbout": "b2ai_redcap2rs_activities:country",
-                "prefLabel": {
-                    "en": "Country"
-                },
                 "isVis": true,
                 "variableName": "country",
                 "allow": [
@@ -54,7 +47,7 @@
                 ]
             },
             {
-                "isAbout": "optional/items/household_income_usa",
+                "isAbout": "activities/optional/items/household_income_usa",
                 "isVis": "country === 1",
                 "variableName": "household_income_usa",
                 "allow": [
@@ -62,7 +55,7 @@
                 ]
             },
             {
-                "isAbout": "optional/items/financial_assistance_usa",
+                "isAbout": "activities/optional/items/financial_assistance_usa",
                 "isVis": "country === 1",
                 "variableName": "financial_assistance_usa",
                 "allow": [
@@ -70,7 +63,7 @@
                 ]
             },
             {
-                "isAbout": "optional/items/assistance_programs_usa",
+                "isAbout": "activities/optional/items/assistance_programs_usa",
                 "isVis": "country === 1",
                 "variableName": "assistance_programs_usa",
                 "allow": [
@@ -78,7 +71,7 @@
                 ]
             },
             {
-                "isAbout": "optional/items/household_income_ca",
+                "isAbout": "activities/optional/items/household_income_ca",
                 "isVis": "country === 2",
                 "variableName": "household_income_ca",
                 "allow": [
@@ -86,7 +79,7 @@
                 ]
             },
             {
-                "isAbout": "optional/items/financial_assistance_ca",
+                "isAbout": "activities/optional/items/financial_assistance_ca",
                 "isVis": "country === 2",
                 "variableName": "financial_assistance_ca",
                 "allow": [
@@ -94,7 +87,7 @@
                 ]
             },
             {
-                "isAbout": "optional/items/assistance_programs_ca",
+                "isAbout": "activities/optional/items/assistance_programs_ca",
                 "isVis": "country === 2",
                 "variableName": "assistance_programs_ca",
                 "allow": [
@@ -134,53 +127,16 @@
                 ]
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:spouse_partner_sig_other",
+                "isAbout": "activities/optional/items/household_composition",
                 "isVis": true,
-                "variableName": "spouse_partner_sig_other",
-                "@type": "reproschema:Item",
-                "allow": [
-                    "reproschema:Skipped"
-                ]
-            },
-            {
-                "isAbout": "b2ai_redcap2rs_activities:children",
-                "isVis": true,
-                "variableName": "children",
-                "@type": "reproschema:Item",
-                "allow": [
-                    "reproschema:Skipped"
-                ]
-            },
-            {
-                "isAbout": "b2ai_redcap2rs_activities:parent",
-                "isVis": true,
-                "variableName": "parent",
-                "@type": "reproschema:Item",
-                "allow": [
-                    "reproschema:Skipped"
-                ]
-            },
-            {
-                "isAbout": "b2ai_redcap2rs_activities:grandparent",
-                "isVis": true,
-                "variableName": "grandparent",
-                "@type": "reproschema:Item",
-                "allow": [
-                    "reproschema:Skipped"
-                ]
-            },
-            {
-                "isAbout": "b2ai_redcap2rs_activities:other_live_with",
-                "isVis": true,
-                "variableName": "other_live_with",
-                "@type": "reproschema:Item",
+                "variableName": "household_composition",
                 "allow": [
                     "reproschema:Skipped"
                 ]
             },
             {
                 "isAbout": "b2ai_redcap2rs_activities:others_household_specify",
-                "isVis": "other_live_with == 1",
+                "isVis": "Array.isArray(household_composition) && household_composition.includes(4)",
                 "variableName": "others_household_specify",
                 "@type": "reproschema:Item",
                 "allow": [

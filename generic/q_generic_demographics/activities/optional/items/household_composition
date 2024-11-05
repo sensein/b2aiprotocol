@@ -1,0 +1,52 @@
+{
+    "id": "race",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "household_composition"
+    },
+    "question": {
+        "en": "Who lives with you? Choose all that apply"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Spouse/partner/significant other"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "One or more children"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "One or more parent"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "One or more grandparent"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 4
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
