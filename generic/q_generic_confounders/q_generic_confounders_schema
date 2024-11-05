@@ -199,19 +199,29 @@
                 "variableName": "tired_measure"
             },
             {
-                "isAbout": "items/height",
-                "isVis": true,
-                "variableName": "height"
-            },
-            {
-                "isAbout": "items/weight",
-                "isVis": true,
-                "variableName": "weight"
-            },
-            {
                 "isAbout": "items/unit",
                 "isVis": true,
                 "variableName": "unit"
+            },
+            {
+                "isAbout": "items/height_cm",
+                "isVis": "unit == 1",
+                "variableName": "height_cm"
+            },
+            {
+                "isAbout": "items/weight_kg",
+                "isVis": "unit == 1",
+                "variableName": "weight_kg"
+            },
+            {
+                "isAbout": "items/height_in",
+                "isVis": "unit == 2",
+                "variableName": "height_in"
+            },
+            {
+                "isAbout": "items/weight_lbs",
+                "isVis": "unit == 2",
+                "variableName": "weight_lbs"
             },
             {
                 "isAbout": "items/symptoms",
@@ -544,9 +554,11 @@
             "items/seasonal_allergies",
             "items/seasonal_allergies_options",
             "items/tired_measure",
-            "items/height",
-            "items/weight",
             "items/unit",
+            "items/height_cm",
+            "items/weight_kg",
+            "items/height_in",
+            "items/weight_lbs",
             "items/symptoms",
             "items/ent_introduction",
             "items/ear_med_history",

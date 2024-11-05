@@ -5,7 +5,7 @@
         "en": "unit"
     },
     "question": {
-        "en": "Unit"
+        "en": "Please enter the measurement system for entering your height and weight:"
     },
     "responseOptions": {
         "choices": [
@@ -22,9 +22,7 @@
                 "value": 2
             }
         ],
-        "valueType": [
-            "xsd:integer"
-        ]
+        "valueType": "xsd:integer"
     },
     "ui": {
         "inputType": "select"

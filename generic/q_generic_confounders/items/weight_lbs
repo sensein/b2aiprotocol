@@ -1,19 +1,17 @@
 {
-    "id": "weight",
+    "id": "weight_lbs",
     "category": "reproschema:Item",
     "description": {
         "en": "lbs or kg"
     },
     "prefLabel": {
-        "en": "weight"
+        "en": "weight pounds"
     },
     "question": {
-        "en": "Weight (pounds or kilograms)"
+        "en": "Weight (pounds)"
     },
     "responseOptions": {
-        "valueType": [
-            "xsd:decimal"
-        ]
+        "valueType": "xsd:decimal"
     },
     "ui": {
         "inputType": "float"

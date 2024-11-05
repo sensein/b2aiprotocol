@@ -1,22 +1,18 @@
 {
-    "id": "height",
+    "id": "height_cm",
     "category": "reproschema:Item",
     "description": {
         "en": "inches or centimeters"
     },
-    "preamble": {
-        "en": "Height and Weight"
-    },
+
     "prefLabel": {
-        "en": "height"
+        "en": "height centimeters"
     },
     "question": {
-        "en": "Height (inches or centimeters)"
+        "en": "Height (centimeters)"
     },
     "responseOptions": {
-        "valueType": [
-            "xsd:decimal"
-        ]
+        "valueType": "xsd:decimal"
     },
     "ui": {
         "inputType": "float"
