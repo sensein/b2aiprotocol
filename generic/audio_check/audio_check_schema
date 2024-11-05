@@ -11,6 +11,7 @@
       "order": [
         "items/check_1",
         "items/check_2",
+        "items/cough",
         "items/breathing"
       ],
       "addProperties": [
@@ -22,6 +23,11 @@
         {
             "isAbout": "items/check_2",
             "variableName": "check_2",
+            "isVis": true
+        },
+        {
+            "isAbout": "items/cough",
+            "variableName": "cough",
             "isVis": true
         },
         {
