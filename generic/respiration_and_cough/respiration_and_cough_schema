@@ -2,47 +2,77 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
     "@type": "reproschema:Activity",
     "@id": "respiration_and_cough_schema",
-    "prefLabel": {"en": "Respiration and cough"},
+    "prefLabel": { "en": "Respiration and cough" },
     "description": "Record breathing sounds and coughs.",
-    "preamble": {"en": "Breathing sounds can also provide information on your health, let's record them."},
+    "preamble": { "en": "Breathing sounds can also provide information on your health, let's record them." },
     "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
-      "order": [
-        "items/respiration_and_cough_1",
-        "items/respiration_and_cough_2",
-        "items/respiration_and_cough_3",
-        "items/respiration_and_cough_4",
-        "items/respiration_and_cough_5"
-      ],
-      "addProperties": [
-        {
-          "isAbout": "items/respiration_and_cough_1",
-          "variableName": "respiration_and_cough_1",
-          "isVis": true
-        },
-        {
-          "isAbout": "items/respiration_and_cough_2",
-          "variableName": "respiration_and_cough_2",
-          "isVis": true
-        },
-        {
-          "isAbout": "items/respiration_and_cough_3",
-          "variableName": "respiration_and_cough_3",
-          "isVis": true
-        },
-        {
-          "isAbout": "items/respiration_and_cough_4",
-          "variableName": "respiration_and_cough_4",
-          "isVis": true
-        },
-        {
-          "isAbout": "items/respiration_and_cough_5",
-          "variableName": "respiration_and_cough_5",
-          "isVis": true
-        }
-      ],
-      "shuffle": false,
-      "allow": ["reproschema:AutoAdvance", "reproschema:AllowExport"]
+        "order": [
+            "items/respiration_and_cough_1",
+            "items/respiration_and_cough_1_second",
+            "items/respiration_and_cough_2",
+            "items/respiration_and_cough_2_second",
+            "items/respiration_and_cough_3",
+            "items/respiration_and_cough_3_second",
+            "items/respiration_and_cough_4",
+            "items/respiration_and_cough_4_second",
+            "items/respiration_and_cough_5",
+            "items/respiration_and_cough_5_second"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/respiration_and_cough_1",
+                "variableName": "respiration_and_cough_1",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/respiration_and_cough_1_second",
+                "variableName": "respiration_and_cough_1_second",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/respiration_and_cough_2",
+                "variableName": "respiration_and_cough_2",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/respiration_and_cough_2_second",
+                "variableName": "respiration_and_cough_2_second",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/respiration_and_cough_3",
+                "variableName": "respiration_and_cough_3",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/respiration_and_cough_3_second",
+                "variableName": "respiration_and_cough_3_second",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/respiration_and_cough_4",
+                "variableName": "respiration_and_cough_4",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/respiration_and_cough_4_second",
+                "variableName": "respiration_and_cough_4_second",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/respiration_and_cough_5",
+                "variableName": "respiration_and_cough_5",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/respiration_and_cough_5_second",
+                "variableName": "respiration_and_cough_5_second",
+                "isVis": true
+            }
+        ],
+        "shuffle": false,
+        "allow": ["reproschema:AutoAdvance", "reproschema:AllowExport"]
     }
 }
