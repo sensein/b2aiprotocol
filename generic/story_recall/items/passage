@@ -1,0 +1,28 @@
+{
+    "id": "passage",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "passage"
+    },
+    "preamble": {
+        "en": "Story Recall"
+    }, 
+    "question": {
+        "en": "This task helps us evaluate how you use breathing to support your voice.<br><br> Read the following passage using your normal voice:<br><br> You wished to know all about my grandfather. Well, he is nearly ninety-three years old. He dresses himself in an ancient black frock coat, usually minus several buttons; yet he still thinks as swiftly as ever. A long, flowing beard clings to his chin, giving those who observe him a pronounced feeling of the utmost respect. When he speaks his voice is just a bit cracked and quivers a trifle. Twice each day he plays skilfully and with zest upon our small organ. Except in the winter when the ooze or snow or ice prevents, he slowly takes a short walk in the open air each day. We have often urged him to walk more and smoke less, but he always answers, “Banana Oil!” Grandfather likes to be modern in his language."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Continue"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": "xsd:integer"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

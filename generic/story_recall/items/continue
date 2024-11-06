@@ -1,0 +1,28 @@
+{
+    "id": "continue",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "continue"
+    },
+    "preamble": {
+        "en": "After clicking continue, you will no longer be able to see the passage."
+    }, 
+    "question": {
+        "en": " "
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Continue"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": "xsd:integer"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -9,9 +9,21 @@
     "version": "0.0.1",
     "ui": {
       "order": [
+        "items/passage",
+        "items/continue",
         "items/story_recall"
       ],
       "addProperties": [
+        {
+            "isAbout": "items/passage",
+            "variableName": "passage",
+            "isVis": "typeof continue === 'undefined'"
+        },
+        {
+            "isAbout": "items/continue",
+            "variableName": "continue",
+            "isVis": true
+        },
         {
           "isAbout": "items/story_recall",
           "variableName": "story_recall",
