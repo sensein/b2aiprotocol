@@ -310,7 +310,7 @@
             },
             {
                 "isAbout": "items/covid_past",
-                "isVis": "covid === 'past_year'",
+                "isVis": "Array.isArray(covid) && covid.includes(1)",
                 "variableName": "covid_past"
             },
             {
