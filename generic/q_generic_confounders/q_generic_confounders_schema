@@ -280,7 +280,7 @@
             },
             {
                 "isAbout": "items/current_neuro_dx",
-                "isVis": "neurological_history ===  1 || neurological_history ===  1 || neurological_history ===  1 || neurological_history ===  1 || neurological_history ===  1 || neurological_history ===  1",
+                "isVis": "Array.isArray(neurological_history) && neurological_history.length > 0",
                 "variableName": "current_neuro_dx"
             },
             {
