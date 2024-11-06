@@ -19,19 +19,19 @@
                 "name": {
                     "en": "I have an IUD "
                 },
-                "value": " iud"
+                "value": "iud"
             },
             {
                 "name": {
                     "en": "I have gone through menopause "
                 },
-                "value": " menopause"
+                "value": "menopause"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "valueType": [
