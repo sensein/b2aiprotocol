@@ -8,12 +8,11 @@
     "version": "0.0.1",
     "question": "Can you tell us about your mood in the past couple of weeks? What makes you feel happiness and what makes you feel sadness or stress?",
     "ui": {
-      "inputType": "audioCheck"
+        "inputType": "audioCheck"
     },
     "responseOptions": {
-      "valueType": "schema:AudioObject",
-      "minValue": 0,
-      "maxValue": 600000
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 600000
     }
 }
-  

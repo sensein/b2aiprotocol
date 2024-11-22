@@ -4,7 +4,6 @@
     "description": {
         "en": "inches or centimeters"
     },
-
     "prefLabel": {
         "en": "height centimeters"
     },

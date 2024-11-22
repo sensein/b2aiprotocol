@@ -7,7 +7,7 @@
         }
     ],
     "@type": "reproschema:Protocol",
-    "@id": "test_protocol_schema",
+    "@id": "b2ai_protocol_schema",
     "prefLabel": "Test protocol",
     "description": "A test protocol",
     "schemaVersion": "1.0.0",

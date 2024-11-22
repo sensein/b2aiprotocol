@@ -50,7 +50,9 @@
             }
         ],
         "multipleChoice": true,
-        "valueType": ["xsd:integer"]
+        "valueType": [
+            "xsd:integer"
+        ]
     },
     "ui": {
         "inputType": "radio"

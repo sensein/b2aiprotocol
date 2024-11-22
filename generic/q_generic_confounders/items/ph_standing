@@ -1,5 +1,5 @@
 {
-    "id": "physcial_health_group_1",
+    "id": "ph_standing",
     "category": "reproschema:Item",
     "preamble": {
         "en": "Physical Health\n\nIn the past 30 days, how much difficulty did you have in:"

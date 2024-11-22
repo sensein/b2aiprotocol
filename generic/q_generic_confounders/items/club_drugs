@@ -1,8 +1,8 @@
 {
-    "id": "substance_use_options_6",
+    "id": "club_drugs",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "substance_use_options_6"
+        "en": "club_drugs"
     },
     "question": {
         "en": "Club drugs (like ecstasy)"

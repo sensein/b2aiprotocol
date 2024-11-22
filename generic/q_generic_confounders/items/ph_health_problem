@@ -1,8 +1,8 @@
 {
-    "id": "physcial_health_group_5",
+    "id": "ph_health_problem",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "physcial_health_group_5"
+        "en": "ph_health_problem"
     },
     "question": {
         "en": "How much have you been emotionally affected by your health problems?"

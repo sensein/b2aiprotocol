@@ -8,10 +8,12 @@
     "version": "0.0.1",
     "question": "You are shown a picture, please describe what you see in your own words. You can keep talking until the time runs out.",
     "image": "picture.jpeg",
-    "ui": { "inputType": "audioImageRecord"},
+    "ui": {
+        "inputType": "audioImageRecord"
+    },
     "responseOptions": {
-      "valueType": "schema:AudioObject",
-      "minValue": 0,
-      "maxValue": 60000
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 60000
     }
-  }
+}

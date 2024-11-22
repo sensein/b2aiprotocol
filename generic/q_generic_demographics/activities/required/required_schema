@@ -2,7 +2,7 @@
     "@type": "reproschema:Activity",
     "id": "required_schema",
     "prefLabel": {
-        "en": "q_generic_demographics"
+        "en": "required"
     },
     "schemaVersion": "1.0.0",
     "preamble": {
@@ -80,7 +80,7 @@
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
         {
             "reproschema_library_activities": "https://raw.githubusercontent.com/ReproNim/reproschema-library/enh/rc4/a23a13875c7262c0bd0d77bd90c1ec296c6d1116/activities/",
-            "b2ai_redcap2rs_activities": "https://raw.githubusercontent.com/sensein/b2ai-redcap2rs/main/activities/q_generic_demographics/items/"
+            "b2ai_redcap2rs_activities": "https://raw.githubusercontent.com/sensein/b2ai-redcap2rs/main/activities/required/items/"
         }
     ]
 }

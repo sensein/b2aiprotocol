@@ -1,8 +1,8 @@
 {
-    "id": "physcial_health_group_10",
+    "id": "ph_dealing_people",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "physcial_health_group_10"
+        "en": "ph_dealing_people"
     },
     "question": {
         "en": "Dealing with people you do not know?"

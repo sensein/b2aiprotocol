@@ -7,9 +7,9 @@
         }
     ],
     "@type": "reproschema:Activity",
-    "id": "transport_mode_activity_schema",
+    "id": "transportation_mode_schema",
     "prefLabel": {
-        "en": "Transport Mode"
+        "en": "transportation_mode_schema"
     },
     "description": {
         "en": "Collects information on primary mode of transportation."

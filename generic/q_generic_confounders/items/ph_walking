@@ -1,8 +1,8 @@
 {
-    "id": "physcial_health_group_7",
+    "id": "ph_walking",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "physcial_health_group_7"
+        "en": "ph_walking"
     },
     "question": {
         "en": "Walking a long distance such as a kilometre [or equivalent]?"

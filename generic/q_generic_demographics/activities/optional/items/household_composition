@@ -1,5 +1,5 @@
 {
-    "id": "race",
+    "id": "household_composition",
     "category": "reproschema:Item",
     "prefLabel": {
         "en": "household_composition"

@@ -8,11 +8,11 @@
     "version": "0.0.1",
     "question": "Can you talk to us about why you are interested by this study? Who told you about it? Why is it meaningful or valuable to you? How do you think it will help patients in the future?",
     "ui": {
-      "inputType": "audioCheck"
+        "inputType": "audioCheck"
     },
     "responseOptions": {
-      "valueType": "schema:AudioObject",
-      "minValue": 0,
-      "maxValue": 600000
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 600000
     }
-  }
+}

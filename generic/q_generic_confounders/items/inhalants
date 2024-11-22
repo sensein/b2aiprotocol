@@ -1,8 +1,8 @@
 {
-    "id": "substance_use_options_9",
+    "id": "inhalants",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "substance_use_options_9"
+        "en": "inhalants"
     },
     "question": {
         "en": "Inhalants or solvents (like glue)"

@@ -1,18 +1,18 @@
 {
-  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
-  "@type": "reproschema:Field",
-  "@id": "respiration_and_cough_5",
-  "prefLabel": "Respiration and cough Task 5",
-  "description": "After pressing record, cough 5 times.",
-  "schemaVersion": "1.0.0",
-  "version": "0.0.1",
-  "question": "After pressing record, cough 5 times.",
-  "ui": {
-    "inputType": "audioCheck"
-  },
-  "responseOptions": {
-    "valueType": "schema:AudioObject",
-    "minValue": 0,
-    "maxValue": 120000
-  }
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+    "@type": "reproschema:Field",
+    "@id": "respiration_and_cough_5",
+    "prefLabel": "Respiration and cough Task 5",
+    "description": "After pressing record, cough 5 times.",
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "question": "After pressing record, cough 5 times.",
+    "ui": {
+        "inputType": "audioCheck"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 120000
+    }
 }

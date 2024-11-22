@@ -4,7 +4,7 @@
     "@id": "maximum_phonation_time_1",
     "prefLabel": "Maximum phonation time",
     "description": "This is the only maximum phonation time item.",
-    "question":"       ",
+    "question": "       ",
     "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {

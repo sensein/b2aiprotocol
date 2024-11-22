@@ -1,18 +1,18 @@
 {
-  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
-  "@type": "reproschema:Field",
-  "@id": "recall_story",
-  "prefLabel": "recall story",
-  "description": "recall story",
-  "schemaVersion": "1.0.0",
-  "version": "0.0.1",
-  "question": "Recall the story to the best of your ability.",
-  "ui": {
-    "inputType": "audioCheck"
-  },
-  "responseOptions": {
-    "valueType": "schema:AudioObject",
-    "minValue": 0,
-    "maxValue": 120000
-  }
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+    "@type": "reproschema:Field",
+    "@id": "story_recall",
+    "prefLabel": "recall story",
+    "description": "recall story",
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "question": "Recall the story to the best of your ability.",
+    "ui": {
+        "inputType": "audioCheck"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 120000
+    }
 }
