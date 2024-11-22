@@ -15,7 +15,7 @@
     "landingPage": [{
             "@id": "README.md",
             "inLanguage": "en"
-        }
+        }],
     "ui": {
         "addProperties": [
             {
