@@ -161,8 +161,8 @@
             {
                 "variableName": "suicidal_support_popup",
                 "isAbout": "items/suicidal_support_popup",
-                "valueRequired": "dsm5crossad_11 !== 0", 
-                "isVis": true
+                "valueRequired": true, 
+                "isVis": "dsm5crossad_11 !== 0"
             },
             {
                 "variableName": "dsm5crossad_12",
