@@ -8,8 +8,8 @@
     ],
     "@type": "reproschema:Protocol",
     "@id": "b2ai_protocol_schema",
-    "prefLabel": "Test protocol",
-    "description": "A test protocol",
+    "prefLabel": "Bridge2AI Voice Mood Protocol",
+    "description": "Bridge2AI Voice mood protocol",
     "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "landingPage": [{
