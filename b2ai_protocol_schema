@@ -3,7 +3,7 @@
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
         {
             "reproschema_library_activities": "https://raw.githubusercontent.com/ReproNim/reproschema-library/8c11e4fad32d09f351b8a432d5d2666ea9709170/activities/",
-            "b2ai_redcap2rs_activities": "https://raw.githubusercontent.com/sensein/b2ai-redcap2rs/baa7dc4d18fe588578f2d59e01137466af3daa79/activities/"
+            "b2ai_redcap2rs_activities": "https://raw.githubusercontent.com/sensein/b2ai-redcap2rs/24cbb461c2ff6556f047dd4bc1275b4b08d52eb8/activities/"
         }
     ],
     "@type": "reproschema:Protocol",
@@ -116,10 +116,6 @@
                     "en": "Prolonged Vowel"
                 }
             },
-
-
-
-
             {
                 "isAbout": "generic/rainbow_passage/rainbow_passage_schema",
                 "variableName": "rainbow_passage_schema",
@@ -139,6 +135,13 @@
                 "variableName": "story_recall_schema",
                 "prefLabel": {
                     "en": "Story Recall"
+                }
+            },
+            {
+                "isAbout": "mood/q_mood_participant_history/q_mood_participant_history_schema",
+                "variableName": "participant_history",
+                "prefLabel": {
+                    "en": "Participant History"
                 }
             },
             {
@@ -210,6 +213,7 @@
             "generic/picture_description/picture_description_schema",
             "generic/story_recall/story_recall_schema",
             "generic/audio_check/audio_check_schema",
+            "mood/q_mood_participant_history/q_mood_participant_history_schema",
             "mood/q_mood_panas/q_mood_panas_schema",
             "mood/q_mood_custom_affect_scale/q_mood_custom_affect_scale_schema",
             "mood/DSM-5_A/DSM5_crosscutting_adult_schema",
