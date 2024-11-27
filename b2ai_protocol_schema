@@ -159,8 +159,8 @@
                 }
             },
             {
-                "isAbout": "mood/DSM-5_A/DSM5_crosscutting_adult_schema",
-                "variableName": "dsm_5_adult",
+                "isAbout": "mood/q_mood_dsm5_adult/q_mood_dsm5_adult_schema",
+                "variableName": "q_mood_dsm5_adult",
                 "prefLabel": {
                     "en": "DSM-5 (Adult)"
                 }
@@ -216,7 +216,7 @@
             "mood/q_mood_participant_history/q_mood_participant_history_schema",
             "mood/q_mood_panas/q_mood_panas_schema",
             "mood/q_mood_custom_affect_scale/q_mood_custom_affect_scale_schema",
-            "mood/DSM-5_A/DSM5_crosscutting_adult_schema",
+            "mood/q_mood_dsm5_adult/q_mood_dsm5_adult_schema",
             "mood/q_mood_ptsd_adult/q_mood_ptsd_adult_schema",
             "mood/q_mood_adhd_adult/q_mood_adhd_adult_schema",
             "mood/animal_fluency/animal_fluency_schema",
