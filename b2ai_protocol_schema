@@ -192,6 +192,13 @@
                 "prefLabel": {
                     "en": "Open Response Questions"
                 }
+            },
+            {
+                "isAbout": "completion_message/completion_message_schema",
+                "variableName": "completion_message",
+                "prefLabel": {
+                    "en": "Completion Message"
+                }
             }
         ],
         "order": [
@@ -220,7 +227,8 @@
             "mood/q_mood_ptsd_adult/q_mood_ptsd_adult_schema",
             "mood/q_mood_adhd_adult/q_mood_adhd_adult_schema",
             "mood/animal_fluency/animal_fluency_schema",
-            "mood/open_response_questions/open_response_questions_schema"
+            "mood/open_response_questions/open_response_questions_schema",
+            "completion_message/completion_message_schema"
         ],
         "shuffle": false,
         "allow": ["reproschema:AutoAdvance", "reproschema:AllowExport"]

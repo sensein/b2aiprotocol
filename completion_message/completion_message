@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "completion_message",
+    "prefLabel": "Completion Message",
+    "description": "Informs the participant that they have completed the survey or task.",
+    "question": {
+        "en": "<div style='text-align: left;'><h3>Thank You! You have completed the protocol.</h3><p> Your responses have been recorded.</p><p>If you have any feedback, please feel free to enter it below. Thank you for your participation!</p></div>"
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    }
+}

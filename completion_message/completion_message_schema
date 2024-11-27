@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "completion_activity",
+    "prefLabel": "Completion Activity",
+    "description": "Activity to inform the participant they are done.",
+    "version": "1.0.0",
+    "ui": {
+        "order": [
+            "completion_message"
+        ],
+        "addProperties": [
+            {
+                "variableName": "completion_message",
+                "isAbout": "completion_message",
+                "valueRequired": true,
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}
