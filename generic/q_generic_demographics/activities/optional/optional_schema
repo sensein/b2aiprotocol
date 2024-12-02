@@ -146,16 +146,16 @@
         ],
         "shuffle": false,
         "allow": [
-			"reproschema:AutoAdvance",
-			"reproschema:AllowExport"
-		]
+            "reproschema:AutoAdvance",
+            "reproschema:AllowExport"
+        ]
     },
     "version": "3.8.0",
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
         {
-            "reproschema_library_activities": "https://raw.githubusercontent.com/ReproNim/reproschema-library/enh/rc4/a23a13875c7262c0bd0d77bd90c1ec296c6d1116/activities/",
-            "b2ai_redcap2rs_activities": "https://raw.githubusercontent.com/sensein/b2ai-redcap2rs/main/activities/q_generic_demographics/items/"
+            "reproschema_library_activities": "https://raw.githubusercontent.com/ReproNim/reproschema-library/8c11e4fad32d09f351b8a432d5d2666ea9709170/activities/",
+            "b2ai_redcap2rs_activities": "https://raw.githubusercontent.com/sensein/b2ai-redcap2rs/24cbb461c2ff6556f047dd4bc1275b4b08d52eb8/activities/"
         }
     ]
 }

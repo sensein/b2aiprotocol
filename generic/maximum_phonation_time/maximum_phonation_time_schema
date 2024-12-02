@@ -1,37 +1,49 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+        {
+            "reproschema_library_activities": "https://raw.githubusercontent.com/ReproNim/reproschema-library/8c11e4fad32d09f351b8a432d5d2666ea9709170/activities/",
+            "b2ai_redcap2rs_activities": "https://raw.githubusercontent.com/sensein/b2ai-redcap2rs/24cbb461c2ff6556f047dd4bc1275b4b08d52eb8/activities/"
+        }
+    ],
     "@type": "reproschema:Activity",
     "@id": "maximum_phonation_time_schema",
-    "prefLabel": {"en": "Maximum phonation time"},
+    "prefLabel": {
+        "en": "Maximum phonation time"
+    },
     "description": "Hold sound for as long as possible",
-    "preamble": {"en": "This task helps us analyze the way your breathing is connected to your voice.\n\n Take a very deep breath and hold out “ah” for as long as possible until you completely run out of air. We will repeat this task 3 times."},
+    "preamble": {
+        "en": "This task helps us analyze the way your breathing is connected to your voice.\n\n Take a very deep breath and hold out “ah” for as long as possible until you completely run out of air. We will repeat this task 3 times."
+    },
     "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
-      "order": [
-        "items/maximum_phonation_time_1",
-        "items/maximum_phonation_time_2",
-        "items/maximum_phonation_time_3"
-      ],
-      "addProperties": [
-        {
-            "isAbout": "items/maximum_phonation_time_1",
-            "variableName": "maximum_phonation_time_1",
-            "isVis": true
-        },
-        {
-            "isAbout": "items/maximum_phonation_time_2",
-            "variableName": "maximum_phonation_time_2",
-            "isVis": true
-        },
-        {
-            "isAbout": "items/maximum_phonation_time_3",
-            "variableName": "maximum_phonation_time_3",
-            "isVis": true
-        }
-      ],
-      "shuffle": false,
-      "allow": ["reproschema:AutoAdvance", "reproschema:AllowExport"]
+        "order": [
+            "items/maximum_phonation_time_1",
+            "items/maximum_phonation_time_2",
+            "items/maximum_phonation_time_3"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/maximum_phonation_time_1",
+                "variableName": "maximum_phonation_time_1",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/maximum_phonation_time_2",
+                "variableName": "maximum_phonation_time_2",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/maximum_phonation_time_3",
+                "variableName": "maximum_phonation_time_3",
+                "isVis": true
+            }
+        ],
+        "shuffle": false,
+        "allow": [
+            "reproschema:AutoAdvance",
+            "reproschema:AllowExport"
+        ]
     }
 }
-  

@@ -1,48 +1,61 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+        {
+            "reproschema_library_activities": "https://raw.githubusercontent.com/ReproNim/reproschema-library/8c11e4fad32d09f351b8a432d5d2666ea9709170/activities/",
+            "b2ai_redcap2rs_activities": "https://raw.githubusercontent.com/sensein/b2ai-redcap2rs/24cbb461c2ff6556f047dd4bc1275b4b08d52eb8/activities/"
+        }
+    ],
     "@type": "reproschema:Activity",
     "@id": "diadochokinesis_schema",
-    "prefLabel": {"en": "Diadochokinesis"},
+    "prefLabel": {
+        "en": "Diadochokinesis"
+    },
     "description": "The diadochokinesis activity.",
-    "preamble": {"en": "This task helps us analyze the ease and precision of speech sound productions. \n\n Say the syllables as they appear on your screen – Pa / Ta / Ka."},
+    "preamble": {
+        "en": "This task helps us analyze the ease and precision of speech sound productions. \n\n Say the syllables as they appear on your screen – Pa / Ta / Ka."
+    },
     "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
-      "order": [
-        "items/diadochokinesis_pa",
-        "items/diadochokinesis_ta",
-        "items/diadochokinesis_ka",
-        "items/diadochokinesis_pataka",
-        "items/diadochokinesis_buttercup"
-      ],
-      "addProperties": [
-        {
-          "isAbout": "items/diadochokinesis_pa",
-          "variableName": "diadochokinesis_pa",
-          "isVis": true
-        },
-        {
-          "isAbout": "items/diadochokinesis_ta",
-          "variableName": "diadochokinesis_ta",
-          "isVis": true
-        },
-        {
-          "isAbout": "items/diadochokinesis_ka",
-          "variableName": "diadochokinesis_ka",
-          "isVis": true
-        },
-        {
-          "isAbout": "items/diadochokinesis_pataka",
-          "variableName": "diadochokinesis_pataka",
-          "isVis": true
-        },
-        {
-          "isAbout": "items/diadochokinesis_buttercup",
-          "variableName": "diadochokinesis_buttercup",
-          "isVis": true
-        }
-      ],
-      "shuffle": false,
-      "allow": ["reproschema:AutoAdvance", "reproschema:AllowExport"]
+        "order": [
+            "items/diadochokinesis_pa",
+            "items/diadochokinesis_ta",
+            "items/diadochokinesis_ka",
+            "items/diadochokinesis_pataka",
+            "items/diadochokinesis_buttercup"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/diadochokinesis_pa",
+                "variableName": "diadochokinesis_pa",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/diadochokinesis_ta",
+                "variableName": "diadochokinesis_ta",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/diadochokinesis_ka",
+                "variableName": "diadochokinesis_ka",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/diadochokinesis_pataka",
+                "variableName": "diadochokinesis_pataka",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/diadochokinesis_buttercup",
+                "variableName": "diadochokinesis_buttercup",
+                "isVis": true
+            }
+        ],
+        "shuffle": false,
+        "allow": [
+            "reproschema:AutoAdvance",
+            "reproschema:AllowExport"
+        ]
     }
 }

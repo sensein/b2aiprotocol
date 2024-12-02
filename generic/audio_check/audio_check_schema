@@ -1,43 +1,55 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+        {
+            "reproschema_library_activities": "https://raw.githubusercontent.com/ReproNim/reproschema-library/8c11e4fad32d09f351b8a432d5d2666ea9709170/activities/",
+            "b2ai_redcap2rs_activities": "https://raw.githubusercontent.com/sensein/b2ai-redcap2rs/24cbb461c2ff6556f047dd4bc1275b4b08d52eb8/activities/"
+        }
+    ],
     "@type": "reproschema:Activity",
     "@id": "audio_check_schema",
-    "prefLabel": {"en": "Audio Check"},
+    "prefLabel": {
+        "en": "Audio Check"
+    },
     "description": "Checks the participants audio quality.",
-    "preamble": {"en": "Audio Check"},
+    "preamble": {
+        "en": "Audio Check"
+    },
     "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
-      "order": [
-        "items/check_1",
-        "items/check_2",
-        "items/cough",
-        "items/breathing"
-      ],
-      "addProperties": [
-        {
-            "isAbout": "items/check_1",
-            "variableName": "check_1",
-            "isVis": true
-        },
-        {
-            "isAbout": "items/check_2",
-            "variableName": "check_2",
-            "isVis": true
-        },
-        {
-            "isAbout": "items/cough",
-            "variableName": "cough",
-            "isVis": true
-        },
-        {
-            "isAbout": "items/breathing",
-            "variableName": "breathing",
-            "isVis": true
-        }
-      ],
-      "shuffle": false,
-      "allow": ["reproschema:AutoAdvance", "reproschema:AllowExport"]
+        "order": [
+            "items/check_1",
+            "items/check_2",
+            "items/cough",
+            "items/breathing"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/check_1",
+                "variableName": "check_1",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/check_2",
+                "variableName": "check_2",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/cough",
+                "variableName": "cough",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/breathing",
+                "variableName": "breathing",
+                "isVis": true
+            }
+        ],
+        "shuffle": false,
+        "allow": [
+            "reproschema:AutoAdvance",
+            "reproschema:AllowExport"
+        ]
     }
 }
-  

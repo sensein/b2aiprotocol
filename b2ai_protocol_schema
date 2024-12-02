@@ -12,10 +12,12 @@
     "description": "Bridge2AI Voice mood protocol",
     "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "landingPage": [{
+    "landingPage": [
+        {
             "@id": "README.md",
             "inLanguage": "en"
-        }],
+        }
+    ],
     "ui": {
         "addProperties": [
             {
@@ -231,6 +233,9 @@
             "completion_message/completion_message_schema"
         ],
         "shuffle": false,
-        "allow": ["reproschema:AutoAdvance", "reproschema:AllowExport"]
+        "allow": [
+            "reproschema:AutoAdvance",
+            "reproschema:AllowExport"
+        ]
     }
 }

@@ -1,25 +1,37 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+        {
+            "reproschema_library_activities": "https://raw.githubusercontent.com/ReproNim/reproschema-library/8c11e4fad32d09f351b8a432d5d2666ea9709170/activities/",
+            "b2ai_redcap2rs_activities": "https://raw.githubusercontent.com/sensein/b2ai-redcap2rs/24cbb461c2ff6556f047dd4bc1275b4b08d52eb8/activities/"
+        }
+    ],
     "@type": "reproschema:Activity",
     "@id": "picture_description_schema",
-    "prefLabel": {"en": "Picture description"},
+    "prefLabel": {
+        "en": "Picture description"
+    },
     "description": "You are shown a picture, please describe what you see in your own words. You can keep talking until the time runs out.",
-    "preamble": {"en": "Picture description"},
+    "preamble": {
+        "en": "Picture description"
+    },
     "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
-      "order": [
-        "items/picture_description"
-      ],
-      "addProperties": [
-        {
-          "isAbout": "items/picture_description",
-          "variableName": "picture_description",
-          "isVis": true
-        }
-      ],
-      "shuffle": false,
-      "allow": ["reproschema:AutoAdvance", "reproschema:AllowExport"]
+        "order": [
+            "items/picture_description"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/picture_description",
+                "variableName": "picture_description",
+                "isVis": true
+            }
+        ],
+        "shuffle": false,
+        "allow": [
+            "reproschema:AutoAdvance",
+            "reproschema:AllowExport"
+        ]
     }
-  }
-  
+}

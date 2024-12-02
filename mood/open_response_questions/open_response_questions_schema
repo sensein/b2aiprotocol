@@ -1,25 +1,37 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+        {
+            "reproschema_library_activities": "https://raw.githubusercontent.com/ReproNim/reproschema-library/8c11e4fad32d09f351b8a432d5d2666ea9709170/activities/",
+            "b2ai_redcap2rs_activities": "https://raw.githubusercontent.com/sensein/b2ai-redcap2rs/24cbb461c2ff6556f047dd4bc1275b4b08d52eb8/activities/"
+        }
+    ],
     "@type": "reproschema:Activity",
     "@id": "open_response_questions_schema",
-    "prefLabel": {"en": "Open response questions"},
+    "prefLabel": {
+        "en": "Open response questions"
+    },
     "description": "",
-    "preamble": {"en": "Open response questions"},
+    "preamble": {
+        "en": "Open response questions"
+    },
     "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
-      "order": [
-        "items/open_response_questions"
-      ],
-      "addProperties": [
-        {
-            "isAbout": "items/open_response_questions",
-            "variableName": "open_response_questions",
-            "isVis": true
-        }
-      ],
-      "shuffle": false,
-      "allow": ["reproschema:AutoAdvance", "reproschema:AllowExport"]
+        "order": [
+            "items/open_response_questions"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/open_response_questions",
+                "variableName": "open_response_questions",
+                "isVis": true
+            }
+        ],
+        "shuffle": false,
+        "allow": [
+            "reproschema:AutoAdvance",
+            "reproschema:AllowExport"
+        ]
     }
 }
-  

@@ -1,36 +1,49 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+        {
+            "reproschema_library_activities": "https://raw.githubusercontent.com/ReproNim/reproschema-library/8c11e4fad32d09f351b8a432d5d2666ea9709170/activities/",
+            "b2ai_redcap2rs_activities": "https://raw.githubusercontent.com/sensein/b2ai-redcap2rs/24cbb461c2ff6556f047dd4bc1275b4b08d52eb8/activities/"
+        }
+    ],
     "@type": "reproschema:Activity",
     "@id": "story_recall_schema",
-    "prefLabel": {"en": "Story recall"},
+    "prefLabel": {
+        "en": "Story recall"
+    },
     "description": "You are given a text. Read the text so you familiarize yourself with it. You have up to 5 minutes to read it as many times as you want. When you are ready, you will be asked to recall the story. This can be in your own words.",
-    "preamble": {"en": "You are given a text. Read the text so you familiarize yourself with it. You have up to 5 minutes to read it as many times as you want. When you are ready, you will be asked to recall the story. This can be in your own words."},
+    "preamble": {
+        "en": "You are given a text. Read the text so you familiarize yourself with it. You have up to 5 minutes to read it as many times as you want. When you are ready, you will be asked to recall the story. This can be in your own words."
+    },
     "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
-      "order": [
-        "items/passage",
-        "items/continue",
-        "items/story_recall"
-      ],
-      "addProperties": [
-        {
-            "isAbout": "items/passage",
-            "variableName": "passage",
-            "isVis": "typeof continue === 'undefined'"
-        },
-        {
-            "isAbout": "items/continue",
-            "variableName": "continue",
-            "isVis": true
-        },
-        {
-          "isAbout": "items/story_recall",
-          "variableName": "story_recall",
-          "isVis": true
-        }
-      ],
-      "shuffle": false,
-      "allow": ["reproschema:AutoAdvance", "reproschema:AllowExport"]
+        "order": [
+            "items/passage",
+            "items/continue",
+            "items/story_recall"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/passage",
+                "variableName": "passage",
+                "isVis": "typeof continue === 'undefined'"
+            },
+            {
+                "isAbout": "items/continue",
+                "variableName": "continue",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/story_recall",
+                "variableName": "story_recall",
+                "isVis": true
+            }
+        ],
+        "shuffle": false,
+        "allow": [
+            "reproschema:AutoAdvance",
+            "reproschema:AllowExport"
+        ]
     }
 }

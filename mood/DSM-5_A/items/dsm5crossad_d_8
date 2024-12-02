@@ -1,5 +1,7 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema"
+    ],
     "@type": "reproschema:Field",
     "@id": "dsm5crossad_d_8",
     "prefLabel": "DSM5 Crosscutting Adult Domain 8 (Sleep Problems) Score",

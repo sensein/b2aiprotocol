@@ -1,10 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+        {
+            "reproschema_library_activities": "https://raw.githubusercontent.com/ReproNim/reproschema-library/8c11e4fad32d09f351b8a432d5d2666ea9709170/activities/",
+            "b2ai_redcap2rs_activities": "https://raw.githubusercontent.com/sensein/b2ai-redcap2rs/24cbb461c2ff6556f047dd4bc1275b4b08d52eb8/activities/"
+        }
+    ],
     "@type": "reproschema:Activity",
     "@id": "respiration_and_cough_schema",
-    "prefLabel": { "en": "Respiration and cough" },
+    "prefLabel": {
+        "en": "Respiration and cough"
+    },
     "description": "Record breathing sounds and coughs.",
-    "preamble": { "en": "Breathing sounds can also provide information on your health, let's record them." },
+    "preamble": {
+        "en": "Breathing sounds can also provide information on your health, let's record them."
+    },
     "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
@@ -73,6 +83,9 @@
             }
         ],
         "shuffle": false,
-        "allow": ["reproschema:AutoAdvance", "reproschema:AllowExport"]
+        "allow": [
+            "reproschema:AutoAdvance",
+            "reproschema:AllowExport"
+        ]
     }
 }

@@ -1,5 +1,7 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema"
+    ],
     "@type": "reproschema:Item",
     "@id": "suicidal_support_popup",
     "prefLabel": "Pop-up that shows on the app",

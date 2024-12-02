@@ -1,5 +1,7 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema"
+    ],
     "@type": "reproschema:Field",
     "@id": "prolonged_vowel",
     "prefLabel": "Prolonged vowel",
