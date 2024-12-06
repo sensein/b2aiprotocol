@@ -7,101 +7,97 @@
     "@type": "reproschema:Activity",
     "ui": {
         "order": [
-            "items/vhi_session_id",
-            "items/vhi_started_at",
-            "items/vhi_completed_at",
-            "items/vhi_duration",
-            "items/voice_difficult_hear",
-            "items/tough_to_understand",
-            "items/voice_restrict_social",
-            "items/left_out_convo",
-            "items/voice_lose_income",
-            "items/strain_voice",
-            "items/voice_clarity",
-            "items/voice_upsetting",
-            "items/voice_handicapped",
-            "items/ask_whats_wrong_voice"
+            "b2ai_redcap2rs_activities:q_generic_voice_handicap_index_vhi10/items/voice_difficult_hear",
+            "b2ai_redcap2rs_activities:q_generic_voice_handicap_index_vhi10/items/tough_to_understand",
+            "b2ai_redcap2rs_activities:q_generic_voice_handicap_index_vhi10/items/voice_restrict_social",
+            "b2ai_redcap2rs_activities:q_generic_voice_handicap_index_vhi10/items/left_out_convo",
+            "b2ai_redcap2rs_activities:q_generic_voice_handicap_index_vhi10/items/voice_lose_income",
+            "b2ai_redcap2rs_activities:q_generic_voice_handicap_index_vhi10/items/strain_voice",
+            "b2ai_redcap2rs_activities:q_generic_voice_handicap_index_vhi10/items/voice_clarity",
+            "b2ai_redcap2rs_activities:q_generic_voice_handicap_index_vhi10/items/voice_upsetting",
+            "b2ai_redcap2rs_activities:q_generic_voice_handicap_index_vhi10/items/voice_handicapped",
+            "b2ai_redcap2rs_activities:q_generic_voice_handicap_index_vhi10/items/ask_whats_wrong_voice"
         ],
         "addProperties": [
             {
-                "isAbout": "items/vhi_session_id",
+                "isAbout": "vhi_session_id",
                 "isVis": false,
                 "valueRequired": true,
                 "variableName": "vhi_session_id"
             },
             {
-                "isAbout": "items/vhi_started_at",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_voice_handicap_index_vhi10/items/vhi_started_at",
                 "isVis": false,
                 "valueRequired": true,
                 "variableName": "vhi_started_at"
             },
             {
-                "isAbout": "items/vhi_completed_at",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_voice_handicap_index_vhi10/items/vhi_completed_at",
                 "isVis": false,
                 "valueRequired": true,
                 "variableName": "vhi_completed_at"
             },
             {
-                "isAbout": "items/vhi_duration",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_voice_handicap_index_vhi10/items/vhi_duration",
                 "isVis": false,
                 "variableName": "vhi_duration"
             },
             {
-                "isAbout": "items/voice_difficult_hear",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_voice_handicap_index_vhi10/items/voice_difficult_hear",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "voice_difficult_hear"
             },
             {
-                "isAbout": "items/tough_to_understand",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_voice_handicap_index_vhi10/items/tough_to_understand",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "tough_to_understand"
             },
             {
-                "isAbout": "items/voice_restrict_social",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_voice_handicap_index_vhi10/items/voice_restrict_social",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "voice_restrict_social"
             },
             {
-                "isAbout": "items/left_out_convo",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_voice_handicap_index_vhi10/items/left_out_convo",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "left_out_convo"
             },
             {
-                "isAbout": "items/voice_lose_income",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_voice_handicap_index_vhi10/items/voice_lose_income",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "voice_lose_income"
             },
             {
-                "isAbout": "items/strain_voice",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_voice_handicap_index_vhi10/items/strain_voice",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "strain_voice"
             },
             {
-                "isAbout": "items/voice_clarity",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_voice_handicap_index_vhi10/items/voice_clarity",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "voice_clarity"
             },
             {
-                "isAbout": "items/voice_upsetting",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_voice_handicap_index_vhi10/items/voice_upsetting",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "voice_upsetting"
             },
             {
-                "isAbout": "items/voice_handicapped",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_voice_handicap_index_vhi10/items/voice_handicapped",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "voice_handicapped"
             },
             {
-                "isAbout": "items/ask_whats_wrong_voice",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_voice_handicap_index_vhi10/items/ask_whats_wrong_voice",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "ask_whats_wrong_voice"
