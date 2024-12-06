@@ -7,130 +7,130 @@
     "@type": "reproschema:Activity",
     "ui": {
         "order": [
-            "items/wrapping_up",
-            "items/things_in_order",
-            "items/remembering_appt",
-            "items/avoidance",
-            "items/fidget",
-            "items/overly_active",
-            "items/careless",
-            "items/difficulty_attention",
-            "items/difficulty_concentrating",
-            "items/misplace",
-            "items/distracted",
-            "items/remain_seated",
-            "items/restless",
-            "items/difficulty_unwinding",
-            "items/talking_too_much",
-            "items/finish_other_sent",
-            "items/difficulty_waiting",
-            "items/interrupt_others"
+            "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/wrapping_up",
+            "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/things_in_order",
+            "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/remembering_appt",
+            "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/avoidance",
+            "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/fidget",
+            "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/overly_active",
+            "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/careless",
+            "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/difficulty_attention",
+            "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/difficulty_concentrating",
+            "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/misplace",
+            "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/distracted",
+            "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/remain_seated",
+            "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/restless",
+            "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/difficulty_unwinding",
+            "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/talking_too_much",
+            "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/finish_other_sent",
+            "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/difficulty_waiting",
+            "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/interrupt_others"
         ],
         "addProperties": [
             {
-                "isAbout": "items/wrapping_up",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/wrapping_up",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "wrapping_up"
             },
             {
-                "isAbout": "items/things_in_order",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/things_in_order",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "things_in_order"
             },
             {
-                "isAbout": "items/remembering_appt",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/remembering_appt",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "remembering_appt"
             },
             {
-                "isAbout": "items/avoidance",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/avoidance",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "avoidance"
             },
             {
-                "isAbout": "items/fidget",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/fidget",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "fidget"
             },
             {
-                "isAbout": "items/overly_active",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/overly_active",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "overly_active"
             },
             {
-                "isAbout": "items/careless",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/careless",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "careless"
             },
             {
-                "isAbout": "items/difficulty_attention",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/difficulty_attention",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "difficulty_attention"
             },
             {
-                "isAbout": "items/difficulty_concentrating",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/difficulty_concentrating",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "difficulty_concentrating"
             },
             {
-                "isAbout": "items/misplace",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/misplace",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "misplace"
             },
             {
-                "isAbout": "items/distracted",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/distracted",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "distracted"
             },
             {
-                "isAbout": "items/remain_seated",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/remain_seated",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "remain_seated"
             },
             {
-                "isAbout": "items/restless",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/restless",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "restless"
             },
             {
-                "isAbout": "items/difficulty_unwinding",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/difficulty_unwinding",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "difficulty_unwinding"
             },
             {
-                "isAbout": "items/talking_too_much",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/talking_too_much",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "talking_too_much"
             },
             {
-                "isAbout": "items/finish_other_sent",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/finish_other_sent",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "finish_other_sent"
             },
             {
-                "isAbout": "items/difficulty_waiting",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/difficulty_waiting",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "difficulty_waiting"
             },
             {
-                "isAbout": "items/interrupt_others",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_adhd_adult/items/interrupt_others",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "interrupt_others"
