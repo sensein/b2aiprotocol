@@ -7,122 +7,122 @@
     "@type": "reproschema:Activity",
     "ui": {
         "order": [
-            "items/custom_affect_scale_session_id",
-            "items/custom_affect_scale_started_at",
-            "items/custom_affect_scale_completed_at",
-            "items/custom_affect_scale_duration",
-            "items/sad_or_down",
-            "items/joyful",
-            "items/motivated",
-            "items/lack_of_pleasure",
-            "items/tired",
-            "items/energetic",
-            "items/agitated",
-            "items/irritated",
-            "items/lonely",
-            "items/concentrated",
-            "items/relaxed",
-            "items/worried",
-            "items/desire_to_escape"
+            "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/custom_affect_scale_session_id",
+            "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/custom_affect_scale_started_at",
+            "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/custom_affect_scale_completed_at",
+            "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/custom_affect_scale_duration",
+            "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/sad_or_down",
+            "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/joyful",
+            "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/motivated",
+            "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/lack_of_pleasure",
+            "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/tired",
+            "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/energetic",
+            "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/agitated",
+            "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/irritated",
+            "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/lonely",
+            "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/concentrated",
+            "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/relaxed",
+            "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/worried",
+            "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/desire_to_escape"
         ],
         "addProperties": [
             {
-                "isAbout": "items/custom_affect_scale_session_id",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/custom_affect_scale_session_id",
                 "isVis": false,
                 "valueRequired": true,
                 "variableName": "custom_affect_scale_session_id"
             },
             {
-                "isAbout": "items/custom_affect_scale_started_at",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/custom_affect_scale_started_at",
                 "isVis": false,
                 "valueRequired": true,
                 "variableName": "custom_affect_scale_started_at"
             },
             {
-                "isAbout": "items/custom_affect_scale_completed_at",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/custom_affect_scale_completed_at",
                 "isVis": false,
                 "valueRequired": true,
                 "variableName": "custom_affect_scale_completed_at"
             },
             {
-                "isAbout": "items/custom_affect_scale_duration",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/custom_affect_scale_duration",
                 "isVis": false,
                 "variableName": "custom_affect_scale_duration"
             },
             {
-                "isAbout": "items/sad_or_down",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/sad_or_down",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "sad_or_down"
             },
             {
-                "isAbout": "items/joyful",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/joyful",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "joyful"
             },
             {
-                "isAbout": "items/motivated",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/motivated",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "motivated"
             },
             {
-                "isAbout": "items/lack_of_pleasure",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/lack_of_pleasure",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "lack_of_pleasure"
             },
             {
-                "isAbout": "items/tired",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/tired",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "tired"
             },
             {
-                "isAbout": "items/energetic",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/energetic",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "energetic"
             },
             {
-                "isAbout": "items/agitated",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/agitated",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "agitated"
             },
             {
-                "isAbout": "items/irritated",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/irritated",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "irritated"
             },
             {
-                "isAbout": "items/lonely",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/lonely",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "lonely"
             },
             {
-                "isAbout": "items/concentrated",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/concentrated",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "concentrated"
             },
             {
-                "isAbout": "items/relaxed",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/relaxed",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "relaxed"
             },
             {
-                "isAbout": "items/worried",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/worried",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "worried"
             },
             {
-                "isAbout": "items/desire_to_escape",
+                "isAbout": "b2ai_redcap2rs_activities:q_mood_custom_affect_scale/items/desire_to_escape",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "desire_to_escape"
