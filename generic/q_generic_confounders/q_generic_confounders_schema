@@ -8,7 +8,7 @@
     "ui": {
         "addProperties": [
             {
-                "isAbout": "items/introduction",
+                "isAbout": "custom_items/introduction",
                 "isVis": true,
                 "variableName": "introduction"
             },
@@ -229,7 +229,7 @@
                 "variableName": "symptoms"
             },
             {
-                "isAbout": "items/ent_introduction",
+                "isAbout": "custom_items/ent_introduction",
                 "isVis": true,
                 "variableName": "ent_introduction"
             },
@@ -517,7 +517,7 @@
             }
         ],
         "order": [
-            "items/introduction",
+            "custom_items/introduction",
             "items/is_regular_smoker",
             "items/smoking_hx",
             "items/age_start_smoking",
@@ -560,7 +560,7 @@
             "items/height_in",
             "items/weight_lbs",
             "items/symptoms",
-            "items/ent_introduction",
+            "custom_items/ent_introduction",
             "items/ear_med_history",
             "items/nose_med_history",
             "items/throat_med_history",
