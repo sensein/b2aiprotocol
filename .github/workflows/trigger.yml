@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Trigger workflow to build ReproSchema from REDCap
+      - name: Trigger workflow to build diff between mood protocol from REDCap protocol
         run: |
           curl --request POST \
           --header "Authorization: token ${{ secrets.B2AI_B2AIDIFF_PAT }}" \
