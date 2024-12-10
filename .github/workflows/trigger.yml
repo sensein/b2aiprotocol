@@ -1,0 +1,20 @@
+name: Trigger B2AIDIff workflow
+
+on:
+  push:
+    paths:
+      - 'generic/**'
+      - 'mood/**'
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger workflow to build ReproSchema from REDCap
+        run: |
+          curl --request POST \
+          --header "Authorization: token ${{ secrets.B2AI_B2AIDIFF_PAT }}" \
+          --header "Accept: application/vnd.github.v3+json" \
+          --url https://api.github.com/repos/Evan8456/b2aidiff/actions/workflows/deploy.yml/dispatches \
+          --data '{"ref":"main"}'
