@@ -1,7 +1,7 @@
 name: Trigger B2AIDIff workflow
 
 on:
-  push:
+  pull_request:
     paths:
       - 'generic/**'
       - 'mood/**'
@@ -16,5 +16,5 @@ jobs:
           curl --request POST \
           --header "Authorization: token ${{ secrets.B2AI_B2AIDIFF_PAT }}" \
           --header "Accept: application/vnd.github.v3+json" \
-          --url https://api.github.com/repos/Evan8456/b2aidiff/actions/workflows/deploy.yml/dispatches \
+          --url https://api.github.com/repos/sensein/b2aidiff/actions/workflows/deploy.yml/dispatches \
           --data '{"ref":"main"}'
