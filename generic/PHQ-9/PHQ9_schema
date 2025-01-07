@@ -73,6 +73,13 @@
                 "variableName": "phq9_9"
             },
             {
+                "valueRequired": true,
+                "isAbout": "../../mood/q_mood_dsm5_adult/items/suicidal_support_popup",
+                "isVis": "phq9_1 > 0",
+                "variableName": "suicidal_support_popup"
+                
+            },
+            {
                 "isAbout": "reproschema_library_activities:PHQ-9/items/phq9_10",
                 "isVis": "phq9_1 > 0 ||  phq9_2 > 0 || phq9_3 > 0 || phq9_4 > 0 || phq9_5 > 0 || phq9_6 > 0 || phq9_7 > 0 || phq9_8 > 0 || phq9_9 > 0",
                 "variableName": "phq9_10"
@@ -93,6 +100,7 @@
             "reproschema_library_activities:PHQ-9/items/phq9_7",
             "reproschema_library_activities:PHQ-9/items/phq9_8",
             "reproschema_library_activities:PHQ-9/items/phq9_9",
+            "../../mood/q_mood_dsm5_adult/items/suicidal_support_popup",
             "reproschema_library_activities:PHQ-9/items/phq9_10"
         ],
         "shuffle": false
