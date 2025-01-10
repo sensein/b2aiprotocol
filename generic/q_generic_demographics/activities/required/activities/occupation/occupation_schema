@@ -19,7 +19,7 @@
     "ui": {
         "addProperties": [
             {
-                "isAbout": "b2ai_redcap2rs_activities:occupation",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/occupation",
                 "variableName": "occupation",
                 "prefLabel": {
                     "en": "Occupation"
@@ -28,7 +28,7 @@
             }
         ],
         "order": [
-            "b2ai_redcap2rs_activities:occupation"
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/occupation"
         ],
         "shuffle": false,
         "allow": [

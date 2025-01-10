@@ -18,18 +18,18 @@
     "version": "0.0.1",
     "ui": {
         "order": [
-            "b2ai_redcap2rs_activities:primary_transportation",
-            "b2ai_redcap2rs_activities:other_transportation"
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/primary_transportation",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/other_transportation"
         ],
         "addProperties": [
             {
-                "isAbout": "b2ai_redcap2rs_activities:primary_transportation",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/primary_transportation",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "primary_transportation"
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:other_transportation",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/other_transportation",
                 "isVis": "primary_transportation == 8",
                 "valueRequired": true,
                 "variableName": "other_transportation"

@@ -9,22 +9,22 @@
         "order": [
             "activities/completed_by/completed_by_schema",
             "activities/required/required_schema",
-            "b2ai_redcap2rs_activities:country",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/country",
             "activities/optional/items/household_income_usa",
             "activities/optional/items/financial_assistance_usa",
             "activities/optional/items/assistance_programs_usa",
             "activities/optional/items/household_income_ca",
             "activities/optional/items/financial_assistance_ca",
             "activities/optional/items/assistance_programs_ca",
-            "b2ai_redcap2rs_activities:citizen",
-            "b2ai_redcap2rs_activities:marital_status",
-            "b2ai_redcap2rs_activities:housing_status",
-            "b2ai_redcap2rs_activities:household_count",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/citizen",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/marital_status",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/housing_status",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/household_count",
             "activities/optional/items/household_composition",
-            "b2ai_redcap2rs_activities:others_household_specify",
-            "b2ai_redcap2rs_activities:transportation_yn",
-            "b2ai_redcap2rs_activities:primary_transportation",
-            "b2ai_redcap2rs_activities:other_transportation"
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/others_household_specify",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/transportation_yn",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/primary_transportation",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/other_transportation"
         ],
         "addProperties": [
             {
@@ -39,7 +39,7 @@
                 "variableName": "required"
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:country",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/country",
                 "isVis": true,
                 "variableName": "country",
                 "allow": [
@@ -95,7 +95,7 @@
                 ]
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:citizen",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/citizen",
                 "isVis": true,
                 "variableName": "citizen",
                 "allow": [
@@ -103,7 +103,7 @@
                 ]
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:marital_status",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/marital_status",
                 "isVis": true,
                 "variableName": "marital_status",
                 "allow": [
@@ -111,7 +111,7 @@
                 ]
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:housing_status",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/housing_status",
                 "isVis": true,
                 "variableName": "housing_status",
                 "allow": [
@@ -119,7 +119,7 @@
                 ]
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:household_count",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/household_count",
                 "isVis": true,
                 "variableName": "household_count",
                 "allow": [
@@ -135,7 +135,7 @@
                 ]
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:others_household_specify",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/others_household_specify",
                 "isVis": "Array.isArray(household_composition) && household_composition.includes(4)",
                 "variableName": "others_household_specify",
                 "@type": "reproschema:Item",
@@ -144,7 +144,7 @@
                 ]
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:transportation_yn",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/transportation_yn",
                 "isVis": true,
                 "variableName": "transportation_yn",
                 "allow": [
@@ -152,7 +152,7 @@
                 ]
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:primary_transportation",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/primary_transportation",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "primary_transportation",
@@ -161,7 +161,7 @@
                 ]
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:other_transportation",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/other_transportation",
                 "isVis": "primary_transportation == 8",
                 "valueRequired": true,
                 "variableName": "other_transportation",

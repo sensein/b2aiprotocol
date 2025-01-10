@@ -19,7 +19,7 @@
             "activities/disability/disability_schema",
             "activities/employment/employment_schema",
             "activities/occupation/occupation_schema",
-            "b2ai_redcap2rs_activities:veteran"
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/veteran"
         ],
         "addProperties": [
             {
@@ -68,7 +68,7 @@
                 "variableName": "occupation"
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:veteran",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/veteran",
                 "isVis": true,
                 "variableName": "veteran"
             }

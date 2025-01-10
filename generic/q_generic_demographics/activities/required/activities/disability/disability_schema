@@ -28,25 +28,25 @@
                 "variableName": "hearing"
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:vision",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/vision",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "vision"
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:cognition",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/cognition",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "cognition"
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:mobility",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/mobility",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "mobility"
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:self_care",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/self_care",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "self_care"
@@ -60,10 +60,10 @@
         ],
         "order": [
             "items/hearing",
-            "b2ai_redcap2rs_activities:vision",
-            "b2ai_redcap2rs_activities:cognition",
-            "b2ai_redcap2rs_activities:mobility",
-            "b2ai_redcap2rs_activities:self_care",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/vision",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/cognition",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/mobility",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/self_care",
             "items/independent_living"
         ],
         "shuffle": false,

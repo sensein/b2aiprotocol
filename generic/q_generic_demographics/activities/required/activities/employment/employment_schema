@@ -25,7 +25,7 @@
                 "variableName": "employ_status"
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:other_employ_specify",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/other_employ_specify",
                 "isVis": "employ_status.includes(9);",
                 "valueRequired": true,
                 "variableName": "other_employ_specify"
@@ -33,7 +33,7 @@
         ],
         "order": [
             "items/employ_status",
-            "b2ai_redcap2rs_activities:other_employ_specify"
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/other_employ_specify"
         ],
         "shuffle": false,
         "allow": [

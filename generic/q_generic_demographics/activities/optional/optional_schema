@@ -10,25 +10,25 @@
     },
     "ui": {
         "order": [
-            "b2ai_redcap2rs_activities:country",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/country",
             "items/household_income_usa",
             "items/financial_assistance_usa",
             "items/assistance_programs_usa",
             "items/household_income_ca",
             "items/financial_assistance_ca",
             "items/assistance_programs_ca",
-            "b2ai_redcap2rs_activities:citizen",
-            "b2ai_redcap2rs_activities:marital_status",
-            "b2ai_redcap2rs_activities:housing_status",
-            "b2ai_redcap2rs_activities:household_count",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/citizen",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/marital_status",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/housing_status",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/household_count",
             "activities/household_composition/household_composition_schema",
-            "b2ai_redcap2rs_activities:transportation_yn",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/transportation_yn",
             "activities/transportation_mode/transportation_mode_schema"
         ],
         "addProperties": [
             [
                 {
-                    "isAbout": "b2ai_redcap2rs_activities:country",
+                    "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/country",
                     "prefLabel": {
                         "en": "Country"
                     },
@@ -87,7 +87,7 @@
                     ]
                 },
                 {
-                    "isAbout": "b2ai_redcap2rs_activities:citizen",
+                    "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/citizen",
                     "isVis": true,
                     "variableName": "citizen",
                     "allow": [
@@ -95,7 +95,7 @@
                     ]
                 },
                 {
-                    "isAbout": "b2ai_redcap2rs_activities:marital_status",
+                    "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/marital_status",
                     "isVis": true,
                     "variableName": "marital_status",
                     "allow": [
@@ -103,7 +103,7 @@
                     ]
                 },
                 {
-                    "isAbout": "b2ai_redcap2rs_activities:housing_status",
+                    "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/housing_status",
                     "isVis": true,
                     "variableName": "housing_status",
                     "allow": [
@@ -111,7 +111,7 @@
                     ]
                 },
                 {
-                    "isAbout": "b2ai_redcap2rs_activities:household_count",
+                    "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/household_count",
                     "isVis": true,
                     "variableName": "household_count",
                     "allow": [
@@ -127,7 +127,7 @@
                     ]
                 },
                 {
-                    "isAbout": "b2ai_redcap2rs_activities:transportation_yn",
+                    "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/transportation_yn",
                     "isVis": true,
                     "variableName": "transportation_yn",
                     "allow": [

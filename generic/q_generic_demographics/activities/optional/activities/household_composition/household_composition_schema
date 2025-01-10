@@ -18,46 +18,46 @@
     "version": "0.0.1",
     "ui": {
         "order": [
-            "b2ai_redcap2rs_activities:spouse_partner_sig_other",
-            "b2ai_redcap2rs_activities:children",
-            "b2ai_redcap2rs_activities:parent",
-            "b2ai_redcap2rs_activities:grandparent",
-            "b2ai_redcap2rs_activities:other_live_with",
-            "b2ai_redcap2rs_activities:others_household_specify"
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/spouse_partner_sig_other",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/children",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/parent",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/grandparent",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/other_live_with",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/others_household_specify"
         ],
         "addProperties": [
             {
-                "isAbout": "b2ai_redcap2rs_activities:spouse_partner_sig_other",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/spouse_partner_sig_other",
                 "isVis": true,
                 "variableName": "spouse_partner_sig_other",
                 "@type": "reproschema:Item"
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:children",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/children",
                 "isVis": true,
                 "variableName": "children",
                 "@type": "reproschema:Item"
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:parent",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/parent",
                 "isVis": true,
                 "variableName": "parent",
                 "@type": "reproschema:Item"
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:grandparent",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/grandparent",
                 "isVis": true,
                 "variableName": "grandparent",
                 "@type": "reproschema:Item"
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:other_live_with",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/other_live_with",
                 "isVis": true,
                 "variableName": "other_live_with",
                 "@type": "reproschema:Item"
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:others_household_specify",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/others_household_specify",
                 "isVis": "other_live_with == 1",
                 "variableName": "others_household_specify",
                 "@type": "reproschema:Item"

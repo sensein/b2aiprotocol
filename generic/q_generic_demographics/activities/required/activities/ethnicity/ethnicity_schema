@@ -19,20 +19,20 @@
     "ui": {
         "addProperties": [
             {
-                "isAbout": "b2ai_redcap2rs_activities:ethnicity",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/ethnicity",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "ethnicity"
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:hispanic_latino_selection",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/hispanic_latino_selection",
                 "isVis": "ethnicity == 'yes'",
                 "variableName": "hispanic_latino_selection"
             }
         ],
         "order": [
-            "b2ai_redcap2rs_activities:ethnicity",
-            "b2ai_redcap2rs_activities:hispanic_latino_selection"
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/ethnicity",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/hispanic_latino_selection"
         ],
         "shuffle": false,
         "allow": [
