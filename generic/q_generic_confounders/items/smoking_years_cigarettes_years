@@ -1,0 +1,27 @@
+{
+    "id": "smoking_years_cigarettes_years",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "NaN"
+        }
+    ],
+    "prefLabel": {
+        "en": "smoking_years_cigarettes_years"
+    },
+    "question": {
+        "en": "Number of years:"
+    },
+    "responseOptions": {
+        "maxValue": 125,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

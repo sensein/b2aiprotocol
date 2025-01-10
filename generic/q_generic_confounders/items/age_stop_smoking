@@ -1,0 +1,28 @@
+{
+    "id": "age_stop_smoking",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "NaN"
+        }
+    ],
+    "prefLabel": {
+        "en": "age_stop_smoking"
+    },
+    "question": {
+        "en": "[LEGACY]\nAt what age did you stop?"
+    },
+    "responseOptions": {
+        "maxValue": "NaN",
+        "minValue": "NaN",
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

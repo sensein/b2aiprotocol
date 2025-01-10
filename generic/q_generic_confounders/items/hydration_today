@@ -1,0 +1,26 @@
+{
+    "id": "hydration_today",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "NaN"
+        }
+    ],
+    "prefLabel": {
+        "en": "hydration_today"
+    },
+    "question": {
+        "en": "How many small (8oz or 230ml) cups of water have you had TODAY?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

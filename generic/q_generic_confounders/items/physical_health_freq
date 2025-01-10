@@ -1,0 +1,31 @@
+{
+    "id": "physical_health_freq",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "NaN"
+        }
+    ],
+    "description": {
+        "en": "days"
+    },
+    "prefLabel": {
+        "en": "physical_health_freq"
+    },
+    "question": {
+        "en": "Overall, in the past 30 days, how many days were these difficulties present?"
+    },
+    "responseOptions": {
+        "maxValue": "NaN",
+        "minValue": "NaN",
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

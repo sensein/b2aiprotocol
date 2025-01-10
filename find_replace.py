@@ -1,16 +1,17 @@
 import os
 
 # Define list of directories, target text, and replacement text
-directories = ["b2aiprotocol/generic/q_generic_demographics"]
-search_text = "b2ai_redcap2rs_activities:"
-replace_text = "b2ai_redcap2rs_activities:q_generic_demographics/items/"
+directories = ["/Users/isaacbevers/sensein/reproschema-wrapper/b2ai-redcap2rs"]
+search_text = "NaN"
+replace_text = "\"NaN\""
 
 # Iterate over each directory in the list
 for directory in directories:
     for root, dirs, files in os.walk(directory):
         for file in files:
             file_path = os.path.join(root, file)
-            if ".DS_Store" not in file_path and ".jpeg" not in file_path:
+            suffixes = [".DS_Store", ".jpeg", "index", ".pack", ".idx"]
+            if not file_path.endswith(tuple(suffixes)):
                 # Open the file and replace text
                 print(file_path)
                 with open(file_path, 'r', encoding='utf-8') as f:

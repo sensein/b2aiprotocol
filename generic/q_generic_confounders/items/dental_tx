@@ -1,0 +1,26 @@
+{
+    "id": "dental_tx",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "NaN"
+        }
+    ],
+    "prefLabel": {
+        "en": "dental_tx"
+    },
+    "question": {
+        "en": "Do you currently have any tooth loss, dentures, retainers or braces?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

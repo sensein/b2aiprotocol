@@ -1,0 +1,40 @@
+{
+    "id": "unit",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "NaN"
+        }
+    ],
+    "prefLabel": {
+        "en": "unit"
+    },
+    "question": {
+        "en": "Unit"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Metric"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "US customary units"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
