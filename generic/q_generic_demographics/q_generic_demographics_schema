@@ -7,7 +7,6 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
-            "b2ai_redcap2rs_activities:q_generic_demographics/items/occupation",
             "activities/completed_by/completed_by_schema",
             "activities/required/activities/address/items/city",
             "b2ai_redcap2rs_activities:q_generic_demographics/items/state_province",
@@ -24,7 +23,6 @@
             "b2ai_redcap2rs_activities:q_generic_demographics/items/white_race",
             "b2ai_redcap2rs_activities:q_generic_demographics/items/canadian_race",
             "b2ai_redcap2rs_activities:q_generic_demographics/items/other_race_specify",
-            "activities/required/activities/ethnicity/ethnicity_schema",
             "b2ai_redcap2rs_activities:q_generic_demographics/items/ethnicity",
             "b2ai_redcap2rs_activities:q_generic_demographics/items/hispanic_latino_selection",
             "activities/required/activities/education/items/edu_level",
