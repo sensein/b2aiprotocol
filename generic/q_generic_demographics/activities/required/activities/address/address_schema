@@ -20,6 +20,12 @@
     "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
+        "order": [
+            "items/city",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/state_province",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/zipcode",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/country"
+        ],
         "addProperties": [
             {
                 "isAbout": "items/city",
@@ -57,12 +63,6 @@
                 "isVis": true,
                 "valueRequired": true
             }
-        ],
-        "order": [
-            "items/city",
-            "b2ai_redcap2rs_activities:q_generic_demographics/items/state_province",
-            "b2ai_redcap2rs_activities:q_generic_demographics/items/zipcode",
-            "b2ai_redcap2rs_activities:q_generic_demographics/items/country"
         ],
         "shuffle": false,
         "allow": [

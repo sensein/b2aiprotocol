@@ -8,7 +8,10 @@
     "ui": {
         "order": [
             "activities/completed_by/completed_by_schema",
-            "activities/required/activities/address/address_schema",
+            "activities/required/activities/address/items/city",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/state_province",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/zipcode",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/country",
             "activities/required/activities/gender/gender_schema",
             "activities/required/activities/sexuality/sexuality_schema",
             "activities/required/activities/race/race_schema",
@@ -43,9 +46,40 @@
                 "valueRequired": true
             },
             {
-                "isAbout": "activities/required/activities/address/address_schema",
+                "isAbout": "activities/required/activities/address/items/city",
+                "variableName": "city",
+                "prefLabel": {
+                    "en": "City"
+                },
                 "isVis": true,
-                "variableName": "address"
+                "valueRequired": true
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/state_province",
+                "variableName": "state_province",
+                "prefLabel": {
+                    "en": "State/Province"
+                },
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/zipcode",
+                "variableName": "zipcode",
+                "prefLabel": {
+                    "en": "Zipcode"
+                },
+                "isVis": true,
+                "valueRequired": true
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/country",
+                "variableName": "country",
+                "prefLabel": {
+                    "en": "Country"
+                },
+                "isVis": true,
+                "valueRequired": true
             },
             {
                 "isAbout": "activities/required/activities/gender/gender_schema",
