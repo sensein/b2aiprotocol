@@ -8,7 +8,16 @@
     "ui": {
         "order": [
             "activities/completed_by/completed_by_schema",
-            "activities/required/required_schema",
+            "activities/required/activities/address/address_schema",
+            "activities/required/activities/gender/gender_schema",
+            "activities/required/activities/sexuality/sexuality_schema",
+            "activities/required/activities/race/race_schema",
+            "activities/required/activities/ethnicity/ethnicity_schema",
+            "activities/required/activities/education/education_schema",
+            "activities/required/activities/disability/disability_schema",
+            "activities/required/activities/employment/employment_schema",
+            "activities/required/activities/occupation/occupation_schema",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/veteran",
             "b2ai_redcap2rs_activities:q_generic_demographics/items/country",
             "activities/optional/items/household_income_usa",
             "activities/optional/items/financial_assistance_usa",
@@ -34,9 +43,54 @@
                 "valueRequired": true
             },
             {
-                "isAbout": "activities/required/required_schema",
+                "isAbout": "activities/required/activities/address/address_schema",
                 "isVis": true,
-                "variableName": "required"
+                "variableName": "address"
+            },
+            {
+                "isAbout": "activities/required/activities/gender/gender_schema",
+                "isVis": true,
+                "variableName": "gender"
+            },
+            {
+                "isAbout": "activities/required/activities/sexuality/sexuality_schema",
+                "isVis": true,
+                "variableName": "sexual_orientation"
+            },
+            {
+                "isAbout": "activities/required/activities/race/race_schema",
+                "isVis": true,
+                "variableName": "race"
+            },
+            {
+                "isAbout": "activities/required/activities/ethnicity/ethnicity_schema",
+                "isVis": true,
+                "variableName": "ethnicity"
+            },
+            {
+                "isAbout": "activities/required/activities/education/education_schema",
+                "isVis": true,
+                "variableName": "edu_level"
+            },
+            {
+                "isAbout": "activities/required/activities/disability/disability_schema",
+                "isVis": true,
+                "variableName": "disability_status"
+            },
+            {
+                "isAbout": "activities/required/activities/employment/employment_schema",
+                "isVis": true,
+                "variableName": "employ_status"
+            },
+            {
+                "isAbout": "activities/required/activities/occupation/occupation_schema",
+                "isVis": true,
+                "variableName": "occupation"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/veteran",
+                "isVis": true,
+                "variableName": "veteran"
             },
             {
                 "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/country",
