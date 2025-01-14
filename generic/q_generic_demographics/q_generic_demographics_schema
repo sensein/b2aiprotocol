@@ -24,6 +24,8 @@
             "b2ai_redcap2rs_activities:q_generic_demographics/items/canadian_race",
             "b2ai_redcap2rs_activities:q_generic_demographics/items/other_race_specify",
             "activities/required/activities/ethnicity/ethnicity_schema",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/ethnicity",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/hispanic_latino_selection",
             "activities/required/activities/education/education_schema",
             "activities/required/activities/disability/disability_schema",
             "activities/required/activities/employment/employment_schema",
@@ -154,9 +156,15 @@
                 "variableName": "other_race_specify"
             },
             {
-                "isAbout": "activities/required/activities/ethnicity/ethnicity_schema",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/ethnicity",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "ethnicity"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/hispanic_latino_selection",
+                "isVis": "ethnicity == 'yes'",
+                "variableName": "hispanic_latino_selection"
             },
             {
                 "isAbout": "activities/required/activities/education/education_schema",
