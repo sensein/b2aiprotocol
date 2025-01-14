@@ -12,7 +12,8 @@
             "b2ai_redcap2rs_activities:q_generic_demographics/items/state_province",
             "b2ai_redcap2rs_activities:q_generic_demographics/items/zipcode",
             "b2ai_redcap2rs_activities:q_generic_demographics/items/country",
-            "activities/required/activities/gender/gender_schema",
+            "activities/required/activities/gender/items/gender_identity",
+            "activities/required/activities/gender/items/specify_gender_identity",
             "activities/required/activities/sexuality/sexuality_schema",
             "activities/required/activities/race/race_schema",
             "activities/required/activities/ethnicity/ethnicity_schema",
@@ -82,9 +83,21 @@
                 "valueRequired": true
             },
             {
-                "isAbout": "activities/required/activities/gender/gender_schema",
-                "isVis": true,
-                "variableName": "gender"
+                "isAbout": "activities/required/activities/gender/items/gender_identity",
+                "variableName": "gender_identity",
+                "prefLabel": {
+                    "en": "Gender Identity"
+                },
+                "valueRequired": true
+            },
+            {
+                "isAbout": "activities/required/activities/gender/items/specify_gender_identity",
+                "variableName": "specify_gender_identity",
+                "prefLabel": {
+                    "en": "Specify Gender Identity"
+                },
+                "isVis": "['female', 'male'].includes(gender_identity)",
+                "valueRequired": true
             },
             {
                 "isAbout": "activities/required/activities/sexuality/sexuality_schema",
