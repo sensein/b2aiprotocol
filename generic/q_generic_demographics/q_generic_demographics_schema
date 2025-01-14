@@ -7,6 +7,7 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/occupation",
             "activities/completed_by/completed_by_schema",
             "activities/required/activities/address/items/city",
             "b2ai_redcap2rs_activities:q_generic_demographics/items/state_province",
@@ -26,10 +27,16 @@
             "activities/required/activities/ethnicity/ethnicity_schema",
             "b2ai_redcap2rs_activities:q_generic_demographics/items/ethnicity",
             "b2ai_redcap2rs_activities:q_generic_demographics/items/hispanic_latino_selection",
-            "activities/required/activities/education/education_schema",
-            "activities/required/activities/disability/disability_schema",
-            "activities/required/activities/employment/employment_schema",
-            "activities/required/activities/occupation/occupation_schema",
+            "activities/required/activities/education/items/edu_level",
+            "activities/required/activities/disability/items/hearing",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/vision",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/cognition",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/mobility",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/self_care",
+            "activities/required/activities/disability/items/independent_living",
+            "required/activities/employment/items/employ_status",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/other_employ_specify",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/occupation",
             "b2ai_redcap2rs_activities:q_generic_demographics/items/veteran",
             "b2ai_redcap2rs_activities:q_generic_demographics/items/country",
             "activities/optional/items/household_income_usa",
@@ -167,24 +174,66 @@
                 "variableName": "hispanic_latino_selection"
             },
             {
-                "isAbout": "activities/required/activities/education/education_schema",
+                "isAbout": "activities/required/activities/education/items/edu_level",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "edu_level"
             },
             {
-                "isAbout": "activities/required/activities/disability/disability_schema",
+                "isAbout": "activities/required/activities/disability/items/hearing",
                 "isVis": true,
-                "variableName": "disability_status"
+                "valueRequired": true,
+                "variableName": "hearing"
             },
             {
-                "isAbout": "activities/required/activities/employment/employment_schema",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/vision",
                 "isVis": true,
+                "valueRequired": true,
+                "variableName": "vision"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/cognition",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "cognition"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/mobility",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mobility"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/self_care",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "self_care"
+            },
+            {
+                "isAbout": "activities/required/activities/disability/items/independent_living",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "independent_living"
+            },
+            {
+                "isAbout": "required/activities/employment/items/employ_status",
+                "isVis": true,
+                "valueRequired": true,
                 "variableName": "employ_status"
             },
             {
-                "isAbout": "activities/required/activities/occupation/occupation_schema",
-                "isVis": true,
-                "variableName": "occupation"
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/other_employ_specify",
+                "isVis": "employ_status.includes(9);",
+                "valueRequired": true,
+                "variableName": "other_employ_specify"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/occupation",
+                "variableName": "occupation",
+                "prefLabel": {
+                    "en": "Occupation"
+                },
+                "valueRequired": true
             },
             {
                 "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/veteran",
