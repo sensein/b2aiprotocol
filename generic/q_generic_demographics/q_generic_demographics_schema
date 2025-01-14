@@ -14,7 +14,7 @@
             "b2ai_redcap2rs_activities:q_generic_demographics/items/country",
             "activities/required/activities/gender/items/gender_identity",
             "activities/required/activities/gender/items/specify_gender_identity",
-            "activities/required/activities/sexuality/sexuality_schema",
+            "activities/required/activities/sexuality/items/sexual_orientation",
             "activities/required/activities/race/race_schema",
             "activities/required/activities/ethnicity/ethnicity_schema",
             "activities/required/activities/education/education_schema",
@@ -100,8 +100,9 @@
                 "valueRequired": true
             },
             {
-                "isAbout": "activities/required/activities/sexuality/sexuality_schema",
+                "isAbout": "activities/required/activities/sexuality/items/sexual_orientation",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "sexual_orientation"
             },
             {
