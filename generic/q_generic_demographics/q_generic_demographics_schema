@@ -36,7 +36,6 @@
             "b2ai_redcap2rs_activities:q_generic_demographics/items/other_employ_specify",
             "b2ai_redcap2rs_activities:q_generic_demographics/items/occupation",
             "b2ai_redcap2rs_activities:q_generic_demographics/items/veteran",
-            "b2ai_redcap2rs_activities:q_generic_demographics/items/country",
             "activities/optional/items/household_income_usa",
             "activities/optional/items/financial_assistance_usa",
             "activities/optional/items/assistance_programs_usa",
@@ -237,14 +236,6 @@
                 "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/veteran",
                 "isVis": true,
                 "variableName": "veteran"
-            },
-            {
-                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/country",
-                "isVis": true,
-                "variableName": "country",
-                "allow": [
-                    "reproschema:Skipped"
-                ]
             },
             {
                 "isAbout": "activities/optional/items/household_income_usa",
