@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
-            "activities/completed_by/completed_by_schema",
+            "b2ai_redcap2rs_activities:q_generic_demographics/items/demographics_completed_by",
             "activities/required/activities/address/items/city",
             "b2ai_redcap2rs_activities:q_generic_demographics/items/state_province",
             "b2ai_redcap2rs_activities:q_generic_demographics/items/zipcode",
@@ -54,7 +54,7 @@
         ],
         "addProperties": [
             {
-                "isAbout": "activities/completed_by/completed_by_schema",
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_demographics/items/demographics_completed_by",
                 "isVis": true,
                 "variableName": "completed_by",
                 "valueRequired": true
