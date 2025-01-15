@@ -20,14 +20,15 @@
     "ui": {
         "order": [
             "items/respiration_and_cough_1",
-            "items/respiration_and_cough_1_second",
             "items/respiration_and_cough_2",
-            "items/respiration_and_cough_2_second",
             "items/respiration_and_cough_3",
-            "items/respiration_and_cough_3_second",
             "items/respiration_and_cough_4",
-            "items/respiration_and_cough_4_second",
             "items/respiration_and_cough_5",
+            "items/second_time_introduction",
+            "items/respiration_and_cough_1_second",
+            "items/respiration_and_cough_2_second",
+            "items/respiration_and_cough_3_second",
+            "items/respiration_and_cough_4_second",
             "items/respiration_and_cough_5_second"
         ],
         "addProperties": [
@@ -37,18 +38,8 @@
                 "isVis": true
             },
             {
-                "isAbout": "items/respiration_and_cough_1_second",
-                "variableName": "respiration_and_cough_1_second",
-                "isVis": true
-            },
-            {
                 "isAbout": "items/respiration_and_cough_2",
                 "variableName": "respiration_and_cough_2",
-                "isVis": true
-            },
-            {
-                "isAbout": "items/respiration_and_cough_2_second",
-                "variableName": "respiration_and_cough_2_second",
                 "isVis": true
             },
             {
@@ -57,23 +48,38 @@
                 "isVis": true
             },
             {
-                "isAbout": "items/respiration_and_cough_3_second",
-                "variableName": "respiration_and_cough_3_second",
-                "isVis": true
-            },
-            {
                 "isAbout": "items/respiration_and_cough_4",
                 "variableName": "respiration_and_cough_4",
                 "isVis": true
             },
             {
-                "isAbout": "items/respiration_and_cough_4_second",
-                "variableName": "respiration_and_cough_4_second",
+                "isAbout": "items/respiration_and_cough_5",
+                "variableName": "respiration_and_cough_5",
                 "isVis": true
             },
             {
-                "isAbout": "items/respiration_and_cough_5",
-                "variableName": "respiration_and_cough_5",
+                "isAbout": "items/second_time_introduction",
+                "variableName": "second_time_introduction",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/respiration_and_cough_1_second",
+                "variableName": "respiration_and_cough_1_second",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/respiration_and_cough_2_second",
+                "variableName": "respiration_and_cough_2_second",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/respiration_and_cough_3_second",
+                "variableName": "respiration_and_cough_3_second",
+                "isVis": true
+            },
+            {
+                "isAbout": "items/respiration_and_cough_4_second",
+                "variableName": "respiration_and_cough_4_second",
                 "isVis": true
             },
             {
