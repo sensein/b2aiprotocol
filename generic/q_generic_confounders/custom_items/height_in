@@ -1,0 +1,23 @@
+{
+    "id": "height_in",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "inches or centimeters"
+    },
+    "preamble": {
+        "en": "Height and Weight"
+    },
+    "prefLabel": {
+        "en": "height inches"
+    },
+    "question": {
+        "en": "Height (inches)"
+    },
+    "responseOptions": {
+        "valueType": "xsd:decimal"
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -45,10 +45,10 @@
             "b2ai_redcap2rs_activities:q_generic_confounders/items/seasonal_allergies_options",
             "b2ai_redcap2rs_activities:q_generic_confounders/items/tired_measure",
             "b2ai_redcap2rs_activities:q_generic_confounders/items/unit",
-            "b2ai_redcap2rs_activities:q_generic_confounders/items/height_cm",
-            "b2ai_redcap2rs_activities:q_generic_confounders/items/weight_kg",
-            "b2ai_redcap2rs_activities:q_generic_confounders/items/height_in",
-            "b2ai_redcap2rs_activities:q_generic_confounders/items/weight_lbs",
+            "custom_items/height_cm",
+            "custom_items/weight_kg",
+            "custom_items/height_in",
+            "custom_items/weight_lbs",
             "b2ai_redcap2rs_activities:q_generic_confounders/items/symptoms",
             "custom_items/ent_introduction",
             "b2ai_redcap2rs_activities:q_generic_confounders/items/ear_med_history",
@@ -303,22 +303,22 @@
                 "variableName": "unit"
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:q_generic_confounders/items/height_cm",
+                "isAbout": "custom_items/height_cm",
                 "isVis": "unit == 1",
                 "variableName": "height_cm"
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:q_generic_confounders/items/weight_kg",
+                "isAbout": "custom_items/weight_kg",
                 "isVis": "unit == 1",
                 "variableName": "weight_kg"
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:q_generic_confounders/items/height_in",
+                "isAbout": "custom_items/height_in",
                 "isVis": "unit == 2",
                 "variableName": "height_in"
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:q_generic_confounders/items/weight_lbs",
+                "isAbout": "custom_items/weight_lbs",
                 "isVis": "unit == 2",
                 "variableName": "weight_lbs"
             },
