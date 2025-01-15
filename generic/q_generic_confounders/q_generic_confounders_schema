@@ -62,7 +62,7 @@
             "b2ai_redcap2rs_activities:q_generic_confounders/items/neurological_history",
             "b2ai_redcap2rs_activities:q_generic_confounders/items/current_neuro_dx",
             "b2ai_redcap2rs_activities:q_generic_confounders/items/specify_current_neuro",
-            "b2ai_redcap2rs_activities:q_generic_confounders/items/respiratory_introduction",
+            "custom_items/respiratory_introduction",
             "b2ai_redcap2rs_activities:q_generic_confounders/items/respiratory_conditions",
             "b2ai_redcap2rs_activities:q_generic_confounders/items/lung_or_metastatic",
             "b2ai_redcap2rs_activities:q_generic_confounders/items/covid",
@@ -388,7 +388,7 @@
                 "variableName": "specify_current_neuro"
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:q_generic_confounders/items/respiratory_introduction",
+                "isAbout": "custom_items/respiratory_introduction",
                 "isVis": true,
                 "variableName": "respiratory_introduction"
             },
@@ -626,7 +626,7 @@
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
         {
             "reproschema_library_activities": "https://raw.githubusercontent.com/ReproNim/reproschema-library/8c11e4fad32d09f351b8a432d5d2666ea9709170/activities/",
-            "b2ai_redcap2rs_activities": "https://raw.githubusercontent.com/sensein/b2ai-redcap2rs/24cbb461c2ff6556f047dd4bc1275b4b08d52eb8/activities/"
+            "b2ai_redcap2rs_activities": "https://raw.githubusercontent.com/sensein/b2ai-redcap2rs/4174f4dd11a59101d0d53a4f46dc6519b7c8d2fd/activities/"
         }
     ]
 }

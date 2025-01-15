@@ -2,7 +2,8 @@ import os
 
 # Define list of directories, target text, and replacement text
 directories = ["/Users/isaacbevers/sensein/reproschema-wrapper/b2ai-redcap2rs"]
-search_text = "NaN"
+# search_text = "[LEGACY]\n"
+search_text = "https://raw.githubusercontent.com/sensein/b2ai-redcap2rs/24cbb461c2ff6556f047dd4bc1275b4b08d52eb8/activities/"
 replace_text = "\"NaN\""
 
 # Iterate over each directory in the list
