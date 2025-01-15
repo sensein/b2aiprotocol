@@ -8,13 +8,28 @@
     "ui": {
         "order": [
             "custom_items/introduction",
+            "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_entire_life",
+            "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_occurrence",
+            "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_age_regular_cigarette_smoking",
+            "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_age_regular_cigarette_smoking_age",
+            "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_age_stopped",
+            "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_age_stopped_age",
+            "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_years_cigarettes",
+            "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_years_cigarettes_years",
+            "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_cigarettes_day_current_avg",
+            "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_cigarettes_day_current_avg_number",
+            "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_cigarettes_day_past_avg",
+            "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_cigarettes_day_past_avg_number",
+            "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_marijuana",
+            "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_electronic",
+            "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_electronic_current_occurence",
             "b2ai_redcap2rs_activities:q_generic_confounders/items/is_regular_smoker",
             "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_hx",
             "b2ai_redcap2rs_activities:q_generic_confounders/items/age_start_smoking",
             "b2ai_redcap2rs_activities:q_generic_confounders/items/age_stop_smoking",
             "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_types",
-            "b2ai_redcap2rs_activities:q_generic_confounders/items/other_smoking_specify",
             "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_freq",
+            "b2ai_redcap2rs_activities:q_generic_confounders/items/other_smoking_specify",
             "b2ai_redcap2rs_activities:q_generic_confounders/items/alcohol_yn",
             "b2ai_redcap2rs_activities:q_generic_confounders/items/alcohol_freq",
             "b2ai_redcap2rs_activities:q_generic_confounders/items/alcohol_amt",
@@ -112,6 +127,96 @@
                 "variableName": "introduction"
             },
             {
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_entire_life",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smoking_entire_life"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_occurrence",
+                "isVis": "smoking_entire_life =='yes'",
+                "valueRequired": true,
+                "variableName": "smoking_occurrence"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_age_regular_cigarette_smoking",
+                "isVis": "smoking_entire_life =='yes'",
+                "valueRequired": true,
+                "variableName": "smoking_age_regular_cigarette_smoking"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_age_regular_cigarette_smoking_age",
+                "isVis": "smoking_age_regular_cigarette_smoking =='specify'",
+                "valueRequired": true,
+                "variableName": "smoking_age_regular_cigarette_smoking_age"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_age_stopped",
+                "isVis": "smoking_occurrence =='notAtAll'",
+                "valueRequired": true,
+                "variableName": "smoking_age_stopped"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_age_stopped_age",
+                "isVis": "smoking_age_stopped =='specify'",
+                "valueRequired": true,
+                "variableName": "smoking_age_stopped_age"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_years_cigarettes",
+                "isVis": "smoking_occurrence =='notAtAll'",
+                "valueRequired": true,
+                "variableName": "smoking_years_cigarettes"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_years_cigarettes_years",
+                "isVis": "smoking_years_cigarettes =='specify'",
+                "valueRequired": true,
+                "variableName": "smoking_years_cigarettes_years"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_cigarettes_day_current_avg",
+                "isVis": "smoking_occurrence =='everyDay' || smoking_occurrence =='someDays'",
+                "valueRequired": true,
+                "variableName": "smoking_cigarettes_day_current_avg"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_cigarettes_day_current_avg_number",
+                "isVis": "smoking_cigarettes_day_current_avg =='specify'",
+                "valueRequired": true,
+                "variableName": "smoking_cigarettes_day_current_avg_number"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_cigarettes_day_past_avg",
+                "isVis": "smoking_entire_life =='yes'",
+                "valueRequired": true,
+                "variableName": "smoking_cigarettes_day_past_avg"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_cigarettes_day_past_avg_number",
+                "isVis": "smoking_cigarettes_day_past_avg =='specify'",
+                "valueRequired": true,
+                "variableName": "smoking_cigarettes_day_past_avg_number"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_marijuana",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smoking_marijuana"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_electronic",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smoking_electronic"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_electronic_current_occurence",
+                "isVis": "smoking_electronic =='yes'",
+                "valueRequired": true,
+                "variableName": "smoking_electronic_current_occurence"
+            },
+            {
                 "isAbout": "b2ai_redcap2rs_activities:q_generic_confounders/items/is_regular_smoker",
                 "isVis": true,
                 "variableName": "is_regular_smoker"
@@ -138,14 +243,14 @@
                 "variableName": "smoking_types"
             },
             {
-                "isAbout": "b2ai_redcap2rs_activities:q_generic_confounders/items/other_smoking_specify",
-                "isVis": "smoking_types === 1",
-                "variableName": "other_smoking_specify"
-            },
-            {
                 "isAbout": "b2ai_redcap2rs_activities:q_generic_confounders/items/smoking_freq",
                 "isVis": "['past', 'currently'].includes(smoking_hx)",
                 "variableName": "smoking_freq"
+            },
+            {
+                "isAbout": "b2ai_redcap2rs_activities:q_generic_confounders/items/other_smoking_specify",
+                "isVis": "smoking_types === 1",
+                "variableName": "other_smoking_specify"
             },
             {
                 "isAbout": "b2ai_redcap2rs_activities:q_generic_confounders/items/alcohol_yn",
